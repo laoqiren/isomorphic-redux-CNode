@@ -1,6 +1,8 @@
 # isomorphic-redux-forum
 
-**类似于我之前的vue-express-forum项目，采用不同技术栈，并进行了功能完善**
+**基于redux,react-router,react服务端渲染,express,mongoose的项目，webpack构建,一套js实现功能完善的单页web应用**
+
+**此项目打通react到node的技术栈,开发过程中总结了许多经验，会在我的[技术博客](http://luoxia.me/code)进行总结,欢迎讨论,项目即将上线，部分功能完善中**
 
 ### 用到的技术栈
 . React
