@@ -1,0 +1,11 @@
+{
+  "javascript": {
+    "main": "http://localhost:3001/public/main.742934e4726af810aa53.js"
+  },
+  "styles": {},
+  "assets": {
+    "./assets/styles/app.scss": {
+      "_style": "#container {\n  background-color: green; }\n"
+    }
+  }
+}
