@@ -4,7 +4,7 @@
   "description": "react-ssr",
   "main": "webpack.config.js",
   "scripts": {
-    "run-dev-server": "node ./run-webpack-server.js",
+    "run-dev-server": "node ./webpack/run-webpack-server.js",
     "run-server": "node ./server/index.js"
   },
   "keywords": [
@@ -38,8 +38,13 @@
     "webpack-manifest-plugin": "^1.1.0"
   },
   "dependencies": {
+    "body-parser": "^1.16.0",
+    "cookie-parser": "^1.4.3",
     "express": "^4.14.1",
     "isomorphic-fetch": "^2.2.1",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.17.1",
+    "mongoose": "^4.6.8",
     "qs": "^6.3.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",

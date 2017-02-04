@@ -12,8 +12,8 @@ export default function(req,res,next){
             }
             name = decoded.name;
         } catch(err){
-            res.status(401);
-            res.send('no token');
+            return res.status(401);
+            return res.send('no token');
         }
     }
     const userEntity = new User();
@@ -21,9 +21,9 @@ export default function(req,res,next){
         name
     },(err,user)=>{
         if(user){
-            res.status(200).json(user)
+            return res.status(200).json(user)
         } else {
-            res.status(404).end()
+            return res.status(404).end()
         }
     })
 }

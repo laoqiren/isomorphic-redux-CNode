@@ -92,4 +92,4 @@ function mapStateToProps(state) {
     item
   }
 }
-export default connect(mapStateToProps)(App)
+export default connect(mapStateToProps)(List)

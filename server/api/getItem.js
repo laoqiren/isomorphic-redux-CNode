@@ -8,8 +8,8 @@ export default function(req,res,next){
         id
     },(err,post)=>{
         if(err){
-            res.status(500).end('服务器错误')
+            return res.status(500).end('服务器错误')
         }
-        res.status(200).json(post)
+        return res.status(200).json(post)
     })
 }

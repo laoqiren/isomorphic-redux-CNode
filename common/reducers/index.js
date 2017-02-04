@@ -62,7 +62,7 @@ function posts(state={
     }
 }
 
-function postsByAuthor(state={},action){
+function postsByAuthor(state={isNull:true},action){
     switch(action.type){
         case INVALIDATE_POSTS:
         case RECEIVE_POSTS:

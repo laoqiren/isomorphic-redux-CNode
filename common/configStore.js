@@ -1,6 +1,7 @@
 import {createStore,applyMiddleware,compose} from 'redux';
 import thunkMiddleware from 'redux-thunk';
 import reducerApp from '../common/reducers/index';
+
 //import DevTools from '../client/devTools';
 import { composeWithDevTools } from 'redux-devtools-extension';
 

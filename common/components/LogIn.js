@@ -1,19 +1,21 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import fetch from 'isomorphic-fetch'
-class Publish extends React.Component {
+import {logIn} from '../actions/actions'
+class LogIn extends React.Component{
     constructor(props){
         super(props);
         this.handleClick = this.handleClick.bind(this)
     }
     handleClick(){
-        const title = this.refs.title.value,
-            postContent = this.refs.content.value;
+        const {dispatch} = this.props;
+        const name = this.refs.name.value,
+            passwd = this.refs.passwd.value;
         const content = JSON.stringify({
-                title,
-                content:postContent
+                name,
+                passwd
             })
-        fetch('http://localhost:3000/api/post',{
+        fetch('http://localhost:3000/api/log',{
             method: 'POST',
             headers:{
                 "Content-Type": "application/json",
@@ -22,30 +24,31 @@ class Publish extends React.Component {
             body: content
         }).then(res=>{
             if(res.ok){
-                console.log('发表文章成功')
-                this.refs.title = '';
-                this.refs.content = '';
+                localStorage.setItem('token',res.json())
+                console.log('登录成功')
+                dispatch(logIn({
+                    name
+                }))
             }
         })
     }
     render(){
         return (
             <div>
-                <h3>发表文章</h3>
-                    <input type="text" ref="title">
-                    </input>
-                    内容:<textarea ref="content">
-                    </textarea>
+                <h3>登录</h3>
+                    账号:
+                    <input type="text" ref="name"/>
+                    密码:
+                    <input type="password" ref="passwd"/>
                     <button onClick={this.handleClick}>发表</button>
             </div>
         )
     }
 }
-
 function mapStateToProps(state) {
   const { user } = state
   return {
     user
   }
 }
-export default connect(mapStateToProps)(Publish)
+export default connect(mapStateToProps)(LogIn)

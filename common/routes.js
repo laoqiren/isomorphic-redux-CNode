@@ -5,11 +5,16 @@ import Item from '../common/components/Item';
 import List from '../common/components/List';
 import Publish from '../common/components/Publish';
 import Space from '../common/components/Space';
+import LogIn from '../common/components/LogIn';
+import Reg from '../common/components/Reg';
 const routes = (
     <Route path="/" component={App}>
-            <IndexRoute path="/list" component={List}/>
+            <IndexRoute component={List}/>
             <Route path="/item/:id" component={Item}/>
             <Route path="/space" component={Space}/>
+            <Route path="/publish" component={Publish}/>
+            <Route path="/logIn" component={LogIn}/>
+            <Route path="/reg" component={Reg}/>
     </Route>
     );
 

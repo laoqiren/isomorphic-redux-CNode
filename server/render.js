@@ -3,7 +3,7 @@ import qs from 'qs';
 import {Provider} from 'react-redux';
 import reducerApp from '../common/reducers/index';
 import React from 'react';
-import {RoutingContext,match} from 'react-router';
+import {RouterContext,match} from 'react-router';
 import {selectAuthor,fetchPostsIfNeeded} from '../common/actions/actions'
 import storeApp from '../common/configStore';
 import routesApp from '../common/routes';
@@ -33,7 +33,6 @@ function renderFullPage(html,initState){
 }
 
 export default function handleRender(req,res){
-    console.log('我进入到这里来了')
     match({routes:routesApp,location:req.url},(err,redirectLocation,renderProps)=>{
         if(err){
             res.status(500).end(`server error: ${err}`)
@@ -50,7 +49,7 @@ export default function handleRender(req,res){
             .then(()=>{
                 const html = renderToString(
                     <Provider store={store}>
-                        <RoutingContext {...renderProps}/>
+                        <RouterContext {...renderProps}/>
                     </Provider>
                 )
                 const finalState = store.getState();

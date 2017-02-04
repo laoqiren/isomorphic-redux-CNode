@@ -8,19 +8,10 @@ export const FETCH_USER = 'FETCH_USER'
 export const LOG_IN = 'LOG_IN'
 export const LOG_OUT = 'LOG_OUT'
 
-function receiveUser(user){
-    type: FETCH_USER,
-    user
-}
-export function fetchUser(token){
-    return dispatch => {
-        return fetch('http://localhost:3000/user')
-        .then(res=>{
-            return res.json()
-        })
-        .then(json=>{
-            return dispatch(receiveUser(json))
-        })
+export function fetchUser(user){
+    return {
+        type: FETCH_USER,
+        user
     }
 }
 export function logIn(user){
@@ -65,7 +56,7 @@ export function invalidatePosts(author){
 }
 
 function shouldFetchPosts(state,author){
-    if(!(author in state.postsByAuthor)){
+    if(state.postsByAuthor.isNull){
         console.log('hey, I am heare')
         return true;
     } else {
@@ -87,14 +78,14 @@ function receivePosts(author,json){
     return {
         type: RECEIVE_POSTS,
         author,
-        posts: json.posts,
+        posts: json,
         receivedAt: Date.now()
     }
 }
 function fetchPosts(author){
     return dispatch=>{
         dispatch(requestPosts(author))
-        return fetch('http://localhost:3000/api/post?author=${author}')
+        return fetch(`http://localhost:3000/api/post?author=${author}`)
             .then(response=>response.json())
             .then(json=>dispatch(receivePosts(author,json)))
     }
@@ -102,7 +93,7 @@ function fetchPosts(author){
 export function fetchPostsIfNeeded(author){
     return (dispatch,getState) => {
         if(shouldFetchPosts(getState(),author)){
-            console.log('拉取啊啊啊啊')
+            console.log('我在拉取啊啊啊啊')
             return dispatch(fetchPosts(author))
         }
     }
