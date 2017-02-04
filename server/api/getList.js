@@ -1,22 +1,17 @@
-export default function(author){
+import Express from 'express';
+import qs from 'qs';
+import Post from '../Models/post';
+const postEntity = new Post();
+
+export default function(req,res,next){
+    const author = qs.parse(req.query).author;
     console.log(`请求作者:${author}的文章`)
-    return {
-        posts:[
-            {
-                title:'大家好呀，罗峡的帖子',
-                id: 1,
-                author: 'luoxia',
-            },
-            {
-                title:'大家好呀，jane的帖子',
-                id: 2,
-                author: 'jane'
-            },
-            {
-                title:'大家好呀，laoqiren的帖子',
-                id: 3,
-                author: 'laoqiren'
-            }
-        ]
-    }
+    postEntity.get({
+        author
+    },(err,posts)=>{
+        if(err){
+            res.status(500).end();
+        } 
+        res.status(200).json(posts);
+    })
 }
