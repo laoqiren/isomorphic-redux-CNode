@@ -4,7 +4,20 @@ export const RECEIVE_POSTS = 'RECEIVE_POSTS'
 export const INVALIDATE_POSTS = 'INVALIDATE_POSTS'
 export const SELECT_AUTHOR = 'SELECT_AUTHOR'
 export const FETCH_ITEM = 'FETCH_ITEM'
+export const LOG_IN = 'LOG_IN'
+export const LOG_OUT = 'LOG_OUT'
 
+export function logIn(user){
+    return {
+        type: LOG_IN,
+        user
+    }
+}
+export function logOut(){
+    return {
+        type: LOG_OUT
+    }
+}
 function receiveItem(json){
     return {
         type: FETCH_ITEM,
@@ -65,7 +78,7 @@ function receivePosts(author,json){
 function fetchPosts(author){
     return dispatch=>{
         dispatch(requestPosts(author))
-        return fetch('http://localhost:3000/api/list?author=${author}')
+        return fetch('http://localhost:3000/api/post?author=${author}')
             .then(response=>response.json())
             .then(json=>dispatch(receivePosts(author,json)))
     }

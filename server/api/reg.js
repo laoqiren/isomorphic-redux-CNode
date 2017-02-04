@@ -1,5 +1,6 @@
-import Express from 'express';
-import qs from 'qs';
+const crypto = require('crypto');
+const jwt = require("jwt-simple");
+const moment = require('moment');
 import User from '../Models/user';
 const userEntity = new User();
 
@@ -12,7 +13,7 @@ export default function(req,res,next){
         name
     },(err,user)=>{
         if(err){
-            res.status(500).end();
+            res.status(500).end('服务器错误');
         }
         if(user){
             res.status(500).end('该账号已经有人注册!');
@@ -26,7 +27,7 @@ export default function(req,res,next){
             }
             var expires = moment().add(7,'days').valueOf();
             var token = jwt.encode({
-                name: name,
+                name,
                 exp: expires
             }, req.app.get('jwtTokenSecret'));
             res.status(200).json(token);

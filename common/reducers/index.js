@@ -1,7 +1,7 @@
 import {combineReducers} from 'redux';
 import {
     SELECT_AUTHOR, INVALIDATE_POSTS,
-  REQUEST_POSTS, RECEIVE_POSTS,FETCH_ITEM
+  REQUEST_POSTS, RECEIVE_POSTS,FETCH_ITEM,LOG_IN,LOG_OUT
 } from '../actions/actions';
 
 function selectedAuthor(state="all",action){
@@ -12,7 +12,16 @@ function selectedAuthor(state="all",action){
             return state;
     }
 }
-
+function user(state={ },action){
+    switch(action.type){
+        case LOG_IN:
+            return action.user;
+        case LOG_OUT:
+            return {};
+        default:
+            return state;
+    }
+}
 function item(state={
     title: '无',
     content: '该文章为空'
@@ -68,7 +77,8 @@ function postsByAuthor(state={},action){
 const rootReducer = combineReducers({
     postsByAuthor,
     selectedAuthor,
-    item
+    item,
+    user
 })
 
 export default rootReducer;

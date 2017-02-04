@@ -1,5 +1,4 @@
-import Express from 'express';
-import qs from 'qs';
+const jwt = require("jwt-simple");
 import User from '../Models/user'
 
 export default function(req,res,next){

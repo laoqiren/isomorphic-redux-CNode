@@ -1,5 +1,4 @@
 import Express from 'express';
-import qs from 'qs';
 import getItem from './getItem';
 import getList from './getList';
 import user from './user';
@@ -9,7 +8,7 @@ const router = Express.Router();
 
 router.get('/post',getList);
 router.post('/post',addPost);
-router.get('/item',getItem);
+router.get('/detail',getItem);
 router.post('/log',log);
 router.post('/user',user)
 

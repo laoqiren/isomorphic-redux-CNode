@@ -1,5 +1,4 @@
-import Express from 'express';
-import qs from 'qs';
+const jwt = require("jwt-simple");
 import Post from '../Models/post';
 const postEntity = new Post();
 export default function(req,res,next){
@@ -20,14 +19,14 @@ export default function(req,res,next){
     const post = {
         title: req.body.title,
         content: req.body.content,
-        author: req.body.author,
+        author: name,
         discuss: []
     }
     postEntity.savePost(post,err=>{
         if(err){
-            res.status(500).end()
+            res.status(500).end('服务器错误')
         } else {
-            res.status(200).end()
+            res.status(200).end('发表文章成功')
         }
     })
 }
