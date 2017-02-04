@@ -1,75 +1,28 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {selectAuthor,fetchPostsIfNeeded,invalidatePosts,fetchItem} from '../actions/actions'
-import Picker from './Picker'
-import Posts from './Posts'
-import Item from './Item'
+import { Router, Route, Link } from 'react-router'
+import {fetchUser} from '../actions/actions'
+import List from './List'
 require('../../assets/styles/app.scss')
 class App extends React.Component {
     constructor(props){
         super(props);
-        this.handleChange = this.handleChange.bind(this)
-        this.handleRefreshClick = this.handleRefreshClick.bind(this)
-        this.handleShow = this.handleShow.bind(this)
     }
     componentDidMount(){
-        const {dispatch,selectedAuthor} = this.props;
-        dispatch(fetchPostsIfNeeded(selectedAuthor))
-    }
-    componentWillReceiveProps(nextProps){
-        if(nextProps.selectedAuthor !== this.props.selectedAuthor){
-            console.log('我要加载新的subreddit了')
-            const {dispatch,selectedAuthor} = nextProps;
-            dispatch(fetchPostsIfNeeded(selectedAuthor))
+        const {dispatch} = this.props;
+        const token = localStorage.getItem('token');
+        if(token){
+            dispatch(fetchUser(token))
         }
     }
-    handleChange(nextAuthor){
-        this.props.dispatch(selectAuthor(nextAuthor));
-    }
-    handleRefreshClick(e) {
-        e.preventDefault()
-
-        const { dispatch, selectedAuthor } = this.props
-        dispatch(invalidatePosts(selectedAuthor))
-        dispatch(fetchPostsIfNeeded(selectedAuthor))
-    }
-    handleShow(id){
-        const {dispatch} = this.props;
-        dispatch(fetchItem(id));
-    }
     render() {
-        const { item,selectedAuthor, posts, isFetching, lastUpdated } = this.props
-        console.log(`posts:${posts}`)
+        const {user} = this.props;
         return (
             <div>
-                <Picker value={selectedAuthor}
-                        onChange={this.handleChange}
-                        options={[ 'all', 'luoxia' ]} />
-                <p>
-                {lastUpdated &&
-                    <span>
-                    Last updated at {new Date(lastUpdated).toLocaleTimeString()}.
-                    {' '}
-                    </span>
-                }
-                {!isFetching &&
-                    <a href='#'
-                    onClick={this.handleRefreshClick}>
-                    Refresh
-                    </a>
-                }
-                </p>
-                {isFetching && posts.length === 0 &&
-                <h2>Loading...</h2>
-                }
-                {!isFetching && posts.length === 0 &&
-                <h2>Empty.</h2>
-                }
-                {posts.length > 0 &&
-                <div style={{ opacity: isFetching ? 0.5 : 1 }}>
-                    <Posts posts={posts} onShow={this.handleShow}/>
-                </div>
-                }
+                <h3>用户{user.name}</h3>
+                <Link to="/list">所有文章</Link>
+                <Link to="/publish">发表文章</Link>
+                <Link to="/space">我的</Link>
                 <div>
                     {this.props.children}
                 </div>
@@ -80,21 +33,9 @@ class App extends React.Component {
 }
 
 function mapStateToProps(state) {
-  const { selectedAuthor, postsByAuthor, item } = state
-  const {
-    isFetching,
-    lastUpdated,
-    items: posts
-  } = postsByAuthor[selectedAuthor] || {
-    isFetching: true,
-    items: []
-  }
+  const { user } = state
   return {
-    selectedAuthor,
-    posts: posts||[],
-    isFetching,
-    lastUpdated,
-    item
+    user
   }
 }
 export default connect(mapStateToProps)(App)

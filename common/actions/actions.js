@@ -4,9 +4,25 @@ export const RECEIVE_POSTS = 'RECEIVE_POSTS'
 export const INVALIDATE_POSTS = 'INVALIDATE_POSTS'
 export const SELECT_AUTHOR = 'SELECT_AUTHOR'
 export const FETCH_ITEM = 'FETCH_ITEM'
+export const FETCH_USER = 'FETCH_USER'
 export const LOG_IN = 'LOG_IN'
 export const LOG_OUT = 'LOG_OUT'
 
+function receiveUser(user){
+    type: FETCH_USER,
+    user
+}
+export function fetchUser(token){
+    return dispatch => {
+        return fetch('http://localhost:3000/user')
+        .then(res=>{
+            return res.json()
+        })
+        .then(json=>{
+            return dispatch(receiveUser(json))
+        })
+    }
+}
 export function logIn(user){
     return {
         type: LOG_IN,

@@ -1,7 +1,7 @@
 import {combineReducers} from 'redux';
 import {
     SELECT_AUTHOR, INVALIDATE_POSTS,
-  REQUEST_POSTS, RECEIVE_POSTS,FETCH_ITEM,LOG_IN,LOG_OUT
+  REQUEST_POSTS, RECEIVE_POSTS,FETCH_ITEM,LOG_IN,LOG_OUT,FETCH_USER
 } from '../actions/actions';
 
 function selectedAuthor(state="all",action){
@@ -18,6 +18,8 @@ function user(state={ },action){
             return action.user;
         case LOG_OUT:
             return {};
+        case FETCH_USER:
+            return action.user;
         default:
             return state;
     }
