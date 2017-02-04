@@ -1,4 +1,8 @@
 {
   "presets": ["es2015","react"],
-  "plugins": ["transform-react-jsx"]
+  "plugins": [["import",{
+    "libraryName": "antd",
+    "libraryDirectory": "lib",   // default: lib
+    "style": "css"
+  }],"transform-react-jsx"]
 }

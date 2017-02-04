@@ -2,6 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import { Router, Route, Link } from 'react-router'
 import {logOut} from '../actions/actions'
+import {Button} from 'antd';
 
 class Space extends React.Component {
     constructor(props){
@@ -20,13 +21,13 @@ class Space extends React.Component {
                 {
                     user.name && <div>
                         <Link to="/publish">发表文章</Link>
-                        <button onClick={this.handleLogOut}>退出登录</button>
+                        <Button onClick={this.handleLogOut} type="primary">退出登录</Button>
                     </div>
                 }
                 {
                     !user.name && <div>
-                        <Link to="/logIn">登录</Link>
-                        <Link to="/reg">注册</Link>
+                        <Button type="primary"><Link to="/logIn">登录</Link></Button>
+                        <Button type="primary"><Link to="/reg">注册</Link></Button>
                     </div>
                 }
             </div>

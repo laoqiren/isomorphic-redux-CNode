@@ -1,6 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import fetch from 'isomorphic-fetch'
+import {Input,Button} from 'antd'
 class Publish extends React.Component {
     constructor(props){
         super(props);
@@ -13,6 +14,7 @@ class Publish extends React.Component {
                 title,
                 content:postContent
             })
+            console.log(`文章:${content}`)
         fetch('http://localhost:3000/api/post',{
             method: 'POST',
             headers:{
@@ -32,11 +34,11 @@ class Publish extends React.Component {
         return (
             <div>
                 <h3>发表文章</h3>
-                    <input type="text" ref="title">
-                    </input>
-                    内容:<textarea ref="content">
-                    </textarea>
-                    <button onClick={this.handleClick}>发表</button>
+                    <Input ref="title">
+                    </Input>
+                    内容:<Input type="textarea" ref="content" autosize={{minRows:10}}>
+                    </Input>
+                    <Button type="primary" onClick={this.handleClick}>发表</Button>
             </div>
         )
     }

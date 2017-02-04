@@ -1,7 +1,7 @@
 import mongoose from 'mongoose'
 import db from './db'
 const PostSchema = new mongoose.Schema({
-    name:String,
+    author:String,
     title:String,
     content:String,
     time:{}
@@ -16,7 +16,7 @@ PostSchema.methods.savePost = function(post,cb){
       minute : date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate() + " " + 
       date.getHours() + ":" + (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()) 
     };
-    this.name = post.name;
+    this.author = post.author;
     this.title = post.title;
     this.content = post.content;
     this.time = time;

@@ -19,6 +19,10 @@
 
 . webpack-isomorphic-tools
 
+. JWT
+
+. Ant Design
+
 . redux-devtools
 
 . mongodb/mongoose

@@ -4,10 +4,23 @@ import { Router, Route, Link } from 'react-router'
 import {fetchUser} from '../actions/actions'
 import List from './List'
 import fetch from 'isomorphic-fetch'
+import {Button,Menu, Icon,Input} from 'antd'
+const SubMenu = Menu.SubMenu;
+const MenuItemGroup = Menu.ItemGroup;
+const Search = Input.Search;
 require('../../assets/styles/app.scss')
 class App extends React.Component {
     constructor(props){
-        super(props);
+       super(props);
+       this.handleNavigator = this.handleNavigator.bind(this)
+       this.state = {
+           current: 'list'
+       }
+    }
+    handleNavigator(e){
+        this.setState({
+            current: e.key
+        })
     }
     componentDidMount(){
         const {dispatch} = this.props;
@@ -36,17 +49,32 @@ class App extends React.Component {
     }
     render() {
         const {user} = this.props;
+        console.log(this.state)
         return (
             <div>
                 <h3>用户{user.name}</h3>
-                <Link to="/">所有文章</Link>
-                <br/>
-                {
-                    user.name && <Link to="/publish">发表文章</Link>
-                }
-                
-                <br/>
-                <Link to="/space">我的</Link>
+                <Menu selectedKeys={[this.state.current]} onClick={this.handleNavigator} mode="horizontal">
+                    <Menu.Item key="list">
+                        <Link to="/">所有文章</Link>
+                    </Menu.Item>
+                    <Menu.Item key="space" key="space">
+                        <Link to="/space">个人中心</Link>
+                    </Menu.Item>
+                    {
+                        user.name && (
+                            <Menu.Item key="publish">
+                                <Link to="/publish">发表文章</Link>
+                            </Menu.Item>
+                        )
+                    }
+                    <Menu.Item key="search">
+                        <Search
+                            placeholder="搜索用户"
+                            style={{ width: 200 }}
+                            onSearch={value => console.log(value)}
+                        />
+                    </Menu.Item>
+                </Menu>
                 <div>
                     {this.props.children}
                 </div>

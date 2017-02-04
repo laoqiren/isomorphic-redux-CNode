@@ -3,6 +3,8 @@ import {connect} from 'react-redux';
 import Picker from './Picker'
 import Posts from './Posts'
 import {selectAuthor,fetchPostsIfNeeded,invalidatePosts,fetchItem} from '../actions/actions'
+import { Spin } from 'antd';
+import { Row, Col } from 'antd';
 
 class List extends React.Component {
     constructor(props){
@@ -40,9 +42,6 @@ class List extends React.Component {
         const { item,selectedAuthor, posts, isFetching, lastUpdated} = this.props;
         return (
             <div>
-                <Picker value={selectedAuthor}
-                        onChange={this.handleChange}
-                        options={[ 'all', 'luoxia' ]} />
                 <p>
                 {lastUpdated &&
                     <span>
@@ -58,7 +57,7 @@ class List extends React.Component {
                 }
                 </p>
                 {isFetching && posts.length === 0 &&
-                <h2>Loading...</h2>
+                <Spin/>
                 }
                 {!isFetching && posts.length === 0 &&
                 <h2>Empty.</h2>
