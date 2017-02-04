@@ -4,9 +4,8 @@
   "description": "react-ssr",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "node ./run-webpack-server.js && node ./server/index.js",
-    "start-dev-server": "node ./run-webpack-server.js",
-    "start-server": "node ./server/index.js"
+    "run-dev-server": "node ./run-webpack-server.js",
+    "run-server": "node ./server/index.js"
   },
   "keywords": [
     "redux",
