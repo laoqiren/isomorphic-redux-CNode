@@ -1,7 +1,7 @@
-var mongoose = require("mongoose");
-var db = require('./db');
+import mongoose from 'mongoose'
+import db from './db'
 
-var UserSchema = new mongoose.Schema({
+const UserSchema = new mongoose.Schema({
     name: String,
     password:String
 });
@@ -17,4 +17,4 @@ UserSchema.methods.getUser = function(query,cb){
     this.model('user').findOne(query,cb);
 };
 
-module.exports = db.model('user',UserSchema);
+export default db.model('user',UserSchema);

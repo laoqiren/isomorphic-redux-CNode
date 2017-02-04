@@ -1,14 +1,14 @@
-var mongoose = require('mongoose');
-var db = require('./db');
-var PostSchema = new mongoose.Schema({
+import mongoose from 'mongoose'
+import db from './db'
+const PostSchema = new mongoose.Schema({
     name:String,
     title:String,
     content:String,
     time:{}
 });
 PostSchema.methods.savePost = function(post,cb){
-    var date = new Date();
-    var time = {
+    const date = new Date();
+    const time = {
       date: date,
       year : date.getFullYear(),
       month : date.getFullYear() + "-" + (date.getMonth() + 1),
@@ -29,4 +29,5 @@ PostSchema.methods.get = function(query,cb){
     }
     this.model('post').find(query,cb);
 };
-module.exports = db.model('post',PostSchema);
+
+export default db.model('post',PostSchema);
