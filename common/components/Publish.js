@@ -33,7 +33,7 @@ class Publish extends React.Component {
             if(res.ok){
                 this.state.title = '';
                 this.state.content = '';
-                dispatch(invalidatePosts())
+                dispatch(invalidatePosts(this.props.selectedAuthor))
             }
         })
     }
@@ -52,9 +52,10 @@ class Publish extends React.Component {
 }
 
 function mapStateToProps(state) {
-  const { user } = state
+  const { selectedAuthor,user } = state
   return {
-    user
+    user,
+    selectedAuthor
   }
 }
 export default connect(mapStateToProps)(Publish)
