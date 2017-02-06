@@ -4,6 +4,7 @@ import User from '../Models/user'
 export default function(req,res,next){
     const token = req.body.access_token;
     let name;
+    console.log('找一下用户')
     if(token){
         try{
             var decoded = jwt.decode(token,req.app.get('jwtTokenSecret'));
@@ -16,11 +17,13 @@ export default function(req,res,next){
             return res.send('no token');
         }
     }
+    
     const userEntity = new User();
     userEntity.getUser({
         name
     },(err,user)=>{
         if(user){
+            console.log('得到了用户')
             return res.status(200).json(user)
         } else {
             return res.status(404).end()

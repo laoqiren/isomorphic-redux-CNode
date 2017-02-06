@@ -39,11 +39,10 @@ class App extends React.Component {
             if(res.ok){
                 return res.json();
             } else {
+                console.log('获取用户失败')
             }
         }).then(json=>{
-            if(json){
-                dispatch(fetchUser(json))
-            }
+            dispatch(fetchUser(json))
         })
     }
     render() {
