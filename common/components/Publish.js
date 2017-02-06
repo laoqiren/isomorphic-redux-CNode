@@ -2,6 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import fetch from 'isomorphic-fetch'
 import {Input,Button} from 'antd'
+import {invalidatePosts} from '../actions/actions'
 class Publish extends React.Component {
     constructor(props){
         super(props);
@@ -12,6 +13,7 @@ class Publish extends React.Component {
         }
     }
     handleClick(){
+        const {dispatch} = this.props
         const title = this.state.title,
             postContent = this.state.content,
             access_token = localStorage.getItem('token')
@@ -29,8 +31,9 @@ class Publish extends React.Component {
             body: content
         }).then(res=>{
             if(res.ok){
-                this.refs.title = '';
-                this.refs.content = '';
+                this.state.title = '';
+                this.state.content = '';
+                dispatch(invalidatePosts())
             }
         })
     }

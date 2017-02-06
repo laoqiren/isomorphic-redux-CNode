@@ -62,13 +62,15 @@ function posts(state={
     }
 }
 
-function postsByAuthor(state={isNull:true},action){
+function postsByAuthor(state={},action){
     switch(action.type){
         case INVALIDATE_POSTS:
         case RECEIVE_POSTS:
         case REQUEST_POSTS:
             return Object.assign({},state,{
                 [action.author]: posts(state[action.author],action)
+            },{
+                all: posts(state[action.author],action)
             })
         default:
             return state;

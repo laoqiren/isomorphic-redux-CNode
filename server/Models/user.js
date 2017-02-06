@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 import db from './db'
-
+mongoose.Promise = global.Promise
 const UserSchema = new mongoose.Schema({
     name: String,
     passwd:String

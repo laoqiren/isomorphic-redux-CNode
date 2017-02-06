@@ -1,4 +1,5 @@
 import mongoose from 'mongoose'
+mongoose.Promise = global.Promise
 import db from './db'
 const PostSchema = new mongoose.Schema({
     author:String,

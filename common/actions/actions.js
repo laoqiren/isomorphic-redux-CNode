@@ -56,7 +56,7 @@ export function invalidatePosts(author){
 }
 
 function shouldFetchPosts(state,author){
-    if(state.postsByAuthor.isNull){
+    if(!state.postsByAuthor[author]){
         console.log('hey, I am heare')
         return true;
     } else {
