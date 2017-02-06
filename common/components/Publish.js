@@ -6,15 +6,20 @@ class Publish extends React.Component {
     constructor(props){
         super(props);
         this.handleClick = this.handleClick.bind(this)
+        this.state = {
+            title: '',
+            content: ''
+        }
     }
     handleClick(){
-        const title = this.refs.title.value,
-            postContent = this.refs.content.value;
+        const title = this.state.title,
+            postContent = this.state.content,
+            access_token = localStorage.getItem('token')
         const content = JSON.stringify({
                 title,
-                content:postContent
+                content:postContent,
+                access_token
             })
-            console.log(`文章:${content}`)
         fetch('http://localhost:3000/api/post',{
             method: 'POST',
             headers:{
@@ -24,7 +29,6 @@ class Publish extends React.Component {
             body: content
         }).then(res=>{
             if(res.ok){
-                console.log('发表文章成功')
                 this.refs.title = '';
                 this.refs.content = '';
             }
@@ -34,9 +38,9 @@ class Publish extends React.Component {
         return (
             <div>
                 <h3>发表文章</h3>
-                    <Input ref="title">
+                    <Input ref="title" onChange={(e)=>this.setState({title: e.target.value})}>
                     </Input>
-                    内容:<Input type="textarea" ref="content" autosize={{minRows:10}}>
+                    内容:<Input type="textarea" ref="content" autosize={{minRows:10}} onChange={(e)=>this.setState({content: e.target.value})}>
                     </Input>
                     <Button type="primary" onClick={this.handleClick}>发表</Button>
             </div>

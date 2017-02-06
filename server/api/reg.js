@@ -18,7 +18,6 @@ export default function(req,res,next){
         if(user){
             return res.status(500).end('该账号已经有人注册!');
         }
-        console.log(`注册密码是${passwd}`)
         userEntity.saveUser({
             name,
             passwd

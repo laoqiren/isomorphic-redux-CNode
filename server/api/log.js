@@ -9,7 +9,6 @@ export default function(req,res,next){
         passwd = req.body.passwd,
         md5 = crypto.createHash('md5');
     passwd = md5.update(passwd).digest('hex');
-    console.log(`登录密码是${passwd}`)
     userEntity.getUser({
         name
     },(err,user)=>{
@@ -20,8 +19,6 @@ export default function(req,res,next){
         if(!user){
             return res.status(404).end('该账号没有注册');
         } else if(passwd!==user.passwd){
-            console.log(`查询到的用户密码是:${user.passwd}`)
-            console.log('密码不对')
             return res.status(500).end('账号或密码不对');
         }
         var expires = moment().add(7,'days').valueOf();

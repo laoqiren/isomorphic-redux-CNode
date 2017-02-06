@@ -13,12 +13,16 @@ export default class Posts extends Component {
       <div style={{ background: '#ECECEC', padding: '30px' }}>
         <Row>
         {this.props.posts.map((post, i) =>
-          <Col span={10} key={i}><Card extra={
+          <Col span={10} key={i}>
+          <Card extra={
             <span>
-            author:{post.author}
-            time:{post.time.minute}
-            <Icon type="heart-o" style={{color:'red'}}/></span>
-          }style={{marginLeft: "16px",marginBottom:"16px"}}title={post.title}><Link onClick={()=>onShow(post.id)} to={'/detail/'+post.id}>{post.content}</Link></Card></Col>
+            {post.author}&nbsp;发表于 &nbsp;
+            {post.time.minute}
+            <Icon type="heart-o" style={{color:'red'}}/>
+            </span>
+          }style={{marginLeft: "16px",marginBottom:"16px"}}title={post.title}>
+          <Link onClick={()=>onShow(post.id)} to={'/detail/'+post.id}>{post.content}</Link></Card>
+          </Col>
         )}
         </Row>
       </div>

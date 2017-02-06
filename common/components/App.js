@@ -37,7 +37,6 @@ class App extends React.Component {
             body: content
         }).then(res=>{
             if(res.ok){
-                console.log('发表文章成功')
                 return res.json();
             } else {
             }
@@ -49,7 +48,6 @@ class App extends React.Component {
     }
     render() {
         const {user} = this.props;
-        console.log(this.state)
         return (
             <div>
                 <h3>用户{user.name}</h3>

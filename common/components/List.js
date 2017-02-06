@@ -52,7 +52,7 @@ class List extends React.Component {
                 {!isFetching &&
                     <a href='#'
                     onClick={this.handleRefreshClick}>
-                    Refresh
+                    刷新
                     </a>
                 }
                 </p>
