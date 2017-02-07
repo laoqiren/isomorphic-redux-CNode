@@ -17,6 +17,7 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 module.exports = {
     context: path.join(__dirname,'..'),
     entry:[
+        'webpack-hot-middleware/client?path=http://localhost:3001/__webpack_hmr',
         './client/index.js'
     ],
     output:{
