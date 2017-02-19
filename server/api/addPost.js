@@ -19,6 +19,7 @@ export default function(req,res,next){
         const post = {
             title: req.body.title,
             content: req.body.content,
+            type: req.body.type,
             author: name,
             discuss: []
         }
