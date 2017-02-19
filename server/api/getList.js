@@ -7,10 +7,8 @@ export default function(req,res,next){
     let query = {
         author
     }
-    console.log(`请求作者:${author}的文章`)
     if(author==='all'){
         query = null
-        console.log("请求全部文章")
     }
     postEntity.get(query,(err,posts)=>{
         if(err){

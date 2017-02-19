@@ -11,7 +11,7 @@ const webpack_isomorphic_tools_plugin =
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
     template: `${__dirname}/../client/index.html`,
     filename: 'index.html',
-    inject: 'body'
+    inject: false
 });
 
 module.exports = {

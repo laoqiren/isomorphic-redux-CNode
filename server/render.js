@@ -40,8 +40,6 @@ export default function handleRender(req,res){
             res.redirect(redirectLocation.pathname+redirectLocation.search)
         } else if(renderProps){
             const store = storeApp({});
-            console.log('查看初始state')
-            console.log(store.getState())
             Promise.all([
                 store.dispatch(selectAuthor('all')),
                 store.dispatch(fetchPostsIfNeeded('all'))

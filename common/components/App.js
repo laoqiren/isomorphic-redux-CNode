@@ -48,7 +48,7 @@ class App extends React.Component {
     render() {
         const {user} = this.props;
         return (
-            <div>
+            <div id="hey">
                 {
                     user && <h3>用户:{user.name}</h3>
                 }

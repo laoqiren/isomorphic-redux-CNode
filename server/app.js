@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 app.use('/api',apiRouter);
-app.use(handleRender);
+app.use('*',handleRender);
 
 app.listen(port,err=>{
     if(err){
