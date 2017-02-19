@@ -16,7 +16,7 @@ export default class Posts extends Component {
           <Row key={i} style={{borderBottom:'1px solid #EDEDED',height:'50px'}}>
             <Col span="2">{post.author}:</Col>
             <Col span="2"><span style={{backgroundColor:'green',color:'white'}}>分享</span></Col>
-            <Col span="14"><Link to={"/item/" + i} style={{color: 'black'}}>{post.title}</Link></Col>
+            <Col span="14"><Link to={"/item/" + post.flag} style={{color: 'black'}}>{post.title}</Link></Col>
             <Col span="6"><span>{post.time.minute}</span></Col>
           </Row>
         )}

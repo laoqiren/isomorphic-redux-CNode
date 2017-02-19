@@ -5,7 +5,8 @@ class Item extends React.Component {
         super(props)
     }
     render(){
-        const {item} = this.props;
+        const {posts,params} = this.props;
+        let item = posts.filter((post)=>post.flag === params.id)[0]
         return (
             <div>
                 <h3>文章标题{item.title}</h3>
@@ -17,9 +18,14 @@ class Item extends React.Component {
 }
 
 function mapStateToProps(state) {
-  const { item } = state
+  const { postsByAuthor,selectedAuthor } = state
+  const {
+    items: posts
+  } = postsByAuthor[selectedAuthor] || {
+    items: []
+  }
   return {
-      item
+    posts: posts||[]
   }
 }
 export default connect(mapStateToProps)(Item)

@@ -2,19 +2,16 @@
   "errors": [],
   "warnings": [],
   "version": "2.2.1",
-  "hash": "f978e68595e0c48c62db",
-  "time": 411,
+  "hash": "aeb912e5b29dd366fa07",
+  "time": 383,
   "publicPath": "http://localhost:3001/public/",
   "assetsByChunkName": {
-    "main": [
-      "main.f978e68595e0c48c62db.js",
-      "0.3fd33296c07cbf058ff8.hot-update.js"
-    ]
+    "main": "main.aeb912e5b29dd366fa07.js"
   },
   "assets": [
     {
-      "name": "main.f978e68595e0c48c62db.js",
-      "size": 1621026,
+      "name": "main.aeb912e5b29dd366fa07.js",
+      "size": 1621415,
       "chunks": [
         0
       ],
@@ -23,31 +20,6 @@
       ],
       "emitted": true,
       "isOverSizeLimit": true
-    },
-    {
-      "name": "0.3fd33296c07cbf058ff8.hot-update.js",
-      "size": 5572,
-      "chunks": [
-        0
-      ],
-      "chunkNames": [
-        "main"
-      ],
-      "emitted": true
-    },
-    {
-      "name": "3fd33296c07cbf058ff8.hot-update.json",
-      "size": 43,
-      "chunks": [],
-      "chunkNames": [],
-      "emitted": true
-    },
-    {
-      "name": "index.html",
-      "size": 196,
-      "chunks": [],
-      "chunkNames": [],
-      "emitted": true
     }
   ],
   "entrypoints": {
@@ -56,8 +28,7 @@
         0
       ],
       "assets": [
-        "main.f978e68595e0c48c62db.js",
-        "0.3fd33296c07cbf058ff8.hot-update.js"
+        "main.aeb912e5b29dd366fa07.js"
       ],
       "isOverSizeLimit": true
     }
@@ -65,19 +36,18 @@
   "chunks": [
     {
       "id": 0,
-      "rendered": true,
+      "rendered": false,
       "initial": true,
       "entry": true,
       "extraAsync": false,
-      "size": 1541825,
+      "size": 1542214,
       "names": [
         "main"
       ],
       "files": [
-        "main.f978e68595e0c48c62db.js",
-        "0.3fd33296c07cbf058ff8.hot-update.js"
+        "main.aeb912e5b29dd366fa07.js"
       ],
-      "hash": "5c669265f230f89ea1b2",
+      "hash": "1e63cb836bfe3985f441",
       "parents": [],
       "origins": [
         {
@@ -1338,7 +1308,7 @@
           "moduleName": "./common/components/Item.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "70:411-427"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 189,
@@ -1356,7 +1326,7 @@
           "moduleName": "./common/components/Item.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "81:411-427"
         },
         {
           "moduleId": 190,
@@ -1446,15 +1416,6 @@
           "moduleName": "./client/index.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "5:13-29"
-        },
-        {
-          "moduleId": 214,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\client\\index.js",
-          "module": "./client/index.js",
-          "moduleName": "./client/index.js",
-          "type": "cjs require",
-          "userRequest": "react",
           "loc": "45:411-427"
         },
         {
@@ -1465,6 +1426,15 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "1:461-477"
+        },
+        {
+          "moduleId": 214,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\client\\index.js",
+          "module": "./client/index.js",
+          "moduleName": "./client/index.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "5:13-29"
         },
         {
           "moduleId": 224,
@@ -1644,7 +1614,7 @@
           "moduleName": "./common/components/App.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "29:13-29"
         },
         {
           "moduleId": 417,
@@ -1653,7 +1623,7 @@
           "moduleName": "./common/components/App.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "29:13-29"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 418,
@@ -1689,7 +1659,7 @@
           "moduleName": "./common/components/Picker.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "79:411-427"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 419,
@@ -1707,7 +1677,7 @@
           "moduleName": "./common/components/Picker.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "79:411-427"
         },
         {
           "moduleId": 420,
@@ -1752,7 +1722,7 @@
           "moduleName": "./common/components/Publish.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "23:13-29"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 421,
@@ -1761,7 +1731,7 @@
           "moduleName": "./common/components/Publish.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "23:13-29"
         },
         {
           "moduleId": 422,
@@ -1797,7 +1767,7 @@
           "moduleName": "./common/components/Space.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "115:411-427"
+          "loc": "17:13-29"
         },
         {
           "moduleId": 423,
@@ -1815,7 +1785,7 @@
           "moduleName": "./common/components/Space.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "17:13-29"
+          "loc": "115:411-427"
         },
         {
           "moduleId": 424,
@@ -1842,6 +1812,15 @@
           "moduleName": "./common/routes.js",
           "type": "cjs require",
           "userRequest": "react",
+          "loc": "58:411-427"
+        },
+        {
+          "moduleId": 425,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\routes.js",
+          "module": "./common/routes.js",
+          "moduleName": "./common/routes.js",
+          "type": "cjs require",
+          "userRequest": "react",
           "loc": "1:461-477"
         },
         {
@@ -1852,15 +1831,6 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "9:13-29"
-        },
-        {
-          "moduleId": 425,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\routes.js",
-          "module": "./common/routes.js",
-          "moduleName": "./common/routes.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "58:411-427"
         },
         {
           "moduleId": 427,
@@ -4943,7 +4913,7 @@
           "moduleName": "./common/components/Item.js",
           "type": "cjs require",
           "userRequest": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\makeExportsHot.js",
-          "loc": "70:231-382"
+          "loc": "81:231-382"
         },
         {
           "moduleId": 190,
@@ -6335,9 +6305,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\sass-loader\\4.1.1\\sass-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\assets\\styles\\app.scss",
-      "issuerId": 108,
-      "issuerName": "./~/.npminstall/css-loader/0.26.1/css-loader!./~/.npminstall/sass-loader/4.1.1/sass-loader!./assets/styles/app.scss",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\style\\index.css",
+      "issuerId": 107,
+      "issuerName": "./~/.npminstall/css-loader/0.26.1/css-loader!./~/.npminstall/antd/2.7.0/antd/lib/style/index.css",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -16257,7 +16227,7 @@
       "name": "./common/components/Item.js",
       "index": 475,
       "index2": 469,
-      "size": 4357,
+      "size": 4730,
       "cacheable": true,
       "built": false,
       "optional": false,
@@ -16295,7 +16265,7 @@
       "usedExports": true,
       "providedExports": null,
       "depth": 3,
-      "source": "/* REACT HOT LOADER */ if (module.hot) { (function () { var ReactHotAPI = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-api\\\\0.4.7\\\\react-hot-api\\\\modules\\\\index.js\"), RootInstanceProvider = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\RootInstanceProvider.js\"), ReactMount = require(\"react-dom/lib/ReactMount\"), React = require(\"react\"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {\n\n'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRedux = require('react-redux');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Item = function (_React$Component) {\n    _inherits(Item, _React$Component);\n\n    function Item(props) {\n        _classCallCheck(this, Item);\n\n        return _possibleConstructorReturn(this, (Item.__proto__ || Object.getPrototypeOf(Item)).call(this, props));\n    }\n\n    _createClass(Item, [{\n        key: 'render',\n        value: function render() {\n            var item = this.props.item;\n\n            return _react2.default.createElement(\n                'div',\n                null,\n                _react2.default.createElement(\n                    'h3',\n                    null,\n                    '\\u6587\\u7AE0\\u6807\\u9898',\n                    item.title\n                ),\n                '\\u6587\\u7AE0\\u5185\\u5BB9',\n                _react2.default.createElement(\n                    'p',\n                    null,\n                    item.content\n                )\n            );\n        }\n    }]);\n\n    return Item;\n}(_react2.default.Component);\n\nfunction mapStateToProps(state) {\n    var item = state.item;\n\n    return {\n        item: item\n    };\n}\nexports.default = (0, _reactRedux.connect)(mapStateToProps)(Item);\n\n/* REACT HOT LOADER */ }).call(this); } finally { if (module.hot) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\makeExportsHot.js\"); if (makeExportsHot(module, require(\"react\"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error(\"Cannot apply hot update to \" + \"Item.js\" + \": \" + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }"
+      "source": "/* REACT HOT LOADER */ if (module.hot) { (function () { var ReactHotAPI = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-api\\\\0.4.7\\\\react-hot-api\\\\modules\\\\index.js\"), RootInstanceProvider = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\RootInstanceProvider.js\"), ReactMount = require(\"react-dom/lib/ReactMount\"), React = require(\"react\"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {\n\n'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRedux = require('react-redux');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Item = function (_React$Component) {\n    _inherits(Item, _React$Component);\n\n    function Item(props) {\n        _classCallCheck(this, Item);\n\n        return _possibleConstructorReturn(this, (Item.__proto__ || Object.getPrototypeOf(Item)).call(this, props));\n    }\n\n    _createClass(Item, [{\n        key: 'render',\n        value: function render() {\n            var _props = this.props,\n                posts = _props.posts,\n                params = _props.params;\n\n            var item = posts.filter(function (post) {\n                return post.flag === params.id;\n            })[0];\n            return _react2.default.createElement(\n                'div',\n                null,\n                _react2.default.createElement(\n                    'h3',\n                    null,\n                    '\\u6587\\u7AE0\\u6807\\u9898',\n                    item.title\n                ),\n                '\\u6587\\u7AE0\\u5185\\u5BB9',\n                _react2.default.createElement(\n                    'p',\n                    null,\n                    item.content\n                )\n            );\n        }\n    }]);\n\n    return Item;\n}(_react2.default.Component);\n\nfunction mapStateToProps(state) {\n    var postsByAuthor = state.postsByAuthor,\n        selectedAuthor = state.selectedAuthor;\n\n    var _ref = postsByAuthor[selectedAuthor] || {\n        items: []\n    },\n        posts = _ref.items;\n\n    return {\n        posts: posts || []\n    };\n}\nexports.default = (0, _reactRedux.connect)(mapStateToProps)(Item);\n\n/* REACT HOT LOADER */ }).call(this); } finally { if (module.hot) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\makeExportsHot.js\"); if (makeExportsHot(module, require(\"react\"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error(\"Cannot apply hot update to \" + \"Item.js\" + \": \" + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }"
     },
     {
       "id": 190,
@@ -24913,9 +24883,9 @@
       "name": "./common/components/App.js",
       "index": 313,
       "index2": 474,
-      "size": 15691,
+      "size": 15699,
       "cacheable": true,
-      "built": false,
+      "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -24942,7 +24912,7 @@
       "usedExports": true,
       "providedExports": null,
       "depth": 3,
-      "source": "/* REACT HOT LOADER */ if (module.hot) { (function () { var ReactHotAPI = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-api\\\\0.4.7\\\\react-hot-api\\\\modules\\\\index.js\"), RootInstanceProvider = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\RootInstanceProvider.js\"), ReactMount = require(\"react-dom/lib/ReactMount\"), React = require(\"react\"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {\n\n'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _css = require('antd/lib/input/style/css');\n\nvar _input = require('antd/lib/input');\n\nvar _input2 = _interopRequireDefault(_input);\n\nvar _css2 = require('antd/lib/menu/style/css');\n\nvar _menu = require('antd/lib/menu');\n\nvar _menu2 = _interopRequireDefault(_menu);\n\nvar _css3 = require('antd/lib/layout/style/css');\n\nvar _layout = require('antd/lib/layout');\n\nvar _layout2 = _interopRequireDefault(_layout);\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRedux = require('react-redux');\n\nvar _reactRouter = require('react-router');\n\nvar _actions = require('../actions/actions');\n\nvar _List = require('./List');\n\nvar _List2 = _interopRequireDefault(_List);\n\nvar _isomorphicFetch = require('isomorphic-fetch');\n\nvar _isomorphicFetch2 = _interopRequireDefault(_isomorphicFetch);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Header = _layout2.default.Header,\n    Footer = _layout2.default.Footer,\n    Sider = _layout2.default.Sider,\n    Content = _layout2.default.Content;\n\nvar SubMenu = _menu2.default.SubMenu;\nvar MenuItemGroup = _menu2.default.ItemGroup;\nvar Search = _input2.default.Search;\nrequire('../../assets/styles/app.scss');\n\nvar App = function (_React$Component) {\n    _inherits(App, _React$Component);\n\n    function App(props) {\n        _classCallCheck(this, App);\n\n        var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));\n\n        _this.handleNavigator = _this.handleNavigator.bind(_this);\n        _this.state = {\n            current: 'list'\n        };\n        return _this;\n    }\n\n    _createClass(App, [{\n        key: 'handleNavigator',\n        value: function handleNavigator(e) {\n            this.setState({\n                current: e.key\n            });\n        }\n    }, {\n        key: 'componentDidMount',\n        value: function componentDidMount() {\n            var dispatch = this.props.dispatch;\n\n            var token = localStorage.getItem('token');\n            var content = JSON.stringify({\n                access_token: token\n            });\n            (0, _isomorphicFetch2.default)('http://localhost:3000/api/user', {\n                method: 'POST',\n                headers: {\n                    \"Content-Type\": \"application/json\",\n                    \"Content-Length\": content.length.toString()\n                },\n                body: content\n            }).then(function (res) {\n                if (res.ok) {\n                    return res.json();\n                } else {\n                    console.log('获取用户失败');\n                }\n            }).then(function (json) {\n                dispatch((0, _actions.fetchUser)(json));\n            });\n        }\n    }, {\n        key: 'render',\n        value: function render() {\n            var _props = this.props,\n                user = _props.user,\n                posts = _props.posts;\n\n            var postsHaveNoComment = posts;\n            return _react2.default.createElement(\n                'div',\n                { id: 'hey' },\n                _react2.default.createElement(\n                    _menu2.default,\n                    { selectedKeys: [this.state.current], theme: 'dark', onClick: this.handleNavigator, mode: 'horizontal' },\n                    _react2.default.createElement(\n                        _menu2.default.Item,\n                        { key: 'search' },\n                        _react2.default.createElement(Search, {\n                            placeholder: '\\u641C\\u7D22\\u7528\\u6237',\n                            style: { width: 200 },\n                            onSearch: function onSearch(value) {\n                                return console.log(value);\n                            }\n                        })\n                    ),\n                    _react2.default.createElement(\n                        _menu2.default.Item,\n                        { key: 'list' },\n                        _react2.default.createElement(\n                            _reactRouter.Link,\n                            { to: '/' },\n                            '\\u9996\\u9875'\n                        )\n                    ),\n                    _react2.default.createElement(\n                        _menu2.default.Item,\n                        _defineProperty({ key: 'space' }, 'key', 'space'),\n                        _react2.default.createElement(\n                            _reactRouter.Link,\n                            { to: '/space' },\n                            '\\u4E2A\\u4EBA\\u4E2D\\u5FC3'\n                        )\n                    ),\n                    user.name && _react2.default.createElement(\n                        _menu2.default.Item,\n                        { key: 'publish' },\n                        _react2.default.createElement(\n                            _reactRouter.Link,\n                            { to: '/publish' },\n                            '\\u53D1\\u8868\\u6587\\u7AE0'\n                        )\n                    ),\n                    user.name && _react2.default.createElement(\n                        _menu2.default.Item,\n                        null,\n                        '\\u7528\\u6237:',\n                        user.name\n                    ),\n                    !user.name && _react2.default.createElement(\n                        _menu2.default.Item,\n                        null,\n                        _react2.default.createElement(\n                            _reactRouter.Link,\n                            { to: '/logIn' },\n                            '\\u672A\\u767B\\u5F55'\n                        )\n                    )\n                ),\n                _react2.default.createElement(\n                    _layout2.default,\n                    null,\n                    _react2.default.createElement(\n                        _layout2.default,\n                        null,\n                        _react2.default.createElement(\n                            Content,\n                            { style: { backgroundColor: '#EDEDED', padding: \"0 50px\" } },\n                            _react2.default.createElement(\n                                _layout2.default,\n                                null,\n                                _react2.default.createElement(\n                                    Content,\n                                    { style: { marginRight: '20px' } },\n                                    _react2.default.createElement(\n                                        'div',\n                                        null,\n                                        this.props.children\n                                    )\n                                ),\n                                _react2.default.createElement(\n                                    Sider,\n                                    { width: '300', style: { backgroundColor: \"#EDEDED\" } },\n                                    _react2.default.createElement(\n                                        'div',\n                                        { style: { backgroundColor: 'white', height: '180px', margin: '20px 0 10px 0' } },\n                                        _react2.default.createElement(\n                                            'h4',\n                                            { style: { backgroundColor: '#F0FFF0' } },\n                                            '\\u4E2A\\u4EBA\\u4FE1\\u606F'\n                                        ),\n                                        _react2.default.createElement(\n                                            'div',\n                                            { style: { padding: '8px' } },\n                                            _react2.default.createElement('img', { src: 'https://avatars.githubusercontent.com/u/16136702?v=3&s=120', style: { height: '80px' } }),\n                                            _react2.default.createElement(\n                                                'span',\n                                                { style: { fontSize: '18px', marginLeft: '10px' } },\n                                                user.name\n                                            ),\n                                            _react2.default.createElement('br', null),\n                                            _react2.default.createElement(\n                                                'span',\n                                                { style: { color: 'red' } },\n                                                '\\u79EF\\u5206:'\n                                            ),\n                                            ' 266',\n                                            _react2.default.createElement('br', null),\n                                            _react2.default.createElement(\n                                                'span',\n                                                null,\n                                                '\"\\u8FD9\\u5BB6\\u4F19\\u5F88\\u61D2\\uFF0C\\u4EC0\\u4E48\\u90FD\\u6CA1\\u7559\\u4E0B\"'\n                                            )\n                                        )\n                                    ),\n                                    _react2.default.createElement(\n                                        'div',\n                                        { style: { backgroundColor: 'white', height: '180px', marginBottom: '10px', overflow: 'hidden' } },\n                                        _react2.default.createElement(\n                                            'h4',\n                                            { style: { backgroundColor: '#F0FFF0' } },\n                                            '\\u65E0\\u4EBA\\u56DE\\u590D\\u7684\\u8BDD\\u9898'\n                                        ),\n                                        _react2.default.createElement(\n                                            'div',\n                                            { style: { padding: '8px' } },\n                                            _react2.default.createElement(\n                                                'ul',\n                                                null,\n                                                postsHaveNoComment.map(function (post, i) {\n                                                    return _react2.default.createElement(\n                                                        'li',\n                                                        { key: i },\n                                                        _react2.default.createElement(\n                                                            _reactRouter.Link,\n                                                            { to: \"/item/\" + i, style: { color: 'black' } },\n                                                            post.title\n                                                        )\n                                                    );\n                                                })\n                                            )\n                                        )\n                                    ),\n                                    _react2.default.createElement(\n                                        'div',\n                                        { style: { backgroundColor: 'white', height: '180px', marginBottom: '10px' } },\n                                        _react2.default.createElement(\n                                            'h4',\n                                            { style: { backgroundColor: '#F0FFF0' } },\n                                            '\\u79EF\\u5206\\u699C'\n                                        )\n                                    )\n                                )\n                            )\n                        )\n                    ),\n                    _react2.default.createElement(\n                        Footer,\n                        { style: { textAlign: 'center' } },\n                        'created by Xia Luo'\n                    )\n                )\n            );\n        }\n    }]);\n\n    return App;\n}(_react2.default.Component);\n\nfunction mapStateToProps(state) {\n    var user = state.user,\n        postsByAuthor = state.postsByAuthor,\n        selectedAuthor = state.selectedAuthor;\n\n    var _ref = postsByAuthor[selectedAuthor] || {\n        items: []\n    },\n        posts = _ref.items;\n\n    return {\n        user: user,\n        posts: posts || []\n    };\n}\nexports.default = (0, _reactRedux.connect)(mapStateToProps)(App);\n\n/* REACT HOT LOADER */ }).call(this); } finally { if (module.hot) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\makeExportsHot.js\"); if (makeExportsHot(module, require(\"react\"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error(\"Cannot apply hot update to \" + \"App.js\" + \": \" + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }"
+      "source": "/* REACT HOT LOADER */ if (module.hot) { (function () { var ReactHotAPI = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-api\\\\0.4.7\\\\react-hot-api\\\\modules\\\\index.js\"), RootInstanceProvider = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\RootInstanceProvider.js\"), ReactMount = require(\"react-dom/lib/ReactMount\"), React = require(\"react\"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {\n\n'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _css = require('antd/lib/input/style/css');\n\nvar _input = require('antd/lib/input');\n\nvar _input2 = _interopRequireDefault(_input);\n\nvar _css2 = require('antd/lib/menu/style/css');\n\nvar _menu = require('antd/lib/menu');\n\nvar _menu2 = _interopRequireDefault(_menu);\n\nvar _css3 = require('antd/lib/layout/style/css');\n\nvar _layout = require('antd/lib/layout');\n\nvar _layout2 = _interopRequireDefault(_layout);\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRedux = require('react-redux');\n\nvar _reactRouter = require('react-router');\n\nvar _actions = require('../actions/actions');\n\nvar _List = require('./List');\n\nvar _List2 = _interopRequireDefault(_List);\n\nvar _isomorphicFetch = require('isomorphic-fetch');\n\nvar _isomorphicFetch2 = _interopRequireDefault(_isomorphicFetch);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Header = _layout2.default.Header,\n    Footer = _layout2.default.Footer,\n    Sider = _layout2.default.Sider,\n    Content = _layout2.default.Content;\n\nvar SubMenu = _menu2.default.SubMenu;\nvar MenuItemGroup = _menu2.default.ItemGroup;\nvar Search = _input2.default.Search;\nrequire('../../assets/styles/app.scss');\n\nvar App = function (_React$Component) {\n    _inherits(App, _React$Component);\n\n    function App(props) {\n        _classCallCheck(this, App);\n\n        var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));\n\n        _this.handleNavigator = _this.handleNavigator.bind(_this);\n        _this.state = {\n            current: 'list'\n        };\n        return _this;\n    }\n\n    _createClass(App, [{\n        key: 'handleNavigator',\n        value: function handleNavigator(e) {\n            this.setState({\n                current: e.key\n            });\n        }\n    }, {\n        key: 'componentDidMount',\n        value: function componentDidMount() {\n            var dispatch = this.props.dispatch;\n\n            var token = localStorage.getItem('token');\n            var content = JSON.stringify({\n                access_token: token\n            });\n            (0, _isomorphicFetch2.default)('http://localhost:3000/api/user', {\n                method: 'POST',\n                headers: {\n                    \"Content-Type\": \"application/json\",\n                    \"Content-Length\": content.length.toString()\n                },\n                body: content\n            }).then(function (res) {\n                if (res.ok) {\n                    return res.json();\n                } else {\n                    console.log('获取用户失败');\n                }\n            }).then(function (json) {\n                dispatch((0, _actions.fetchUser)(json));\n            });\n        }\n    }, {\n        key: 'render',\n        value: function render() {\n            var _props = this.props,\n                user = _props.user,\n                posts = _props.posts;\n\n            var postsHaveNoComment = posts;\n            return _react2.default.createElement(\n                'div',\n                { id: 'hey' },\n                _react2.default.createElement(\n                    _menu2.default,\n                    { selectedKeys: [this.state.current], theme: 'dark', onClick: this.handleNavigator, mode: 'horizontal' },\n                    _react2.default.createElement(\n                        _menu2.default.Item,\n                        { key: 'search' },\n                        _react2.default.createElement(Search, {\n                            placeholder: '\\u641C\\u7D22\\u7528\\u6237',\n                            style: { width: 200 },\n                            onSearch: function onSearch(value) {\n                                return console.log(value);\n                            }\n                        })\n                    ),\n                    _react2.default.createElement(\n                        _menu2.default.Item,\n                        { key: 'list' },\n                        _react2.default.createElement(\n                            _reactRouter.Link,\n                            { to: '/' },\n                            '\\u9996\\u9875'\n                        )\n                    ),\n                    _react2.default.createElement(\n                        _menu2.default.Item,\n                        _defineProperty({ key: 'space' }, 'key', 'space'),\n                        _react2.default.createElement(\n                            _reactRouter.Link,\n                            { to: '/space' },\n                            '\\u4E2A\\u4EBA\\u4E2D\\u5FC3'\n                        )\n                    ),\n                    user.name && _react2.default.createElement(\n                        _menu2.default.Item,\n                        { key: 'publish' },\n                        _react2.default.createElement(\n                            _reactRouter.Link,\n                            { to: '/publish' },\n                            '\\u53D1\\u8868\\u6587\\u7AE0'\n                        )\n                    ),\n                    user.name && _react2.default.createElement(\n                        _menu2.default.Item,\n                        null,\n                        '\\u7528\\u6237:',\n                        user.name\n                    ),\n                    !user.name && _react2.default.createElement(\n                        _menu2.default.Item,\n                        null,\n                        _react2.default.createElement(\n                            _reactRouter.Link,\n                            { to: '/logIn' },\n                            '\\u672A\\u767B\\u5F55'\n                        )\n                    )\n                ),\n                _react2.default.createElement(\n                    _layout2.default,\n                    null,\n                    _react2.default.createElement(\n                        _layout2.default,\n                        null,\n                        _react2.default.createElement(\n                            Content,\n                            { style: { backgroundColor: '#EDEDED', padding: \"0 50px\" } },\n                            _react2.default.createElement(\n                                _layout2.default,\n                                null,\n                                _react2.default.createElement(\n                                    Content,\n                                    { style: { marginRight: '20px' } },\n                                    _react2.default.createElement(\n                                        'div',\n                                        null,\n                                        this.props.children\n                                    )\n                                ),\n                                _react2.default.createElement(\n                                    Sider,\n                                    { width: '300', style: { backgroundColor: \"#EDEDED\" } },\n                                    _react2.default.createElement(\n                                        'div',\n                                        { style: { backgroundColor: 'white', height: '180px', margin: '20px 0 10px 0' } },\n                                        _react2.default.createElement(\n                                            'h4',\n                                            { style: { backgroundColor: '#F0FFF0' } },\n                                            '\\u4E2A\\u4EBA\\u4FE1\\u606F'\n                                        ),\n                                        _react2.default.createElement(\n                                            'div',\n                                            { style: { padding: '8px' } },\n                                            _react2.default.createElement('img', { src: 'https://avatars.githubusercontent.com/u/16136702?v=3&s=120', style: { height: '80px' } }),\n                                            _react2.default.createElement(\n                                                'span',\n                                                { style: { fontSize: '18px', marginLeft: '10px' } },\n                                                user.name\n                                            ),\n                                            _react2.default.createElement('br', null),\n                                            _react2.default.createElement(\n                                                'span',\n                                                { style: { color: 'red' } },\n                                                '\\u79EF\\u5206:'\n                                            ),\n                                            ' 266',\n                                            _react2.default.createElement('br', null),\n                                            _react2.default.createElement(\n                                                'span',\n                                                null,\n                                                '\"\\u8FD9\\u5BB6\\u4F19\\u5F88\\u61D2\\uFF0C\\u4EC0\\u4E48\\u90FD\\u6CA1\\u7559\\u4E0B\"'\n                                            )\n                                        )\n                                    ),\n                                    _react2.default.createElement(\n                                        'div',\n                                        { style: { backgroundColor: 'white', height: '180px', marginBottom: '10px', overflow: 'hidden' } },\n                                        _react2.default.createElement(\n                                            'h4',\n                                            { style: { backgroundColor: '#F0FFF0' } },\n                                            '\\u65E0\\u4EBA\\u56DE\\u590D\\u7684\\u8BDD\\u9898'\n                                        ),\n                                        _react2.default.createElement(\n                                            'div',\n                                            { style: { padding: '8px' } },\n                                            _react2.default.createElement(\n                                                'ul',\n                                                null,\n                                                postsHaveNoComment.map(function (post, i) {\n                                                    return _react2.default.createElement(\n                                                        'li',\n                                                        { key: i },\n                                                        _react2.default.createElement(\n                                                            _reactRouter.Link,\n                                                            { to: \"/item/\" + post.flag, style: { color: 'black' } },\n                                                            post.title\n                                                        )\n                                                    );\n                                                })\n                                            )\n                                        )\n                                    ),\n                                    _react2.default.createElement(\n                                        'div',\n                                        { style: { backgroundColor: 'white', height: '180px', marginBottom: '10px' } },\n                                        _react2.default.createElement(\n                                            'h4',\n                                            { style: { backgroundColor: '#F0FFF0' } },\n                                            '\\u79EF\\u5206\\u699C'\n                                        )\n                                    )\n                                )\n                            )\n                        )\n                    ),\n                    _react2.default.createElement(\n                        Footer,\n                        { style: { textAlign: 'center' } },\n                        'created by Xia Luo'\n                    )\n                )\n            );\n        }\n    }]);\n\n    return App;\n}(_react2.default.Component);\n\nfunction mapStateToProps(state) {\n    var user = state.user,\n        postsByAuthor = state.postsByAuthor,\n        selectedAuthor = state.selectedAuthor;\n\n    var _ref = postsByAuthor[selectedAuthor] || {\n        items: []\n    },\n        posts = _ref.items;\n\n    return {\n        user: user,\n        posts: posts || []\n    };\n}\nexports.default = (0, _reactRedux.connect)(mapStateToProps)(App);\n\n/* REACT HOT LOADER */ }).call(this); } finally { if (module.hot) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\makeExportsHot.js\"); if (makeExportsHot(module, require(\"react\"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error(\"Cannot apply hot update to \" + \"App.js\" + \": \" + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }"
     },
     {
       "id": 418,
@@ -25024,9 +24994,9 @@
       "name": "./common/components/Posts.js",
       "index": 465,
       "index2": 470,
-      "size": 5709,
+      "size": 5717,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25053,7 +25023,7 @@
       "usedExports": true,
       "providedExports": null,
       "depth": 4,
-      "source": "/* REACT HOT LOADER */ if (module.hot) { (function () { var ReactHotAPI = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-api\\\\0.4.7\\\\react-hot-api\\\\modules\\\\index.js\"), RootInstanceProvider = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\RootInstanceProvider.js\"), ReactMount = require(\"react-dom/lib/ReactMount\"), React = require(\"react\"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {\n\n'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _css = require('antd/lib/row/style/css');\n\nvar _row = require('antd/lib/row');\n\nvar _row2 = _interopRequireDefault(_row);\n\nvar _css2 = require('antd/lib/col/style/css');\n\nvar _col = require('antd/lib/col');\n\nvar _col2 = _interopRequireDefault(_col);\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Item = require('./Item');\n\nvar _Item2 = _interopRequireDefault(_Item);\n\nvar _reactRouter = require('react-router');\n\nvar _isomorphicFetch = require('isomorphic-fetch');\n\nvar _isomorphicFetch2 = _interopRequireDefault(_isomorphicFetch);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Posts = function (_Component) {\n  _inherits(Posts, _Component);\n\n  function Posts(props) {\n    _classCallCheck(this, Posts);\n\n    return _possibleConstructorReturn(this, (Posts.__proto__ || Object.getPrototypeOf(Posts)).call(this, props));\n  }\n\n  _createClass(Posts, [{\n    key: 'render',\n    value: function render() {\n      var _props = this.props,\n          onShow = _props.onShow,\n          posts = _props.posts;\n\n      var postsByDate = posts.reverse();\n      return _react2.default.createElement(\n        'div',\n        { style: { background: 'white', padding: '30px', minHeight: '800px', fontSize: '16px' } },\n        postsByDate.map(function (post, i) {\n          return _react2.default.createElement(\n            _row2.default,\n            { key: i, style: { borderBottom: '1px solid #EDEDED', height: '50px' } },\n            _react2.default.createElement(\n              _col2.default,\n              { span: '2' },\n              post.author,\n              ':'\n            ),\n            _react2.default.createElement(\n              _col2.default,\n              { span: '2' },\n              _react2.default.createElement(\n                'span',\n                { style: { backgroundColor: 'green', color: 'white' } },\n                '\\u5206\\u4EAB'\n              )\n            ),\n            _react2.default.createElement(\n              _col2.default,\n              { span: '14' },\n              _react2.default.createElement(\n                _reactRouter.Link,\n                { to: \"/item/\" + i, style: { color: 'black' } },\n                post.title\n              )\n            ),\n            _react2.default.createElement(\n              _col2.default,\n              { span: '6' },\n              _react2.default.createElement(\n                'span',\n                null,\n                post.time.minute\n              )\n            )\n          );\n        })\n      );\n    }\n  }]);\n\n  return Posts;\n}(_react.Component);\n\nexports.default = Posts;\n\n\nPosts.propTypes = {\n  posts: _react.PropTypes.array.isRequired\n};\n\n/* REACT HOT LOADER */ }).call(this); } finally { if (module.hot) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\makeExportsHot.js\"); if (makeExportsHot(module, require(\"react\"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error(\"Cannot apply hot update to \" + \"Posts.js\" + \": \" + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }"
+      "source": "/* REACT HOT LOADER */ if (module.hot) { (function () { var ReactHotAPI = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-api\\\\0.4.7\\\\react-hot-api\\\\modules\\\\index.js\"), RootInstanceProvider = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\RootInstanceProvider.js\"), ReactMount = require(\"react-dom/lib/ReactMount\"), React = require(\"react\"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {\n\n'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _css = require('antd/lib/row/style/css');\n\nvar _row = require('antd/lib/row');\n\nvar _row2 = _interopRequireDefault(_row);\n\nvar _css2 = require('antd/lib/col/style/css');\n\nvar _col = require('antd/lib/col');\n\nvar _col2 = _interopRequireDefault(_col);\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Item = require('./Item');\n\nvar _Item2 = _interopRequireDefault(_Item);\n\nvar _reactRouter = require('react-router');\n\nvar _isomorphicFetch = require('isomorphic-fetch');\n\nvar _isomorphicFetch2 = _interopRequireDefault(_isomorphicFetch);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Posts = function (_Component) {\n  _inherits(Posts, _Component);\n\n  function Posts(props) {\n    _classCallCheck(this, Posts);\n\n    return _possibleConstructorReturn(this, (Posts.__proto__ || Object.getPrototypeOf(Posts)).call(this, props));\n  }\n\n  _createClass(Posts, [{\n    key: 'render',\n    value: function render() {\n      var _props = this.props,\n          onShow = _props.onShow,\n          posts = _props.posts;\n\n      var postsByDate = posts.reverse();\n      return _react2.default.createElement(\n        'div',\n        { style: { background: 'white', padding: '30px', minHeight: '800px', fontSize: '16px' } },\n        postsByDate.map(function (post, i) {\n          return _react2.default.createElement(\n            _row2.default,\n            { key: i, style: { borderBottom: '1px solid #EDEDED', height: '50px' } },\n            _react2.default.createElement(\n              _col2.default,\n              { span: '2' },\n              post.author,\n              ':'\n            ),\n            _react2.default.createElement(\n              _col2.default,\n              { span: '2' },\n              _react2.default.createElement(\n                'span',\n                { style: { backgroundColor: 'green', color: 'white' } },\n                '\\u5206\\u4EAB'\n              )\n            ),\n            _react2.default.createElement(\n              _col2.default,\n              { span: '14' },\n              _react2.default.createElement(\n                _reactRouter.Link,\n                { to: \"/item/\" + post.flag, style: { color: 'black' } },\n                post.title\n              )\n            ),\n            _react2.default.createElement(\n              _col2.default,\n              { span: '6' },\n              _react2.default.createElement(\n                'span',\n                null,\n                post.time.minute\n              )\n            )\n          );\n        })\n      );\n    }\n  }]);\n\n  return Posts;\n}(_react.Component);\n\nexports.default = Posts;\n\n\nPosts.propTypes = {\n  posts: _react.PropTypes.array.isRequired\n};\n\n/* REACT HOT LOADER */ }).call(this); } finally { if (module.hot) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\makeExportsHot.js\"); if (makeExportsHot(module, require(\"react\"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error(\"Cannot apply hot update to \" + \"Posts.js\" + \": \" + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }"
     },
     {
       "id": 421,

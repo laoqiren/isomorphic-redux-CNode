@@ -5,6 +5,7 @@ const PostSchema = new mongoose.Schema({
     author:String,
     title:String,
     content:String,
+    flag: String,
     time:{}
 });
 PostSchema.methods.savePost = function(post,cb){
@@ -17,6 +18,7 @@ PostSchema.methods.savePost = function(post,cb){
       minute : date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate() + " " + 
       date.getHours() + ":" + (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()) 
     };
+    this.flag = date.getTime() + post.author;
     this.author = post.author;
     this.title = post.title;
     this.content = post.content;
