@@ -2,16 +2,19 @@
   "errors": [],
   "warnings": [],
   "version": "2.2.1",
-  "hash": "1206be4b4a2764061a37",
-  "time": 265,
+  "hash": "f978e68595e0c48c62db",
+  "time": 411,
   "publicPath": "http://localhost:3001/public/",
   "assetsByChunkName": {
-    "main": "main.1206be4b4a2764061a37.js"
+    "main": [
+      "main.f978e68595e0c48c62db.js",
+      "0.3fd33296c07cbf058ff8.hot-update.js"
+    ]
   },
   "assets": [
     {
-      "name": "main.1206be4b4a2764061a37.js",
-      "size": 1608338,
+      "name": "main.f978e68595e0c48c62db.js",
+      "size": 1621026,
       "chunks": [
         0
       ],
@@ -20,6 +23,31 @@
       ],
       "emitted": true,
       "isOverSizeLimit": true
+    },
+    {
+      "name": "0.3fd33296c07cbf058ff8.hot-update.js",
+      "size": 5572,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "3fd33296c07cbf058ff8.hot-update.json",
+      "size": 43,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true
+    },
+    {
+      "name": "index.html",
+      "size": 196,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true
     }
   ],
   "entrypoints": {
@@ -28,7 +56,8 @@
         0
       ],
       "assets": [
-        "main.1206be4b4a2764061a37.js"
+        "main.f978e68595e0c48c62db.js",
+        "0.3fd33296c07cbf058ff8.hot-update.js"
       ],
       "isOverSizeLimit": true
     }
@@ -36,18 +65,19 @@
   "chunks": [
     {
       "id": 0,
-      "rendered": false,
+      "rendered": true,
       "initial": true,
       "entry": true,
       "extraAsync": false,
-      "size": 1529182,
+      "size": 1541825,
       "names": [
         "main"
       ],
       "files": [
-        "main.1206be4b4a2764061a37.js"
+        "main.f978e68595e0c48c62db.js",
+        "0.3fd33296c07cbf058ff8.hot-update.js"
       ],
-      "hash": "935fef75d37eff945cd9",
+      "hash": "5c669265f230f89ea1b2",
       "parents": [],
       "origins": [
         {
@@ -1308,7 +1338,7 @@
           "moduleName": "./common/components/Item.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "70:411-427"
         },
         {
           "moduleId": 189,
@@ -1326,7 +1356,7 @@
           "moduleName": "./common/components/Item.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "70:411-427"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 190,
@@ -1425,7 +1455,7 @@
           "moduleName": "./client/index.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "45:411-427"
         },
         {
           "moduleId": 214,
@@ -1434,7 +1464,7 @@
           "moduleName": "./client/index.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "45:411-427"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 224,
@@ -1453,15 +1483,6 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "28:13-29"
-        },
-        {
-          "moduleId": 226,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\card\\index.js",
-          "module": "./~/.npminstall/antd/2.7.0/antd/lib/card/index.js",
-          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/card/index.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "15:13-29"
         },
         {
           "moduleId": 230,
@@ -1614,7 +1635,7 @@
           "moduleName": "./common/components/App.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "190:411-427"
+          "loc": "310:411-427"
         },
         {
           "moduleId": 417,
@@ -1632,7 +1653,16 @@
           "moduleName": "./common/components/App.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "23:13-29"
+          "loc": "29:13-29"
+        },
+        {
+          "moduleId": 418,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\LogIn.js",
+          "module": "./common/components/LogIn.js",
+          "moduleName": "./common/components/LogIn.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "153:411-427"
         },
         {
           "moduleId": 418,
@@ -1653,22 +1683,13 @@
           "loc": "1:461-477"
         },
         {
-          "moduleId": 418,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\LogIn.js",
-          "module": "./common/components/LogIn.js",
-          "moduleName": "./common/components/LogIn.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "153:411-427"
-        },
-        {
           "moduleId": 419,
           "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Picker.js",
           "module": "./common/components/Picker.js",
           "moduleName": "./common/components/Picker.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "79:411-427"
         },
         {
           "moduleId": 419,
@@ -1686,7 +1707,7 @@
           "moduleName": "./common/components/Picker.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "79:411-427"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 420,
@@ -1704,7 +1725,7 @@
           "moduleName": "./common/components/Posts.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "35:13-29"
+          "loc": "23:13-29"
         },
         {
           "moduleId": 420,
@@ -1713,7 +1734,7 @@
           "moduleName": "./common/components/Posts.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "116:411-427"
+          "loc": "118:411-427"
         },
         {
           "moduleId": 421,
@@ -1722,7 +1743,7 @@
           "moduleName": "./common/components/Publish.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "132:411-427"
         },
         {
           "moduleId": 421,
@@ -1740,7 +1761,7 @@
           "moduleName": "./common/components/Publish.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "132:411-427"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 422,
@@ -1821,15 +1842,6 @@
           "moduleName": "./common/routes.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "58:411-427"
-        },
-        {
-          "moduleId": 425,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\routes.js",
-          "module": "./common/routes.js",
-          "moduleName": "./common/routes.js",
-          "type": "cjs require",
-          "userRequest": "react",
           "loc": "1:461-477"
         },
         {
@@ -1840,6 +1852,15 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "9:13-29"
+        },
+        {
+          "moduleId": 425,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\routes.js",
+          "module": "./common/routes.js",
+          "moduleName": "./common/routes.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "58:411-427"
         },
         {
           "moduleId": 427,
@@ -1939,6 +1960,24 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "13:13-29"
+        },
+        {
+          "moduleId": 488,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\Sider.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/Sider.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/Sider.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "28:13-29"
+        },
+        {
+          "moduleId": 490,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\layout.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/layout.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/layout.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "27:13-29"
         }
       ],
       "usedExports": true,
@@ -3929,15 +3968,6 @@
           "loc": "8:16-56"
         },
         {
-          "moduleId": 226,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\card\\index.js",
-          "module": "./~/.npminstall/antd/2.7.0/antd/lib/card/index.js",
-          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/card/index.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/extends",
-          "loc": "7:16-56"
-        },
-        {
           "moduleId": 230,
           "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\grid\\col.js",
           "module": "./~/.npminstall/antd/2.7.0/antd/lib/grid/col.js",
@@ -4023,6 +4053,24 @@
           "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\rc-menu\\5.0.9\\rc-menu\\lib\\SubPopupMenu.js",
           "module": "./~/.npminstall/rc-menu/5.0.9/rc-menu/lib/SubPopupMenu.js",
           "moduleName": "./~/.npminstall/rc-menu/5.0.9/rc-menu/lib/SubPopupMenu.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/extends",
+          "loc": "11:16-56"
+        },
+        {
+          "moduleId": 488,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\Sider.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/Sider.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/Sider.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/extends",
+          "loc": "8:16-56"
+        },
+        {
+          "moduleId": 490,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\layout.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/layout.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/layout.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/extends",
           "loc": "11:16-56"
@@ -4931,7 +4979,7 @@
           "moduleName": "./common/components/App.js",
           "type": "cjs require",
           "userRequest": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\makeExportsHot.js",
-          "loc": "190:231-382"
+          "loc": "310:231-382"
         },
         {
           "moduleId": 418,
@@ -4958,7 +5006,7 @@
           "moduleName": "./common/components/Posts.js",
           "type": "cjs require",
           "userRequest": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\makeExportsHot.js",
-          "loc": "116:231-382"
+          "loc": "118:231-382"
         },
         {
           "moduleId": 421,
@@ -5079,15 +5127,6 @@
           "loc": "32:18-39"
         },
         {
-          "moduleId": 226,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\card\\index.js",
-          "module": "./~/.npminstall/antd/2.7.0/antd/lib/card/index.js",
-          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/card/index.js",
-          "type": "cjs require",
-          "userRequest": "classnames",
-          "loc": "19:18-39"
-        },
-        {
           "moduleId": 230,
           "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\grid\\col.js",
           "module": "./~/.npminstall/antd/2.7.0/antd/lib/grid/col.js",
@@ -5149,6 +5188,24 @@
           "type": "cjs require",
           "userRequest": "classnames",
           "loc": "27:18-39"
+        },
+        {
+          "moduleId": 488,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\Sider.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/Sider.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/Sider.js",
+          "type": "cjs require",
+          "userRequest": "classnames",
+          "loc": "32:18-39"
+        },
+        {
+          "moduleId": 490,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\layout.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/layout.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/layout.js",
+          "type": "cjs require",
+          "userRequest": "classnames",
+          "loc": "31:18-39"
         }
       ],
       "usedExports": true,
@@ -5505,15 +5562,6 @@
           "loc": "12:23-70"
         },
         {
-          "moduleId": 226,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\card\\index.js",
-          "module": "./~/.npminstall/antd/2.7.0/antd/lib/card/index.js",
-          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/card/index.js",
-          "type": "cjs require",
-          "userRequest": "babel-runtime/helpers/defineProperty",
-          "loc": "11:23-70"
-        },
-        {
           "moduleId": 230,
           "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\grid\\col.js",
           "module": "./~/.npminstall/antd/2.7.0/antd/lib/grid/col.js",
@@ -5554,6 +5602,24 @@
           "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\rc-menu\\5.0.9\\rc-menu\\lib\\SubMenu.js",
           "module": "./~/.npminstall/rc-menu/5.0.9/rc-menu/lib/SubMenu.js",
           "moduleName": "./~/.npminstall/rc-menu/5.0.9/rc-menu/lib/SubMenu.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/defineProperty",
+          "loc": "7:23-70"
+        },
+        {
+          "moduleId": 488,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\Sider.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/Sider.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/Sider.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/defineProperty",
+          "loc": "12:23-70"
+        },
+        {
+          "moduleId": 490,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\layout.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/layout.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/layout.js",
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/defineProperty",
           "loc": "7:23-70"
@@ -6286,15 +6352,6 @@
           "loc": "1:27-102"
         },
         {
-          "moduleId": 102,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\card\\style\\index.css",
-          "module": "./~/.npminstall/css-loader/0.26.1/css-loader!./~/.npminstall/antd/2.7.0/antd/lib/card/style/index.css",
-          "moduleName": "./~/.npminstall/css-loader/0.26.1/css-loader!./~/.npminstall/antd/2.7.0/antd/lib/card/style/index.css",
-          "type": "cjs require",
-          "userRequest": "./../../../../../../css-loader/0.26.1/css-loader/lib/css-base.js",
-          "loc": "1:27-102"
-        },
-        {
           "moduleId": 103,
           "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\grid\\style\\index.css",
           "module": "./~/.npminstall/css-loader/0.26.1/css-loader!./~/.npminstall/antd/2.7.0/antd/lib/grid/style/index.css",
@@ -6347,6 +6404,15 @@
           "type": "cjs require",
           "userRequest": "./../../node_modules/.npminstall/css-loader/0.26.1/css-loader/lib/css-base.js",
           "loc": "1:27-115"
+        },
+        {
+          "moduleId": 487,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\style\\index.css",
+          "module": "./~/.npminstall/css-loader/0.26.1/css-loader!./~/.npminstall/antd/2.7.0/antd/lib/layout/style/index.css",
+          "moduleName": "./~/.npminstall/css-loader/0.26.1/css-loader!./~/.npminstall/antd/2.7.0/antd/lib/layout/style/index.css",
+          "type": "cjs require",
+          "userRequest": "./../../../../../../css-loader/0.26.1/css-loader/lib/css-base.js",
+          "loc": "1:27-102"
         }
       ],
       "usedExports": true,
@@ -6510,7 +6576,7 @@
           "moduleName": "./common/components/App.js",
           "type": "cjs require",
           "userRequest": "react-redux",
-          "loc": "27:18-40"
+          "loc": "33:18-40"
         },
         {
           "moduleId": 418,
@@ -6708,15 +6774,6 @@
           "loc": "7:13-90"
         },
         {
-          "moduleId": 475,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\style-loader\\0.13.1\\style-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\card\\style\\index.css",
-          "module": "./~/.npminstall/antd/2.7.0/antd/lib/card/style/index.css",
-          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/card/style/index.css",
-          "type": "cjs require",
-          "userRequest": "!./../../../../../../style-loader/0.13.1/style-loader/addStyles.js",
-          "loc": "7:13-90"
-        },
-        {
           "moduleId": 476,
           "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\style-loader\\0.13.1\\style-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\input\\style\\index.css",
           "module": "./~/.npminstall/antd/2.7.0/antd/lib/input/style/index.css",
@@ -6751,6 +6808,15 @@
           "type": "cjs require",
           "userRequest": "!./../../node_modules/.npminstall/style-loader/0.13.1/style-loader/addStyles.js",
           "loc": "7:13-103"
+        },
+        {
+          "moduleId": 492,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\style-loader\\0.13.1\\style-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\style\\index.css",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/style/index.css",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/style/index.css",
+          "type": "cjs require",
+          "userRequest": "!./../../../../../../style-loader/0.13.1/style-loader/addStyles.js",
+          "loc": "7:13-90"
         }
       ],
       "usedExports": true,
@@ -6808,15 +6874,6 @@
           "loc": "3:0-32"
         },
         {
-          "moduleId": 227,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\card\\style\\css.js",
-          "module": "./~/.npminstall/antd/2.7.0/antd/lib/card/style/css.js",
-          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/card/style/css.js",
-          "type": "cjs require",
-          "userRequest": "../../style/index.css",
-          "loc": "3:0-32"
-        },
-        {
           "moduleId": 229,
           "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\col\\style\\css.js",
           "module": "./~/.npminstall/antd/2.7.0/antd/lib/col/style/css.js",
@@ -6848,6 +6905,15 @@
           "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\spin\\style\\css.js",
           "module": "./~/.npminstall/antd/2.7.0/antd/lib/spin/style/css.js",
           "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/spin/style/css.js",
+          "type": "cjs require",
+          "userRequest": "../../style/index.css",
+          "loc": "3:0-32"
+        },
+        {
+          "moduleId": 491,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\style\\css.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/style/css.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/style/css.js",
           "type": "cjs require",
           "userRequest": "../../style/index.css",
           "loc": "3:0-32"
@@ -6942,6 +7008,24 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/classCallCheck",
           "loc": "16:23-70"
+        },
+        {
+          "moduleId": 488,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\Sider.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/Sider.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/Sider.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/classCallCheck",
+          "loc": "16:23-70"
+        },
+        {
+          "moduleId": 490,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\layout.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/layout.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/layout.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/classCallCheck",
+          "loc": "15:23-70"
         }
       ],
       "usedExports": true,
@@ -7033,6 +7117,24 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/inherits",
           "loc": "24:17-58"
+        },
+        {
+          "moduleId": 488,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\Sider.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/Sider.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/Sider.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/inherits",
+          "loc": "24:17-58"
+        },
+        {
+          "moduleId": 490,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\layout.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/layout.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/layout.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/inherits",
+          "loc": "23:17-58"
         }
       ],
       "usedExports": true,
@@ -7124,6 +7226,24 @@
           "type": "cjs require",
           "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
           "loc": "20:34-92"
+        },
+        {
+          "moduleId": 488,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\Sider.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/Sider.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/Sider.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
+          "loc": "20:34-92"
+        },
+        {
+          "moduleId": 490,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\layout.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/layout.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/layout.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/possibleConstructorReturn",
+          "loc": "19:34-92"
         }
       ],
       "usedExports": true,
@@ -7906,7 +8026,7 @@
           "moduleName": "./common/components/App.js",
           "type": "cjs require",
           "userRequest": "../actions/actions",
-          "loc": "31:15-44"
+          "loc": "37:15-44"
         },
         {
           "moduleId": 418,
@@ -8589,7 +8709,7 @@
           "moduleName": "./common/components/App.js",
           "type": "cjs require",
           "userRequest": "isomorphic-fetch",
-          "loc": "37:23-50"
+          "loc": "43:23-50"
         },
         {
           "moduleId": 418,
@@ -8607,7 +8727,7 @@
           "moduleName": "./common/components/Posts.js",
           "type": "cjs require",
           "userRequest": "isomorphic-fetch",
-          "loc": "45:23-50"
+          "loc": "33:23-50"
         },
         {
           "moduleId": 421,
@@ -9656,7 +9776,7 @@
           "moduleName": "./common/components/App.js",
           "type": "cjs require",
           "userRequest": "react-router",
-          "loc": "29:19-42"
+          "loc": "35:19-42"
         },
         {
           "moduleId": 420,
@@ -9665,7 +9785,7 @@
           "moduleName": "./common/components/Posts.js",
           "type": "cjs require",
           "userRequest": "react-router",
-          "loc": "43:19-42"
+          "loc": "31:19-42"
         },
         {
           "moduleId": 423,
@@ -9741,13 +9861,13 @@
           "loc": "23:12-36"
         },
         {
-          "moduleId": 420,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Posts.js",
-          "module": "./common/components/Posts.js",
-          "moduleName": "./common/components/Posts.js",
+          "moduleId": 488,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\Sider.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/Sider.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/Sider.js",
           "type": "cjs require",
-          "userRequest": "antd/lib/icon",
-          "loc": "29:12-36"
+          "userRequest": "../icon",
+          "loc": "40:12-30"
         }
       ],
       "usedExports": true,
@@ -10853,8 +10973,8 @@
       "id": 84,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\button\\index.js",
       "name": "./~/.npminstall/antd/2.7.0/antd/lib/button/index.js",
-      "index": 481,
-      "index2": 479,
+      "index": 482,
+      "index2": 480,
       "size": 503,
       "cacheable": true,
       "built": false,
@@ -10908,8 +11028,8 @@
       "id": 85,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\button\\style\\css.js",
       "name": "./~/.npminstall/antd/2.7.0/antd/lib/button/style/css.js",
-      "index": 478,
-      "index2": 476,
+      "index": 479,
+      "index2": 477,
       "size": 73,
       "cacheable": true,
       "built": false,
@@ -11788,8 +11908,8 @@
       "id": 101,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\button\\style\\index.css",
       "name": "./~/.npminstall/css-loader/0.26.1/css-loader!./~/.npminstall/antd/2.7.0/antd/lib/button/style/index.css",
-      "index": 480,
-      "index2": 474,
+      "index": 481,
+      "index2": 475,
       "size": 23939,
       "cacheable": true,
       "built": false,
@@ -11840,66 +11960,11 @@
       "source": "exports = module.exports = require(\"./../../../../../../css-loader/0.26.1/css-loader/lib/css-base.js\")();\n// imports\n\n\n// module\nexports.push([module.id, \".ant-btn {\\n  display: inline-block;\\n  margin-bottom: 0;\\n  font-weight: 500;\\n  text-align: center;\\n  -ms-touch-action: manipulation;\\n      touch-action: manipulation;\\n  cursor: pointer;\\n  background-image: none;\\n  border: 1px solid transparent;\\n  white-space: nowrap;\\n  line-height: 1.5;\\n  padding: 4px 15px;\\n  font-size: 12px;\\n  border-radius: 4px;\\n  -webkit-user-select: none;\\n     -moz-user-select: none;\\n      -ms-user-select: none;\\n          user-select: none;\\n  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);\\n  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);\\n  position: relative;\\n  color: rgba(0, 0, 0, 0.65);\\n  background-color: #fff;\\n  border-color: #d9d9d9;\\n}\\n.ant-btn > .anticon {\\n  line-height: 1;\\n}\\n.ant-btn,\\n.ant-btn:active,\\n.ant-btn:focus {\\n  outline: 0;\\n}\\n.ant-btn:not([disabled]):hover {\\n  text-decoration: none;\\n}\\n.ant-btn:not([disabled]):active {\\n  outline: 0;\\n  -webkit-transition: none;\\n  transition: none;\\n}\\n.ant-btn.disabled,\\n.ant-btn[disabled] {\\n  cursor: not-allowed;\\n}\\n.ant-btn.disabled > *,\\n.ant-btn[disabled] > * {\\n  pointer-events: none;\\n}\\n.ant-btn-lg {\\n  padding: 4px 15px 5px 15px;\\n  font-size: 14px;\\n  border-radius: 4px;\\n}\\n.ant-btn-sm {\\n  padding: 1px 7px;\\n  font-size: 12px;\\n  border-radius: 2px;\\n}\\n.ant-btn > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn:hover,\\n.ant-btn:focus {\\n  color: #49a9ee;\\n  background-color: #fff;\\n  border-color: #49a9ee;\\n}\\n.ant-btn:hover > a:only-child,\\n.ant-btn:focus > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn:hover > a:only-child:after,\\n.ant-btn:focus > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn:active,\\n.ant-btn.active {\\n  color: #0e77ca;\\n  background-color: #fff;\\n  border-color: #0e77ca;\\n}\\n.ant-btn:active > a:only-child,\\n.ant-btn.active > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn:active > a:only-child:after,\\n.ant-btn.active > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn.disabled,\\n.ant-btn[disabled],\\n.ant-btn.disabled:hover,\\n.ant-btn[disabled]:hover,\\n.ant-btn.disabled:focus,\\n.ant-btn[disabled]:focus,\\n.ant-btn.disabled:active,\\n.ant-btn[disabled]:active,\\n.ant-btn.disabled.active,\\n.ant-btn[disabled].active {\\n  color: rgba(0, 0, 0, 0.25);\\n  background-color: #f7f7f7;\\n  border-color: #d9d9d9;\\n}\\n.ant-btn.disabled > a:only-child,\\n.ant-btn[disabled] > a:only-child,\\n.ant-btn.disabled:hover > a:only-child,\\n.ant-btn[disabled]:hover > a:only-child,\\n.ant-btn.disabled:focus > a:only-child,\\n.ant-btn[disabled]:focus > a:only-child,\\n.ant-btn.disabled:active > a:only-child,\\n.ant-btn[disabled]:active > a:only-child,\\n.ant-btn.disabled.active > a:only-child,\\n.ant-btn[disabled].active > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn.disabled > a:only-child:after,\\n.ant-btn[disabled] > a:only-child:after,\\n.ant-btn.disabled:hover > a:only-child:after,\\n.ant-btn[disabled]:hover > a:only-child:after,\\n.ant-btn.disabled:focus > a:only-child:after,\\n.ant-btn[disabled]:focus > a:only-child:after,\\n.ant-btn.disabled:active > a:only-child:after,\\n.ant-btn[disabled]:active > a:only-child:after,\\n.ant-btn.disabled.active > a:only-child:after,\\n.ant-btn[disabled].active > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn:hover,\\n.ant-btn:focus,\\n.ant-btn:active,\\n.ant-btn.active {\\n  background: #fff;\\n}\\n.ant-btn-primary {\\n  color: #fff;\\n  background-color: #108ee9;\\n  border-color: #108ee9;\\n}\\n.ant-btn-primary > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-primary > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn-primary:hover,\\n.ant-btn-primary:focus {\\n  color: #fff;\\n  background-color: #49a9ee;\\n  border-color: #49a9ee;\\n}\\n.ant-btn-primary:hover > a:only-child,\\n.ant-btn-primary:focus > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-primary:hover > a:only-child:after,\\n.ant-btn-primary:focus > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn-primary:active,\\n.ant-btn-primary.active {\\n  color: #fff;\\n  background-color: #0e77ca;\\n  border-color: #0e77ca;\\n}\\n.ant-btn-primary:active > a:only-child,\\n.ant-btn-primary.active > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-primary:active > a:only-child:after,\\n.ant-btn-primary.active > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn-primary.disabled,\\n.ant-btn-primary[disabled],\\n.ant-btn-primary.disabled:hover,\\n.ant-btn-primary[disabled]:hover,\\n.ant-btn-primary.disabled:focus,\\n.ant-btn-primary[disabled]:focus,\\n.ant-btn-primary.disabled:active,\\n.ant-btn-primary[disabled]:active,\\n.ant-btn-primary.disabled.active,\\n.ant-btn-primary[disabled].active {\\n  color: rgba(0, 0, 0, 0.25);\\n  background-color: #f7f7f7;\\n  border-color: #d9d9d9;\\n}\\n.ant-btn-primary.disabled > a:only-child,\\n.ant-btn-primary[disabled] > a:only-child,\\n.ant-btn-primary.disabled:hover > a:only-child,\\n.ant-btn-primary[disabled]:hover > a:only-child,\\n.ant-btn-primary.disabled:focus > a:only-child,\\n.ant-btn-primary[disabled]:focus > a:only-child,\\n.ant-btn-primary.disabled:active > a:only-child,\\n.ant-btn-primary[disabled]:active > a:only-child,\\n.ant-btn-primary.disabled.active > a:only-child,\\n.ant-btn-primary[disabled].active > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-primary.disabled > a:only-child:after,\\n.ant-btn-primary[disabled] > a:only-child:after,\\n.ant-btn-primary.disabled:hover > a:only-child:after,\\n.ant-btn-primary[disabled]:hover > a:only-child:after,\\n.ant-btn-primary.disabled:focus > a:only-child:after,\\n.ant-btn-primary[disabled]:focus > a:only-child:after,\\n.ant-btn-primary.disabled:active > a:only-child:after,\\n.ant-btn-primary[disabled]:active > a:only-child:after,\\n.ant-btn-primary.disabled.active > a:only-child:after,\\n.ant-btn-primary[disabled].active > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn-group .ant-btn-primary:not(:first-child):not(:last-child) {\\n  border-right-color: #0e77ca;\\n  border-left-color: #0e77ca;\\n}\\n.ant-btn-group .ant-btn-primary:not(:first-child):not(:last-child):disabled {\\n  border-color: #d9d9d9;\\n}\\n.ant-btn-group .ant-btn-primary:first-child:not(:last-child) {\\n  border-right-color: #0e77ca;\\n}\\n.ant-btn-group .ant-btn-primary:first-child:not(:last-child)[disabled] {\\n  border-right-color: #d9d9d9;\\n}\\n.ant-btn-group .ant-btn-primary:last-child:not(:first-child),\\n.ant-btn-group .ant-btn-primary + .ant-btn-primary {\\n  border-left-color: #0e77ca;\\n}\\n.ant-btn-group .ant-btn-primary:last-child:not(:first-child)[disabled],\\n.ant-btn-group .ant-btn-primary + .ant-btn-primary[disabled] {\\n  border-left-color: #d9d9d9;\\n}\\n.ant-btn-ghost {\\n  color: rgba(0, 0, 0, 0.65);\\n  background-color: transparent;\\n  border-color: #d9d9d9;\\n}\\n.ant-btn-ghost > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-ghost > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn-ghost:hover,\\n.ant-btn-ghost:focus {\\n  color: #49a9ee;\\n  background-color: transparent;\\n  border-color: #49a9ee;\\n}\\n.ant-btn-ghost:hover > a:only-child,\\n.ant-btn-ghost:focus > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-ghost:hover > a:only-child:after,\\n.ant-btn-ghost:focus > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn-ghost:active,\\n.ant-btn-ghost.active {\\n  color: #0e77ca;\\n  background-color: transparent;\\n  border-color: #0e77ca;\\n}\\n.ant-btn-ghost:active > a:only-child,\\n.ant-btn-ghost.active > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-ghost:active > a:only-child:after,\\n.ant-btn-ghost.active > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn-ghost.disabled,\\n.ant-btn-ghost[disabled],\\n.ant-btn-ghost.disabled:hover,\\n.ant-btn-ghost[disabled]:hover,\\n.ant-btn-ghost.disabled:focus,\\n.ant-btn-ghost[disabled]:focus,\\n.ant-btn-ghost.disabled:active,\\n.ant-btn-ghost[disabled]:active,\\n.ant-btn-ghost.disabled.active,\\n.ant-btn-ghost[disabled].active {\\n  color: rgba(0, 0, 0, 0.25);\\n  background-color: #f7f7f7;\\n  border-color: #d9d9d9;\\n}\\n.ant-btn-ghost.disabled > a:only-child,\\n.ant-btn-ghost[disabled] > a:only-child,\\n.ant-btn-ghost.disabled:hover > a:only-child,\\n.ant-btn-ghost[disabled]:hover > a:only-child,\\n.ant-btn-ghost.disabled:focus > a:only-child,\\n.ant-btn-ghost[disabled]:focus > a:only-child,\\n.ant-btn-ghost.disabled:active > a:only-child,\\n.ant-btn-ghost[disabled]:active > a:only-child,\\n.ant-btn-ghost.disabled.active > a:only-child,\\n.ant-btn-ghost[disabled].active > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-ghost.disabled > a:only-child:after,\\n.ant-btn-ghost[disabled] > a:only-child:after,\\n.ant-btn-ghost.disabled:hover > a:only-child:after,\\n.ant-btn-ghost[disabled]:hover > a:only-child:after,\\n.ant-btn-ghost.disabled:focus > a:only-child:after,\\n.ant-btn-ghost[disabled]:focus > a:only-child:after,\\n.ant-btn-ghost.disabled:active > a:only-child:after,\\n.ant-btn-ghost[disabled]:active > a:only-child:after,\\n.ant-btn-ghost.disabled.active > a:only-child:after,\\n.ant-btn-ghost[disabled].active > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn-dashed {\\n  color: rgba(0, 0, 0, 0.65);\\n  background-color: #fff;\\n  border-color: #d9d9d9;\\n  border-style: dashed;\\n}\\n.ant-btn-dashed > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-dashed > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn-dashed:hover,\\n.ant-btn-dashed:focus {\\n  color: #49a9ee;\\n  background-color: #fff;\\n  border-color: #49a9ee;\\n}\\n.ant-btn-dashed:hover > a:only-child,\\n.ant-btn-dashed:focus > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-dashed:hover > a:only-child:after,\\n.ant-btn-dashed:focus > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn-dashed:active,\\n.ant-btn-dashed.active {\\n  color: #0e77ca;\\n  background-color: #fff;\\n  border-color: #0e77ca;\\n}\\n.ant-btn-dashed:active > a:only-child,\\n.ant-btn-dashed.active > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-dashed:active > a:only-child:after,\\n.ant-btn-dashed.active > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn-dashed.disabled,\\n.ant-btn-dashed[disabled],\\n.ant-btn-dashed.disabled:hover,\\n.ant-btn-dashed[disabled]:hover,\\n.ant-btn-dashed.disabled:focus,\\n.ant-btn-dashed[disabled]:focus,\\n.ant-btn-dashed.disabled:active,\\n.ant-btn-dashed[disabled]:active,\\n.ant-btn-dashed.disabled.active,\\n.ant-btn-dashed[disabled].active {\\n  color: rgba(0, 0, 0, 0.25);\\n  background-color: #f7f7f7;\\n  border-color: #d9d9d9;\\n}\\n.ant-btn-dashed.disabled > a:only-child,\\n.ant-btn-dashed[disabled] > a:only-child,\\n.ant-btn-dashed.disabled:hover > a:only-child,\\n.ant-btn-dashed[disabled]:hover > a:only-child,\\n.ant-btn-dashed.disabled:focus > a:only-child,\\n.ant-btn-dashed[disabled]:focus > a:only-child,\\n.ant-btn-dashed.disabled:active > a:only-child,\\n.ant-btn-dashed[disabled]:active > a:only-child,\\n.ant-btn-dashed.disabled.active > a:only-child,\\n.ant-btn-dashed[disabled].active > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-dashed.disabled > a:only-child:after,\\n.ant-btn-dashed[disabled] > a:only-child:after,\\n.ant-btn-dashed.disabled:hover > a:only-child:after,\\n.ant-btn-dashed[disabled]:hover > a:only-child:after,\\n.ant-btn-dashed.disabled:focus > a:only-child:after,\\n.ant-btn-dashed[disabled]:focus > a:only-child:after,\\n.ant-btn-dashed.disabled:active > a:only-child:after,\\n.ant-btn-dashed[disabled]:active > a:only-child:after,\\n.ant-btn-dashed.disabled.active > a:only-child:after,\\n.ant-btn-dashed[disabled].active > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn-danger {\\n  color: #fff;\\n  background-color: #F04134;\\n  border-color: #F04134;\\n}\\n.ant-btn-danger > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-danger > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn-danger:hover,\\n.ant-btn-danger:focus {\\n  color: #fff;\\n  background-color: #f46e65;\\n  border-color: #f46e65;\\n}\\n.ant-btn-danger:hover > a:only-child,\\n.ant-btn-danger:focus > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-danger:hover > a:only-child:after,\\n.ant-btn-danger:focus > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn-danger:active,\\n.ant-btn-danger.active {\\n  color: #fff;\\n  background-color: #d73435;\\n  border-color: #d73435;\\n}\\n.ant-btn-danger:active > a:only-child,\\n.ant-btn-danger.active > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-danger:active > a:only-child:after,\\n.ant-btn-danger.active > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn-danger.disabled,\\n.ant-btn-danger[disabled],\\n.ant-btn-danger.disabled:hover,\\n.ant-btn-danger[disabled]:hover,\\n.ant-btn-danger.disabled:focus,\\n.ant-btn-danger[disabled]:focus,\\n.ant-btn-danger.disabled:active,\\n.ant-btn-danger[disabled]:active,\\n.ant-btn-danger.disabled.active,\\n.ant-btn-danger[disabled].active {\\n  color: rgba(0, 0, 0, 0.25);\\n  background-color: #f7f7f7;\\n  border-color: #d9d9d9;\\n}\\n.ant-btn-danger.disabled > a:only-child,\\n.ant-btn-danger[disabled] > a:only-child,\\n.ant-btn-danger.disabled:hover > a:only-child,\\n.ant-btn-danger[disabled]:hover > a:only-child,\\n.ant-btn-danger.disabled:focus > a:only-child,\\n.ant-btn-danger[disabled]:focus > a:only-child,\\n.ant-btn-danger.disabled:active > a:only-child,\\n.ant-btn-danger[disabled]:active > a:only-child,\\n.ant-btn-danger.disabled.active > a:only-child,\\n.ant-btn-danger[disabled].active > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-danger.disabled > a:only-child:after,\\n.ant-btn-danger[disabled] > a:only-child:after,\\n.ant-btn-danger.disabled:hover > a:only-child:after,\\n.ant-btn-danger[disabled]:hover > a:only-child:after,\\n.ant-btn-danger.disabled:focus > a:only-child:after,\\n.ant-btn-danger[disabled]:focus > a:only-child:after,\\n.ant-btn-danger.disabled:active > a:only-child:after,\\n.ant-btn-danger[disabled]:active > a:only-child:after,\\n.ant-btn-danger.disabled.active > a:only-child:after,\\n.ant-btn-danger[disabled].active > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn-circle,\\n.ant-btn-circle-outline {\\n  width: 28px;\\n  height: 28px;\\n  padding: 0;\\n  font-size: 14px;\\n  border-radius: 50%;\\n}\\n.ant-btn-circle.ant-btn-lg,\\n.ant-btn-circle-outline.ant-btn-lg {\\n  width: 32px;\\n  height: 32px;\\n  padding: 0;\\n  font-size: 16px;\\n  border-radius: 50%;\\n}\\n.ant-btn-circle.ant-btn-sm,\\n.ant-btn-circle-outline.ant-btn-sm {\\n  width: 22px;\\n  height: 22px;\\n  padding: 0;\\n  font-size: 12px;\\n  border-radius: 50%;\\n}\\n.ant-btn:before {\\n  position: absolute;\\n  top: -1px;\\n  left: -1px;\\n  bottom: -1px;\\n  right: -1px;\\n  background: #fff;\\n  opacity: 0.35;\\n  content: '';\\n  border-radius: inherit;\\n  z-index: 1;\\n  -webkit-transition: opacity .2s;\\n  transition: opacity .2s;\\n  pointer-events: none;\\n  display: none;\\n}\\n.ant-btn.ant-btn-loading {\\n  padding-left: 29px;\\n  pointer-events: none;\\n  position: relative;\\n}\\n.ant-btn.ant-btn-loading .anticon {\\n  margin-left: -14px;\\n  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);\\n  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);\\n}\\n.ant-btn.ant-btn-loading:before {\\n  display: block;\\n}\\n.ant-btn-sm.ant-btn-loading {\\n  padding-left: 24px;\\n}\\n.ant-btn-sm.ant-btn-loading .anticon {\\n  margin-left: -17px;\\n}\\n.ant-btn-group {\\n  position: relative;\\n  display: inline-block;\\n}\\n.ant-btn-group > .ant-btn {\\n  position: relative;\\n  z-index: 1;\\n}\\n.ant-btn-group > .ant-btn:hover,\\n.ant-btn-group > .ant-btn:focus,\\n.ant-btn-group > .ant-btn:active,\\n.ant-btn-group > .ant-btn.active {\\n  z-index: 2;\\n}\\n.ant-btn-group > .ant-btn:disabled {\\n  z-index: 0;\\n}\\n.ant-btn-group-lg > .ant-btn {\\n  padding: 4px 15px 5px 15px;\\n  font-size: 14px;\\n  border-radius: 4px;\\n}\\n.ant-btn-group-sm > .ant-btn {\\n  padding: 1px 7px;\\n  font-size: 12px;\\n  border-radius: 2px;\\n}\\n.ant-btn-group-sm > .ant-btn > .anticon {\\n  font-size: 12px;\\n}\\n.ant-btn-group .ant-btn + .ant-btn,\\n.ant-btn + .ant-btn-group,\\n.ant-btn-group + .ant-btn,\\n.ant-btn-group + .ant-btn-group {\\n  margin-left: -1px;\\n}\\n.ant-btn-group .ant-btn:not(:first-child):not(:last-child) {\\n  border-radius: 0;\\n  padding-left: 8px;\\n  padding-right: 8px;\\n}\\n.ant-btn-group > .ant-btn:first-child {\\n  margin-left: 0;\\n}\\n.ant-btn-group > .ant-btn:first-child:not(:last-child) {\\n  border-bottom-right-radius: 0;\\n  border-top-right-radius: 0;\\n  padding-right: 8px;\\n}\\n.ant-btn-group > .ant-btn:last-child:not(:first-child) {\\n  border-bottom-left-radius: 0;\\n  border-top-left-radius: 0;\\n  padding-left: 8px;\\n}\\n.ant-btn-group > .ant-btn-group {\\n  float: left;\\n}\\n.ant-btn-group > .ant-btn-group:not(:first-child):not(:last-child) > .ant-btn {\\n  border-radius: 0;\\n}\\n.ant-btn-group > .ant-btn-group:first-child:not(:last-child) > .ant-btn:last-child {\\n  border-bottom-right-radius: 0;\\n  border-top-right-radius: 0;\\n  padding-right: 8px;\\n}\\n.ant-btn-group > .ant-btn-group:last-child:not(:first-child) > .ant-btn:first-child {\\n  border-bottom-left-radius: 0;\\n  border-top-left-radius: 0;\\n  padding-left: 8px;\\n}\\n.ant-btn:not(.ant-btn-circle):not(.ant-btn-circle-outline).ant-btn-icon-only {\\n  padding-left: 8px;\\n  padding-right: 8px;\\n}\\n.ant-btn > .anticon + span,\\n.ant-btn > span + .anticon {\\n  margin-left: 0.5em;\\n}\\n.ant-btn-clicked:after {\\n  content: '';\\n  position: absolute;\\n  top: -1px;\\n  left: -1px;\\n  bottom: -1px;\\n  right: -1px;\\n  border-radius: inherit;\\n  border: 0 solid #108ee9;\\n  opacity: 0.4;\\n  -webkit-animation: buttonEffect 0.36s ease-out forwards;\\n          animation: buttonEffect 0.36s ease-out forwards;\\n  display: block;\\n}\\n.ant-btn-background-ghost {\\n  background: transparent!important;\\n  border-color: #fff;\\n  color: #fff;\\n}\\n.ant-btn-background-ghost.ant-btn-primary {\\n  color: #108ee9;\\n  background-color: transparent;\\n  border-color: #108ee9;\\n}\\n.ant-btn-background-ghost.ant-btn-primary > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-background-ghost.ant-btn-primary > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn-background-ghost.ant-btn-primary:hover,\\n.ant-btn-background-ghost.ant-btn-primary:focus {\\n  color: #49a9ee;\\n  background-color: transparent;\\n  border-color: #49a9ee;\\n}\\n.ant-btn-background-ghost.ant-btn-primary:hover > a:only-child,\\n.ant-btn-background-ghost.ant-btn-primary:focus > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-background-ghost.ant-btn-primary:hover > a:only-child:after,\\n.ant-btn-background-ghost.ant-btn-primary:focus > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn-background-ghost.ant-btn-primary:active,\\n.ant-btn-background-ghost.ant-btn-primary.active {\\n  color: #0e77ca;\\n  background-color: transparent;\\n  border-color: #0e77ca;\\n}\\n.ant-btn-background-ghost.ant-btn-primary:active > a:only-child,\\n.ant-btn-background-ghost.ant-btn-primary.active > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-background-ghost.ant-btn-primary:active > a:only-child:after,\\n.ant-btn-background-ghost.ant-btn-primary.active > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n.ant-btn-background-ghost.ant-btn-primary.disabled,\\n.ant-btn-background-ghost.ant-btn-primary[disabled],\\n.ant-btn-background-ghost.ant-btn-primary.disabled:hover,\\n.ant-btn-background-ghost.ant-btn-primary[disabled]:hover,\\n.ant-btn-background-ghost.ant-btn-primary.disabled:focus,\\n.ant-btn-background-ghost.ant-btn-primary[disabled]:focus,\\n.ant-btn-background-ghost.ant-btn-primary.disabled:active,\\n.ant-btn-background-ghost.ant-btn-primary[disabled]:active,\\n.ant-btn-background-ghost.ant-btn-primary.disabled.active,\\n.ant-btn-background-ghost.ant-btn-primary[disabled].active {\\n  color: rgba(0, 0, 0, 0.25);\\n  background-color: #f7f7f7;\\n  border-color: #d9d9d9;\\n}\\n.ant-btn-background-ghost.ant-btn-primary.disabled > a:only-child,\\n.ant-btn-background-ghost.ant-btn-primary[disabled] > a:only-child,\\n.ant-btn-background-ghost.ant-btn-primary.disabled:hover > a:only-child,\\n.ant-btn-background-ghost.ant-btn-primary[disabled]:hover > a:only-child,\\n.ant-btn-background-ghost.ant-btn-primary.disabled:focus > a:only-child,\\n.ant-btn-background-ghost.ant-btn-primary[disabled]:focus > a:only-child,\\n.ant-btn-background-ghost.ant-btn-primary.disabled:active > a:only-child,\\n.ant-btn-background-ghost.ant-btn-primary[disabled]:active > a:only-child,\\n.ant-btn-background-ghost.ant-btn-primary.disabled.active > a:only-child,\\n.ant-btn-background-ghost.ant-btn-primary[disabled].active > a:only-child {\\n  color: currentColor;\\n}\\n.ant-btn-background-ghost.ant-btn-primary.disabled > a:only-child:after,\\n.ant-btn-background-ghost.ant-btn-primary[disabled] > a:only-child:after,\\n.ant-btn-background-ghost.ant-btn-primary.disabled:hover > a:only-child:after,\\n.ant-btn-background-ghost.ant-btn-primary[disabled]:hover > a:only-child:after,\\n.ant-btn-background-ghost.ant-btn-primary.disabled:focus > a:only-child:after,\\n.ant-btn-background-ghost.ant-btn-primary[disabled]:focus > a:only-child:after,\\n.ant-btn-background-ghost.ant-btn-primary.disabled:active > a:only-child:after,\\n.ant-btn-background-ghost.ant-btn-primary[disabled]:active > a:only-child:after,\\n.ant-btn-background-ghost.ant-btn-primary.disabled.active > a:only-child:after,\\n.ant-btn-background-ghost.ant-btn-primary[disabled].active > a:only-child:after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  background: transparent;\\n}\\n@-webkit-keyframes buttonEffect {\\n  to {\\n    opacity: 0;\\n    top: -6px;\\n    left: -6px;\\n    bottom: -6px;\\n    right: -6px;\\n    border-width: 6px;\\n  }\\n}\\n@keyframes buttonEffect {\\n  to {\\n    opacity: 0;\\n    top: -6px;\\n    left: -6px;\\n    bottom: -6px;\\n    right: -6px;\\n    border-width: 6px;\\n  }\\n}\\n\", \"\"]);\n\n// exports\n"
     },
     {
-      "id": 102,
-      "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\card\\style\\index.css",
-      "name": "./~/.npminstall/css-loader/0.26.1/css-loader!./~/.npminstall/antd/2.7.0/antd/lib/card/style/index.css",
-      "index": 471,
-      "index2": 463,
-      "size": 1852,
-      "cacheable": true,
-      "built": false,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        0
-      ],
-      "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\style-loader\\0.13.1\\style-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\card\\style\\index.css",
-      "issuerId": 475,
-      "issuerName": "./~/.npminstall/antd/2.7.0/antd/lib/card/style/index.css",
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "reasons": [
-        {
-          "moduleId": 475,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\style-loader\\0.13.1\\style-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\card\\style\\index.css",
-          "module": "./~/.npminstall/antd/2.7.0/antd/lib/card/style/index.css",
-          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/card/style/index.css",
-          "type": "cjs require",
-          "userRequest": "!!./../../../../../../css-loader/0.26.1/css-loader/index.js!./index.css",
-          "loc": "4:14-96"
-        },
-        {
-          "moduleId": 475,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\style-loader\\0.13.1\\style-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\card\\style\\index.css",
-          "module": "./~/.npminstall/antd/2.7.0/antd/lib/card/style/index.css",
-          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/card/style/index.css",
-          "type": "module.hot.accept",
-          "userRequest": "!!./../../../../../../css-loader/0.26.1/css-loader/index.js!./index.css",
-          "loc": "13:2-17:4"
-        },
-        {
-          "moduleId": 475,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\style-loader\\0.13.1\\style-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\card\\style\\index.css",
-          "module": "./~/.npminstall/antd/2.7.0/antd/lib/card/style/index.css",
-          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/card/style/index.css",
-          "type": "cjs require",
-          "userRequest": "!!./../../../../../../css-loader/0.26.1/css-loader/index.js!./index.css",
-          "loc": "14:20-102"
-        }
-      ],
-      "usedExports": true,
-      "providedExports": null,
-      "depth": 7,
-      "source": "exports = module.exports = require(\"./../../../../../../css-loader/0.26.1/css-loader/lib/css-base.js\")();\n// imports\n\n\n// module\nexports.push([module.id, \".ant-card {\\n  background: #fff;\\n  border-radius: 2px;\\n  font-size: 12px;\\n  position: relative;\\n  overflow: hidden;\\n  -webkit-transition: all .3s;\\n  transition: all .3s;\\n}\\n.ant-card:hover {\\n  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);\\n  border-color: transparent;\\n  z-index: 1;\\n}\\n.ant-card-bordered {\\n  border: 1px solid #e9e9e9;\\n}\\n.ant-card-head {\\n  height: 48px;\\n  line-height: 48px;\\n  border-bottom: 1px solid #e9e9e9;\\n  padding: 0 24px;\\n}\\n.ant-card-head-title {\\n  font-size: 14px;\\n  display: inline-block;\\n  text-overflow: ellipsis;\\n  width: 100%;\\n  overflow: hidden;\\n  white-space: nowrap;\\n}\\n.ant-card-extra {\\n  position: absolute;\\n  right: 24px;\\n  top: 14px;\\n}\\n.ant-card-body {\\n  padding: 24px;\\n}\\n.ant-card-loading .ant-card-body {\\n  -webkit-user-select: none;\\n     -moz-user-select: none;\\n      -ms-user-select: none;\\n          user-select: none;\\n}\\n.ant-card-loading-block {\\n  display: inline-block;\\n  margin: 5px 1% 0;\\n  height: 14px;\\n  border-radius: 2px;\\n  background: -webkit-linear-gradient(left, rgba(207, 216, 220, 0.2), rgba(207, 216, 220, 0.4), rgba(207, 216, 220, 0.2));\\n  background: linear-gradient(90deg, rgba(207, 216, 220, 0.2), rgba(207, 216, 220, 0.4), rgba(207, 216, 220, 0.2));\\n  -webkit-animation: card-loading 1.4s ease infinite;\\n          animation: card-loading 1.4s ease infinite;\\n  background-size: 600% 600%;\\n}\\n@-webkit-keyframes card-loading {\\n  0%,\\n  100% {\\n    background-position: 0 50%;\\n  }\\n  50% {\\n    background-position: 100% 50%;\\n  }\\n}\\n@keyframes card-loading {\\n  0%,\\n  100% {\\n    background-position: 0 50%;\\n  }\\n  50% {\\n    background-position: 100% 50%;\\n  }\\n}\\n\", \"\"]);\n\n// exports\n"
-    },
-    {
       "id": 103,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\grid\\style\\index.css",
       "name": "./~/.npminstall/css-loader/0.26.1/css-loader!./~/.npminstall/antd/2.7.0/antd/lib/grid/style/index.css",
-      "index": 462,
-      "index2": 454,
+      "index": 468,
+      "index2": 460,
       "size": 48339,
       "cacheable": true,
       "built": false,
@@ -12063,8 +12128,8 @@
       "id": 106,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\spin\\style\\index.css",
       "name": "./~/.npminstall/css-loader/0.26.1/css-loader!./~/.npminstall/antd/2.7.0/antd/lib/spin/style/index.css",
-      "index": 455,
-      "index2": 448,
+      "index": 461,
+      "index2": 454,
       "size": 4775,
       "cacheable": true,
       "built": false,
@@ -12173,9 +12238,9 @@
       "id": 108,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\sass-loader\\4.1.1\\sass-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\assets\\styles\\app.scss",
       "name": "./~/.npminstall/css-loader/0.26.1/css-loader!./~/.npminstall/sass-loader/4.1.1/sass-loader!./assets/styles/app.scss",
-      "index": 476,
-      "index2": 471,
-      "size": 258,
+      "index": 477,
+      "index2": 472,
+      "size": 307,
       "cacheable": true,
       "built": false,
       "optional": false,
@@ -12222,7 +12287,7 @@
       "usedExports": true,
       "providedExports": null,
       "depth": 5,
-      "source": "exports = module.exports = require(\"./../../node_modules/.npminstall/css-loader/0.26.1/css-loader/lib/css-base.js\")();\n// imports\n\n\n// module\nexports.push([module.id, \"html, body {\\n  height: 100%;\\n  width: 100%;\\n  font-size: 14px; }\\n\", \"\"]);\n\n// exports\n"
+      "source": "exports = module.exports = require(\"./../../node_modules/.npminstall/css-loader/0.26.1/css-loader/lib/css-base.js\")();\n// imports\n\n\n// module\nexports.push([module.id, \"html, body {\\n  height: 100%;\\n  width: 100%;\\n  font-size: 14px; }\\n\\n.postItem:hover {\\n  background-color: red; }\\n\", \"\"]);\n\n// exports\n"
     },
     {
       "id": 109,
@@ -12551,6 +12616,15 @@
           "type": "cjs require",
           "userRequest": "omit.js",
           "loc": "46:12-30"
+        },
+        {
+          "moduleId": 488,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\Sider.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/Sider.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/Sider.js",
+          "type": "cjs require",
+          "userRequest": "omit.js",
+          "loc": "36:12-30"
         }
       ],
       "usedExports": true,
@@ -13886,8 +13960,8 @@
       "id": 139,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\grid\\index.js",
       "name": "./~/.npminstall/antd/2.7.0/antd/lib/grid/index.js",
-      "index": 464,
-      "index2": 459,
+      "index": 470,
+      "index2": 465,
       "size": 428,
       "cacheable": true,
       "built": false,
@@ -13932,8 +14006,8 @@
       "id": 140,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\icon\\style\\css.js",
       "name": "./~/.npminstall/antd/2.7.0/antd/lib/icon/style/css.js",
-      "index": 473,
-      "index2": 467,
+      "index": 487,
+      "index2": 483,
       "size": 48,
       "cacheable": true,
       "built": false,
@@ -13958,15 +14032,6 @@
           "type": "cjs require",
           "userRequest": "antd/lib/icon/style/css",
           "loc": "21:12-46"
-        },
-        {
-          "moduleId": 420,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Posts.js",
-          "module": "./common/components/Posts.js",
-          "moduleName": "./common/components/Posts.js",
-          "type": "cjs require",
-          "userRequest": "antd/lib/icon/style/css",
-          "loc": "27:12-46"
         }
       ],
       "usedExports": true,
@@ -16190,8 +16255,8 @@
       "id": 189,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Item.js",
       "name": "./common/components/Item.js",
-      "index": 474,
-      "index2": 468,
+      "index": 475,
+      "index2": 469,
       "size": 4357,
       "cacheable": true,
       "built": false,
@@ -16215,7 +16280,7 @@
           "moduleName": "./common/components/Posts.js",
           "type": "cjs require",
           "userRequest": "./Item",
-          "loc": "39:12-29"
+          "loc": "27:12-29"
         },
         {
           "moduleId": 425,
@@ -16236,8 +16301,8 @@
       "id": 190,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\List.js",
       "name": "./common/components/List.js",
-      "index": 452,
-      "index2": 470,
+      "index": 458,
+      "index2": 471,
       "size": 8004,
       "cacheable": true,
       "built": false,
@@ -16261,7 +16326,7 @@
           "moduleName": "./common/components/App.js",
           "type": "cjs require",
           "userRequest": "./List",
-          "loc": "33:12-29"
+          "loc": "39:12-29"
         },
         {
           "moduleId": 425,
@@ -17239,8 +17304,8 @@
       "id": 211,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\style-loader\\0.13.1\\style-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\grid\\style\\index.css",
       "name": "./~/.npminstall/antd/2.7.0/antd/lib/grid/style/index.css",
-      "index": 461,
-      "index2": 455,
+      "index": 467,
+      "index2": 461,
       "size": 989,
       "cacheable": true,
       "built": false,
@@ -17250,9 +17315,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\col\\style\\css.js",
-      "issuerId": 229,
-      "issuerName": "./~/.npminstall/antd/2.7.0/antd/lib/col/style/css.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\row\\style\\css.js",
+      "issuerId": 238,
+      "issuerName": "./~/.npminstall/antd/2.7.0/antd/lib/row/style/css.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -17378,7 +17443,7 @@
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\client\\index.js",
       "name": "./client/index.js",
       "index": 15,
-      "index2": 485,
+      "index2": 487,
       "size": 2510,
       "cacheable": true,
       "built": false,
@@ -17636,8 +17701,8 @@
       "id": 221,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\_util\\isCssAnimationSupported.js",
       "name": "./~/.npminstall/antd/2.7.0/antd/lib/_util/isCssAnimationSupported.js",
-      "index": 457,
-      "index2": 451,
+      "index": 463,
+      "index2": 457,
       "size": 790,
       "cacheable": true,
       "built": false,
@@ -17747,8 +17812,8 @@
       "id": 224,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\button\\button-group.js",
       "name": "./~/.npminstall/antd/2.7.0/antd/lib/button/button-group.js",
-      "index": 483,
-      "index2": 478,
+      "index": 484,
+      "index2": 479,
       "size": 1835,
       "cacheable": true,
       "built": false,
@@ -17784,8 +17849,8 @@
       "id": 225,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\button\\button.js",
       "name": "./~/.npminstall/antd/2.7.0/antd/lib/button/button.js",
-      "index": 482,
-      "index2": 477,
+      "index": 483,
+      "index2": 478,
       "size": 6568,
       "cacheable": true,
       "built": false,
@@ -17818,85 +17883,11 @@
       "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nexports[\"default\"] = undefined;\n\nvar _extends2 = require('babel-runtime/helpers/extends');\n\nvar _extends3 = _interopRequireDefault(_extends2);\n\nvar _defineProperty2 = require('babel-runtime/helpers/defineProperty');\n\nvar _defineProperty3 = _interopRequireDefault(_defineProperty2);\n\nvar _classCallCheck2 = require('babel-runtime/helpers/classCallCheck');\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _possibleConstructorReturn2 = require('babel-runtime/helpers/possibleConstructorReturn');\n\nvar _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);\n\nvar _inherits2 = require('babel-runtime/helpers/inherits');\n\nvar _inherits3 = _interopRequireDefault(_inherits2);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _classnames = require('classnames');\n\nvar _classnames2 = _interopRequireDefault(_classnames);\n\nvar _reactDom = require('react-dom');\n\nvar _icon = require('../icon');\n\nvar _icon2 = _interopRequireDefault(_icon);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\nvar __rest = undefined && undefined.__rest || function (s, e) {\n    var t = {};\n    for (var p in s) {\n        if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];\n    }if (s != null && typeof Object.getOwnPropertySymbols === \"function\") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {\n        if (e.indexOf(p[i]) < 0) t[p[i]] = s[p[i]];\n    }return t;\n};\n\nvar rxTwoCNChar = /^[\\u4e00-\\u9fa5]{2}$/;\nvar isTwoCNChar = rxTwoCNChar.test.bind(rxTwoCNChar);\nfunction isString(str) {\n    return typeof str === 'string';\n}\n// Insert one space between two chinese characters automatically.\nfunction insertSpace(child) {\n    if (isString(child.type) && isTwoCNChar(child.props.children)) {\n        return _react2[\"default\"].cloneElement(child, {}, child.props.children.split('').join(' '));\n    }\n    if (isString(child)) {\n        if (isTwoCNChar(child)) {\n            child = child.split('').join(' ');\n        }\n        return _react2[\"default\"].createElement(\n            'span',\n            null,\n            child\n        );\n    }\n    return child;\n}\n\nvar Button = function (_React$Component) {\n    (0, _inherits3[\"default\"])(Button, _React$Component);\n\n    function Button() {\n        (0, _classCallCheck3[\"default\"])(this, Button);\n\n        var _this = (0, _possibleConstructorReturn3[\"default\"])(this, _React$Component.apply(this, arguments));\n\n        _this.clearButton = function (button) {\n            button.className = button.className.replace(' ' + _this.props.prefixCls + '-clicked', '');\n        };\n        _this.handleClick = function (e) {\n            // Add click effect\n            var buttonNode = (0, _reactDom.findDOMNode)(_this);\n            _this.clearButton(buttonNode);\n            _this.clickedTimeout = setTimeout(function () {\n                return buttonNode.className += ' ' + _this.props.prefixCls + '-clicked';\n            }, 10);\n            clearTimeout(_this.timeout);\n            _this.timeout = setTimeout(function () {\n                return _this.clearButton(buttonNode);\n            }, 500);\n            var onClick = _this.props.onClick;\n            if (onClick) {\n                onClick(e);\n            }\n        };\n        // Handle auto focus when click button in Chrome\n        _this.handleMouseUp = function (e) {\n            (0, _reactDom.findDOMNode)(_this).blur();\n            if (_this.props.onMouseUp) {\n                _this.props.onMouseUp(e);\n            }\n        };\n        return _this;\n    }\n\n    Button.prototype.componentWillUnmount = function componentWillUnmount() {\n        if (this.clickedTimeout) {\n            clearTimeout(this.clickedTimeout);\n        }\n        if (this.timeout) {\n            clearTimeout(this.timeout);\n        }\n    };\n\n    Button.prototype.render = function render() {\n        var _classNames;\n\n        var _a = this.props,\n            type = _a.type,\n            shape = _a.shape,\n            _a$size = _a.size,\n            size = _a$size === undefined ? '' : _a$size,\n            className = _a.className,\n            htmlType = _a.htmlType,\n            children = _a.children,\n            icon = _a.icon,\n            loading = _a.loading,\n            prefixCls = _a.prefixCls,\n            ghost = _a.ghost,\n            others = __rest(_a, [\"type\", \"shape\", \"size\", \"className\", \"htmlType\", \"children\", \"icon\", \"loading\", \"prefixCls\", \"ghost\"]);\n        // large => lg\n        // small => sm\n        var sizeCls = {\n            large: 'lg',\n            small: 'sm'\n        }[size] || '';\n        var classes = (0, _classnames2[\"default\"])(prefixCls, (_classNames = {}, (0, _defineProperty3[\"default\"])(_classNames, prefixCls + '-' + type, type), (0, _defineProperty3[\"default\"])(_classNames, prefixCls + '-' + shape, shape), (0, _defineProperty3[\"default\"])(_classNames, prefixCls + '-' + sizeCls, sizeCls), (0, _defineProperty3[\"default\"])(_classNames, prefixCls + '-icon-only', !children && icon), (0, _defineProperty3[\"default\"])(_classNames, prefixCls + '-loading', loading), (0, _defineProperty3[\"default\"])(_classNames, prefixCls + '-background-ghost', ghost), _classNames), className);\n        var iconType = loading ? 'loading' : icon;\n        var iconNode = iconType ? _react2[\"default\"].createElement(_icon2[\"default\"], { type: iconType }) : null;\n        var kids = _react2[\"default\"].Children.map(children, insertSpace);\n        return _react2[\"default\"].createElement(\n            'button',\n            (0, _extends3[\"default\"])({}, others, { type: htmlType || 'button', className: classes, onMouseUp: this.handleMouseUp, onClick: this.handleClick }),\n            iconNode,\n            kids\n        );\n    };\n\n    return Button;\n}(_react2[\"default\"].Component);\n\nexports[\"default\"] = Button;\n\nButton.defaultProps = {\n    prefixCls: 'ant-btn',\n    loading: false,\n    ghost: false\n};\nButton.propTypes = {\n    type: _react2[\"default\"].PropTypes.string,\n    shape: _react2[\"default\"].PropTypes.oneOf(['circle', 'circle-outline']),\n    size: _react2[\"default\"].PropTypes.oneOf(['large', 'default', 'small']),\n    htmlType: _react2[\"default\"].PropTypes.oneOf(['submit', 'button', 'reset']),\n    onClick: _react2[\"default\"].PropTypes.func,\n    loading: _react2[\"default\"].PropTypes.bool,\n    className: _react2[\"default\"].PropTypes.string,\n    icon: _react2[\"default\"].PropTypes.string\n};\nmodule.exports = exports['default'];"
     },
     {
-      "id": 226,
-      "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\card\\index.js",
-      "name": "./~/.npminstall/antd/2.7.0/antd/lib/card/index.js",
-      "index": 472,
-      "index2": 466,
-      "size": 4458,
-      "cacheable": true,
-      "built": false,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        0
-      ],
-      "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Posts.js",
-      "issuerId": 420,
-      "issuerName": "./common/components/Posts.js",
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "reasons": [
-        {
-          "moduleId": 420,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Posts.js",
-          "module": "./common/components/Posts.js",
-          "moduleName": "./common/components/Posts.js",
-          "type": "cjs require",
-          "userRequest": "antd/lib/card",
-          "loc": "23:12-36"
-        }
-      ],
-      "usedExports": true,
-      "providedExports": null,
-      "depth": 5,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _extends2 = require('babel-runtime/helpers/extends');\n\nvar _extends3 = _interopRequireDefault(_extends2);\n\nvar _defineProperty2 = require('babel-runtime/helpers/defineProperty');\n\nvar _defineProperty3 = _interopRequireDefault(_defineProperty2);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _classnames = require('classnames');\n\nvar _classnames2 = _interopRequireDefault(_classnames);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\nvar __rest = undefined && undefined.__rest || function (s, e) {\n  var t = {};\n  for (var p in s) {\n    if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];\n  }if (s != null && typeof Object.getOwnPropertySymbols === \"function\") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {\n    if (e.indexOf(p[i]) < 0) t[p[i]] = s[p[i]];\n  }return t;\n};\n\nexports[\"default\"] = function (props) {\n  var _classNames;\n\n  var _props$prefixCls = props.prefixCls,\n      prefixCls = _props$prefixCls === undefined ? 'ant-card' : _props$prefixCls,\n      className = props.className,\n      extra = props.extra,\n      bodyStyle = props.bodyStyle,\n      title = props.title,\n      loading = props.loading,\n      _props$bordered = props.bordered,\n      bordered = _props$bordered === undefined ? true : _props$bordered,\n      others = __rest(props, [\"prefixCls\", \"className\", \"extra\", \"bodyStyle\", \"title\", \"loading\", \"bordered\"]);\n\n  var children = props.children;\n  var classString = (0, _classnames2[\"default\"])(prefixCls, className, (_classNames = {}, (0, _defineProperty3[\"default\"])(_classNames, prefixCls + '-loading', loading), (0, _defineProperty3[\"default\"])(_classNames, prefixCls + '-bordered', bordered), _classNames));\n  if (loading) {\n    children = _react2[\"default\"].createElement(\n      'div',\n      null,\n      _react2[\"default\"].createElement('p', { className: prefixCls + '-loading-block', style: { width: '94%' } }),\n      _react2[\"default\"].createElement(\n        'p',\n        null,\n        _react2[\"default\"].createElement('span', { className: prefixCls + '-loading-block', style: { width: '28%' } }),\n        _react2[\"default\"].createElement('span', { className: prefixCls + '-loading-block', style: { width: '62%' } })\n      ),\n      _react2[\"default\"].createElement(\n        'p',\n        null,\n        _react2[\"default\"].createElement('span', { className: prefixCls + '-loading-block', style: { width: '22%' } }),\n        _react2[\"default\"].createElement('span', { className: prefixCls + '-loading-block', style: { width: '66%' } })\n      ),\n      _react2[\"default\"].createElement(\n        'p',\n        null,\n        _react2[\"default\"].createElement('span', { className: prefixCls + '-loading-block', style: { width: '56%' } }),\n        _react2[\"default\"].createElement('span', { className: prefixCls + '-loading-block', style: { width: '39%' } })\n      ),\n      _react2[\"default\"].createElement(\n        'p',\n        null,\n        _react2[\"default\"].createElement('span', { className: prefixCls + '-loading-block', style: { width: '21%' } }),\n        _react2[\"default\"].createElement('span', { className: prefixCls + '-loading-block', style: { width: '15%' } }),\n        _react2[\"default\"].createElement('span', { className: prefixCls + '-loading-block', style: { width: '40%' } })\n      )\n    );\n  }\n  var head = void 0;\n  if (!title) {\n    head = null;\n  } else {\n    head = typeof title === 'string' ? _react2[\"default\"].createElement(\n      'div',\n      { className: prefixCls + '-head' },\n      _react2[\"default\"].createElement(\n        'h3',\n        { className: prefixCls + '-head-title' },\n        title\n      )\n    ) : _react2[\"default\"].createElement(\n      'div',\n      { className: prefixCls + '-head' },\n      _react2[\"default\"].createElement(\n        'div',\n        { className: prefixCls + '-head-title' },\n        title\n      )\n    );\n  }\n  return _react2[\"default\"].createElement(\n    'div',\n    (0, _extends3[\"default\"])({}, others, { className: classString }),\n    head,\n    extra ? _react2[\"default\"].createElement(\n      'div',\n      { className: prefixCls + '-extra' },\n      extra\n    ) : null,\n    _react2[\"default\"].createElement(\n      'div',\n      { className: prefixCls + '-body', style: bodyStyle },\n      children\n    )\n  );\n};\n\nmodule.exports = exports['default'];"
-    },
-    {
-      "id": 227,
-      "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\card\\style\\css.js",
-      "name": "./~/.npminstall/antd/2.7.0/antd/lib/card/style/css.js",
-      "index": 469,
-      "index2": 465,
-      "size": 73,
-      "cacheable": true,
-      "built": false,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        0
-      ],
-      "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Posts.js",
-      "issuerId": 420,
-      "issuerName": "./common/components/Posts.js",
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "reasons": [
-        {
-          "moduleId": 420,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Posts.js",
-          "module": "./common/components/Posts.js",
-          "moduleName": "./common/components/Posts.js",
-          "type": "cjs require",
-          "userRequest": "antd/lib/card/style/css",
-          "loc": "21:12-46"
-        }
-      ],
-      "usedExports": true,
-      "providedExports": null,
-      "depth": 5,
-      "source": "'use strict';\n\nrequire('../../style/index.css');\n\nrequire('./index.css');"
-    },
-    {
       "id": 228,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\col\\index.js",
       "name": "./~/.npminstall/antd/2.7.0/antd/lib/col/index.js",
-      "index": 468,
-      "index2": 462,
+      "index": 474,
+      "index2": 468,
       "size": 182,
       "cacheable": true,
       "built": false,
@@ -17932,8 +17923,8 @@
       "id": 229,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\col\\style\\css.js",
       "name": "./~/.npminstall/antd/2.7.0/antd/lib/col/style/css.js",
-      "index": 467,
-      "index2": 461,
+      "index": 473,
+      "index2": 467,
       "size": 88,
       "cacheable": true,
       "built": false,
@@ -17969,8 +17960,8 @@
       "id": 230,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\grid\\col.js",
       "name": "./~/.npminstall/antd/2.7.0/antd/lib/grid/col.js",
-      "index": 466,
-      "index2": 458,
+      "index": 472,
+      "index2": 464,
       "size": 5156,
       "cacheable": true,
       "built": false,
@@ -18006,8 +17997,8 @@
       "id": 231,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\grid\\row.js",
       "name": "./~/.npminstall/antd/2.7.0/antd/lib/grid/row.js",
-      "index": 465,
-      "index2": 457,
+      "index": 471,
+      "index2": 463,
       "size": 4286,
       "cacheable": true,
       "built": false,
@@ -18228,8 +18219,8 @@
       "id": 237,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\row\\index.js",
       "name": "./~/.npminstall/antd/2.7.0/antd/lib/row/index.js",
-      "index": 463,
-      "index2": 460,
+      "index": 469,
+      "index2": 466,
       "size": 182,
       "cacheable": true,
       "built": false,
@@ -18265,8 +18256,8 @@
       "id": 238,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\row\\style\\css.js",
       "name": "./~/.npminstall/antd/2.7.0/antd/lib/row/style/css.js",
-      "index": 460,
-      "index2": 456,
+      "index": 466,
+      "index2": 462,
       "size": 88,
       "cacheable": true,
       "built": false,
@@ -18302,8 +18293,8 @@
       "id": 239,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\spin\\index.js",
       "name": "./~/.npminstall/antd/2.7.0/antd/lib/spin/index.js",
-      "index": 456,
-      "index2": 452,
+      "index": 462,
+      "index2": 458,
       "size": 7024,
       "cacheable": true,
       "built": false,
@@ -18339,8 +18330,8 @@
       "id": 240,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\spin\\style\\css.js",
       "name": "./~/.npminstall/antd/2.7.0/antd/lib/spin/style/css.js",
-      "index": 453,
-      "index2": 450,
+      "index": 459,
+      "index2": 456,
       "size": 73,
       "cacheable": true,
       "built": false,
@@ -24921,8 +24912,8 @@
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\App.js",
       "name": "./common/components/App.js",
       "index": 313,
-      "index2": 473,
-      "size": 8770,
+      "index2": 474,
+      "size": 15691,
       "cacheable": true,
       "built": false,
       "optional": false,
@@ -24951,14 +24942,14 @@
       "usedExports": true,
       "providedExports": null,
       "depth": 3,
-      "source": "/* REACT HOT LOADER */ if (module.hot) { (function () { var ReactHotAPI = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-api\\\\0.4.7\\\\react-hot-api\\\\modules\\\\index.js\"), RootInstanceProvider = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\RootInstanceProvider.js\"), ReactMount = require(\"react-dom/lib/ReactMount\"), React = require(\"react\"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {\n\n'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _css = require('antd/lib/input/style/css');\n\nvar _input = require('antd/lib/input');\n\nvar _input2 = _interopRequireDefault(_input);\n\nvar _css2 = require('antd/lib/menu/style/css');\n\nvar _menu = require('antd/lib/menu');\n\nvar _menu2 = _interopRequireDefault(_menu);\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRedux = require('react-redux');\n\nvar _reactRouter = require('react-router');\n\nvar _actions = require('../actions/actions');\n\nvar _List = require('./List');\n\nvar _List2 = _interopRequireDefault(_List);\n\nvar _isomorphicFetch = require('isomorphic-fetch');\n\nvar _isomorphicFetch2 = _interopRequireDefault(_isomorphicFetch);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar SubMenu = _menu2.default.SubMenu;\nvar MenuItemGroup = _menu2.default.ItemGroup;\nvar Search = _input2.default.Search;\nrequire('../../assets/styles/app.scss');\n\nvar App = function (_React$Component) {\n    _inherits(App, _React$Component);\n\n    function App(props) {\n        _classCallCheck(this, App);\n\n        var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));\n\n        _this.handleNavigator = _this.handleNavigator.bind(_this);\n        _this.state = {\n            current: 'list'\n        };\n        return _this;\n    }\n\n    _createClass(App, [{\n        key: 'handleNavigator',\n        value: function handleNavigator(e) {\n            this.setState({\n                current: e.key\n            });\n        }\n    }, {\n        key: 'componentDidMount',\n        value: function componentDidMount() {\n            var dispatch = this.props.dispatch;\n\n            var token = localStorage.getItem('token');\n            var content = JSON.stringify({\n                access_token: token\n            });\n            (0, _isomorphicFetch2.default)('http://localhost:3000/api/user', {\n                method: 'POST',\n                headers: {\n                    \"Content-Type\": \"application/json\",\n                    \"Content-Length\": content.length.toString()\n                },\n                body: content\n            }).then(function (res) {\n                if (res.ok) {\n                    return res.json();\n                } else {\n                    console.log('获取用户失败');\n                }\n            }).then(function (json) {\n                dispatch((0, _actions.fetchUser)(json));\n            });\n        }\n    }, {\n        key: 'render',\n        value: function render() {\n            var user = this.props.user;\n\n            return _react2.default.createElement(\n                'div',\n                { id: 'hey' },\n                user && _react2.default.createElement(\n                    'h3',\n                    null,\n                    '\\u7528\\u6237:',\n                    user.name\n                ),\n                !user && _react2.default.createElement(\n                    'h3',\n                    null,\n                    _react2.default.createElement(\n                        _reactRouter.Link,\n                        { to: '/logIn' },\n                        '\\u672A\\u767B\\u5F55'\n                    )\n                ),\n                _react2.default.createElement(\n                    _menu2.default,\n                    { selectedKeys: [this.state.current], onClick: this.handleNavigator, mode: 'horizontal' },\n                    _react2.default.createElement(\n                        _menu2.default.Item,\n                        { key: 'list' },\n                        _react2.default.createElement(\n                            _reactRouter.Link,\n                            { to: '/' },\n                            '\\u6240\\u6709\\u6587\\u7AE0'\n                        )\n                    ),\n                    _react2.default.createElement(\n                        _menu2.default.Item,\n                        _defineProperty({ key: 'space' }, 'key', 'space'),\n                        _react2.default.createElement(\n                            _reactRouter.Link,\n                            { to: '/space' },\n                            '\\u4E2A\\u4EBA\\u4E2D\\u5FC3'\n                        )\n                    ),\n                    user.name && _react2.default.createElement(\n                        _menu2.default.Item,\n                        { key: 'publish' },\n                        _react2.default.createElement(\n                            _reactRouter.Link,\n                            { to: '/publish' },\n                            '\\u53D1\\u8868\\u6587\\u7AE0'\n                        )\n                    ),\n                    _react2.default.createElement(\n                        _menu2.default.Item,\n                        { key: 'search' },\n                        _react2.default.createElement(Search, {\n                            placeholder: '\\u641C\\u7D22\\u7528\\u6237',\n                            style: { width: 200 },\n                            onSearch: function onSearch(value) {\n                                return console.log(value);\n                            }\n                        })\n                    )\n                ),\n                _react2.default.createElement(\n                    'div',\n                    null,\n                    this.props.children\n                )\n            );\n        }\n    }]);\n\n    return App;\n}(_react2.default.Component);\n\nfunction mapStateToProps(state) {\n    var user = state.user;\n\n    return {\n        user: user\n    };\n}\nexports.default = (0, _reactRedux.connect)(mapStateToProps)(App);\n\n/* REACT HOT LOADER */ }).call(this); } finally { if (module.hot) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\makeExportsHot.js\"); if (makeExportsHot(module, require(\"react\"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error(\"Cannot apply hot update to \" + \"App.js\" + \": \" + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }"
+      "source": "/* REACT HOT LOADER */ if (module.hot) { (function () { var ReactHotAPI = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-api\\\\0.4.7\\\\react-hot-api\\\\modules\\\\index.js\"), RootInstanceProvider = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\RootInstanceProvider.js\"), ReactMount = require(\"react-dom/lib/ReactMount\"), React = require(\"react\"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {\n\n'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _css = require('antd/lib/input/style/css');\n\nvar _input = require('antd/lib/input');\n\nvar _input2 = _interopRequireDefault(_input);\n\nvar _css2 = require('antd/lib/menu/style/css');\n\nvar _menu = require('antd/lib/menu');\n\nvar _menu2 = _interopRequireDefault(_menu);\n\nvar _css3 = require('antd/lib/layout/style/css');\n\nvar _layout = require('antd/lib/layout');\n\nvar _layout2 = _interopRequireDefault(_layout);\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRedux = require('react-redux');\n\nvar _reactRouter = require('react-router');\n\nvar _actions = require('../actions/actions');\n\nvar _List = require('./List');\n\nvar _List2 = _interopRequireDefault(_List);\n\nvar _isomorphicFetch = require('isomorphic-fetch');\n\nvar _isomorphicFetch2 = _interopRequireDefault(_isomorphicFetch);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Header = _layout2.default.Header,\n    Footer = _layout2.default.Footer,\n    Sider = _layout2.default.Sider,\n    Content = _layout2.default.Content;\n\nvar SubMenu = _menu2.default.SubMenu;\nvar MenuItemGroup = _menu2.default.ItemGroup;\nvar Search = _input2.default.Search;\nrequire('../../assets/styles/app.scss');\n\nvar App = function (_React$Component) {\n    _inherits(App, _React$Component);\n\n    function App(props) {\n        _classCallCheck(this, App);\n\n        var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));\n\n        _this.handleNavigator = _this.handleNavigator.bind(_this);\n        _this.state = {\n            current: 'list'\n        };\n        return _this;\n    }\n\n    _createClass(App, [{\n        key: 'handleNavigator',\n        value: function handleNavigator(e) {\n            this.setState({\n                current: e.key\n            });\n        }\n    }, {\n        key: 'componentDidMount',\n        value: function componentDidMount() {\n            var dispatch = this.props.dispatch;\n\n            var token = localStorage.getItem('token');\n            var content = JSON.stringify({\n                access_token: token\n            });\n            (0, _isomorphicFetch2.default)('http://localhost:3000/api/user', {\n                method: 'POST',\n                headers: {\n                    \"Content-Type\": \"application/json\",\n                    \"Content-Length\": content.length.toString()\n                },\n                body: content\n            }).then(function (res) {\n                if (res.ok) {\n                    return res.json();\n                } else {\n                    console.log('获取用户失败');\n                }\n            }).then(function (json) {\n                dispatch((0, _actions.fetchUser)(json));\n            });\n        }\n    }, {\n        key: 'render',\n        value: function render() {\n            var _props = this.props,\n                user = _props.user,\n                posts = _props.posts;\n\n            var postsHaveNoComment = posts;\n            return _react2.default.createElement(\n                'div',\n                { id: 'hey' },\n                _react2.default.createElement(\n                    _menu2.default,\n                    { selectedKeys: [this.state.current], theme: 'dark', onClick: this.handleNavigator, mode: 'horizontal' },\n                    _react2.default.createElement(\n                        _menu2.default.Item,\n                        { key: 'search' },\n                        _react2.default.createElement(Search, {\n                            placeholder: '\\u641C\\u7D22\\u7528\\u6237',\n                            style: { width: 200 },\n                            onSearch: function onSearch(value) {\n                                return console.log(value);\n                            }\n                        })\n                    ),\n                    _react2.default.createElement(\n                        _menu2.default.Item,\n                        { key: 'list' },\n                        _react2.default.createElement(\n                            _reactRouter.Link,\n                            { to: '/' },\n                            '\\u9996\\u9875'\n                        )\n                    ),\n                    _react2.default.createElement(\n                        _menu2.default.Item,\n                        _defineProperty({ key: 'space' }, 'key', 'space'),\n                        _react2.default.createElement(\n                            _reactRouter.Link,\n                            { to: '/space' },\n                            '\\u4E2A\\u4EBA\\u4E2D\\u5FC3'\n                        )\n                    ),\n                    user.name && _react2.default.createElement(\n                        _menu2.default.Item,\n                        { key: 'publish' },\n                        _react2.default.createElement(\n                            _reactRouter.Link,\n                            { to: '/publish' },\n                            '\\u53D1\\u8868\\u6587\\u7AE0'\n                        )\n                    ),\n                    user.name && _react2.default.createElement(\n                        _menu2.default.Item,\n                        null,\n                        '\\u7528\\u6237:',\n                        user.name\n                    ),\n                    !user.name && _react2.default.createElement(\n                        _menu2.default.Item,\n                        null,\n                        _react2.default.createElement(\n                            _reactRouter.Link,\n                            { to: '/logIn' },\n                            '\\u672A\\u767B\\u5F55'\n                        )\n                    )\n                ),\n                _react2.default.createElement(\n                    _layout2.default,\n                    null,\n                    _react2.default.createElement(\n                        _layout2.default,\n                        null,\n                        _react2.default.createElement(\n                            Content,\n                            { style: { backgroundColor: '#EDEDED', padding: \"0 50px\" } },\n                            _react2.default.createElement(\n                                _layout2.default,\n                                null,\n                                _react2.default.createElement(\n                                    Content,\n                                    { style: { marginRight: '20px' } },\n                                    _react2.default.createElement(\n                                        'div',\n                                        null,\n                                        this.props.children\n                                    )\n                                ),\n                                _react2.default.createElement(\n                                    Sider,\n                                    { width: '300', style: { backgroundColor: \"#EDEDED\" } },\n                                    _react2.default.createElement(\n                                        'div',\n                                        { style: { backgroundColor: 'white', height: '180px', margin: '20px 0 10px 0' } },\n                                        _react2.default.createElement(\n                                            'h4',\n                                            { style: { backgroundColor: '#F0FFF0' } },\n                                            '\\u4E2A\\u4EBA\\u4FE1\\u606F'\n                                        ),\n                                        _react2.default.createElement(\n                                            'div',\n                                            { style: { padding: '8px' } },\n                                            _react2.default.createElement('img', { src: 'https://avatars.githubusercontent.com/u/16136702?v=3&s=120', style: { height: '80px' } }),\n                                            _react2.default.createElement(\n                                                'span',\n                                                { style: { fontSize: '18px', marginLeft: '10px' } },\n                                                user.name\n                                            ),\n                                            _react2.default.createElement('br', null),\n                                            _react2.default.createElement(\n                                                'span',\n                                                { style: { color: 'red' } },\n                                                '\\u79EF\\u5206:'\n                                            ),\n                                            ' 266',\n                                            _react2.default.createElement('br', null),\n                                            _react2.default.createElement(\n                                                'span',\n                                                null,\n                                                '\"\\u8FD9\\u5BB6\\u4F19\\u5F88\\u61D2\\uFF0C\\u4EC0\\u4E48\\u90FD\\u6CA1\\u7559\\u4E0B\"'\n                                            )\n                                        )\n                                    ),\n                                    _react2.default.createElement(\n                                        'div',\n                                        { style: { backgroundColor: 'white', height: '180px', marginBottom: '10px', overflow: 'hidden' } },\n                                        _react2.default.createElement(\n                                            'h4',\n                                            { style: { backgroundColor: '#F0FFF0' } },\n                                            '\\u65E0\\u4EBA\\u56DE\\u590D\\u7684\\u8BDD\\u9898'\n                                        ),\n                                        _react2.default.createElement(\n                                            'div',\n                                            { style: { padding: '8px' } },\n                                            _react2.default.createElement(\n                                                'ul',\n                                                null,\n                                                postsHaveNoComment.map(function (post, i) {\n                                                    return _react2.default.createElement(\n                                                        'li',\n                                                        { key: i },\n                                                        _react2.default.createElement(\n                                                            _reactRouter.Link,\n                                                            { to: \"/item/\" + i, style: { color: 'black' } },\n                                                            post.title\n                                                        )\n                                                    );\n                                                })\n                                            )\n                                        )\n                                    ),\n                                    _react2.default.createElement(\n                                        'div',\n                                        { style: { backgroundColor: 'white', height: '180px', marginBottom: '10px' } },\n                                        _react2.default.createElement(\n                                            'h4',\n                                            { style: { backgroundColor: '#F0FFF0' } },\n                                            '\\u79EF\\u5206\\u699C'\n                                        )\n                                    )\n                                )\n                            )\n                        )\n                    ),\n                    _react2.default.createElement(\n                        Footer,\n                        { style: { textAlign: 'center' } },\n                        'created by Xia Luo'\n                    )\n                )\n            );\n        }\n    }]);\n\n    return App;\n}(_react2.default.Component);\n\nfunction mapStateToProps(state) {\n    var user = state.user,\n        postsByAuthor = state.postsByAuthor,\n        selectedAuthor = state.selectedAuthor;\n\n    var _ref = postsByAuthor[selectedAuthor] || {\n        items: []\n    },\n        posts = _ref.items;\n\n    return {\n        user: user,\n        posts: posts || []\n    };\n}\nexports.default = (0, _reactRedux.connect)(mapStateToProps)(App);\n\n/* REACT HOT LOADER */ }).call(this); } finally { if (module.hot) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\makeExportsHot.js\"); if (makeExportsHot(module, require(\"react\"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error(\"Cannot apply hot update to \" + \"App.js\" + \": \" + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }"
     },
     {
       "id": 418,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\LogIn.js",
       "name": "./common/components/LogIn.js",
-      "index": 485,
-      "index2": 482,
+      "index": 486,
+      "index2": 484,
       "size": 7285,
       "cacheable": true,
       "built": false,
@@ -24994,8 +24985,8 @@
       "id": 419,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Picker.js",
       "name": "./common/components/Picker.js",
-      "index": 458,
-      "index2": 453,
+      "index": 464,
+      "index2": 459,
       "size": 4529,
       "cacheable": true,
       "built": false,
@@ -25031,11 +25022,11 @@
       "id": 420,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Posts.js",
       "name": "./common/components/Posts.js",
-      "index": 459,
-      "index2": 469,
-      "size": 5680,
+      "index": 465,
+      "index2": 470,
+      "size": 5709,
       "cacheable": true,
-      "built": false,
+      "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25062,14 +25053,14 @@
       "usedExports": true,
       "providedExports": null,
       "depth": 4,
-      "source": "/* REACT HOT LOADER */ if (module.hot) { (function () { var ReactHotAPI = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-api\\\\0.4.7\\\\react-hot-api\\\\modules\\\\index.js\"), RootInstanceProvider = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\RootInstanceProvider.js\"), ReactMount = require(\"react-dom/lib/ReactMount\"), React = require(\"react\"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {\n\n'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _css = require('antd/lib/row/style/css');\n\nvar _row = require('antd/lib/row');\n\nvar _row2 = _interopRequireDefault(_row);\n\nvar _css2 = require('antd/lib/col/style/css');\n\nvar _col = require('antd/lib/col');\n\nvar _col2 = _interopRequireDefault(_col);\n\nvar _css3 = require('antd/lib/card/style/css');\n\nvar _card = require('antd/lib/card');\n\nvar _card2 = _interopRequireDefault(_card);\n\nvar _css4 = require('antd/lib/icon/style/css');\n\nvar _icon = require('antd/lib/icon');\n\nvar _icon2 = _interopRequireDefault(_icon);\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Item = require('./Item');\n\nvar _Item2 = _interopRequireDefault(_Item);\n\nvar _reactRouter = require('react-router');\n\nvar _isomorphicFetch = require('isomorphic-fetch');\n\nvar _isomorphicFetch2 = _interopRequireDefault(_isomorphicFetch);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Posts = function (_Component) {\n  _inherits(Posts, _Component);\n\n  function Posts(props) {\n    _classCallCheck(this, Posts);\n\n    return _possibleConstructorReturn(this, (Posts.__proto__ || Object.getPrototypeOf(Posts)).call(this, props));\n  }\n\n  _createClass(Posts, [{\n    key: 'render',\n    value: function render() {\n      var onShow = this.props.onShow;\n\n      return _react2.default.createElement(\n        'div',\n        { style: { background: '#ECECEC', padding: '30px' } },\n        _react2.default.createElement(\n          _row2.default,\n          null,\n          this.props.posts.map(function (post, i) {\n            return _react2.default.createElement(\n              _col2.default,\n              { span: 10, key: i },\n              _react2.default.createElement(\n                _card2.default,\n                { extra: _react2.default.createElement(\n                    'span',\n                    null,\n                    post.author,\n                    '\\xA0\\u53D1\\u8868\\u4E8E \\xA0',\n                    post.time.minute,\n                    _react2.default.createElement(_icon2.default, { type: 'heart-o', style: { color: 'red' } })\n                  ), style: { marginLeft: \"16px\", marginBottom: \"16px\" }, title: post.title },\n                _react2.default.createElement(\n                  _reactRouter.Link,\n                  { onClick: function onClick() {\n                      return onShow(post.id);\n                    }, to: '/detail/' + post.id },\n                  post.content\n                )\n              )\n            );\n          })\n        )\n      );\n    }\n  }]);\n\n  return Posts;\n}(_react.Component);\n\nexports.default = Posts;\n\n\nPosts.propTypes = {\n  posts: _react.PropTypes.array.isRequired\n};\n\n/* REACT HOT LOADER */ }).call(this); } finally { if (module.hot) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\makeExportsHot.js\"); if (makeExportsHot(module, require(\"react\"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error(\"Cannot apply hot update to \" + \"Posts.js\" + \": \" + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }"
+      "source": "/* REACT HOT LOADER */ if (module.hot) { (function () { var ReactHotAPI = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-api\\\\0.4.7\\\\react-hot-api\\\\modules\\\\index.js\"), RootInstanceProvider = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\RootInstanceProvider.js\"), ReactMount = require(\"react-dom/lib/ReactMount\"), React = require(\"react\"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {\n\n'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _css = require('antd/lib/row/style/css');\n\nvar _row = require('antd/lib/row');\n\nvar _row2 = _interopRequireDefault(_row);\n\nvar _css2 = require('antd/lib/col/style/css');\n\nvar _col = require('antd/lib/col');\n\nvar _col2 = _interopRequireDefault(_col);\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Item = require('./Item');\n\nvar _Item2 = _interopRequireDefault(_Item);\n\nvar _reactRouter = require('react-router');\n\nvar _isomorphicFetch = require('isomorphic-fetch');\n\nvar _isomorphicFetch2 = _interopRequireDefault(_isomorphicFetch);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Posts = function (_Component) {\n  _inherits(Posts, _Component);\n\n  function Posts(props) {\n    _classCallCheck(this, Posts);\n\n    return _possibleConstructorReturn(this, (Posts.__proto__ || Object.getPrototypeOf(Posts)).call(this, props));\n  }\n\n  _createClass(Posts, [{\n    key: 'render',\n    value: function render() {\n      var _props = this.props,\n          onShow = _props.onShow,\n          posts = _props.posts;\n\n      var postsByDate = posts.reverse();\n      return _react2.default.createElement(\n        'div',\n        { style: { background: 'white', padding: '30px', minHeight: '800px', fontSize: '16px' } },\n        postsByDate.map(function (post, i) {\n          return _react2.default.createElement(\n            _row2.default,\n            { key: i, style: { borderBottom: '1px solid #EDEDED', height: '50px' } },\n            _react2.default.createElement(\n              _col2.default,\n              { span: '2' },\n              post.author,\n              ':'\n            ),\n            _react2.default.createElement(\n              _col2.default,\n              { span: '2' },\n              _react2.default.createElement(\n                'span',\n                { style: { backgroundColor: 'green', color: 'white' } },\n                '\\u5206\\u4EAB'\n              )\n            ),\n            _react2.default.createElement(\n              _col2.default,\n              { span: '14' },\n              _react2.default.createElement(\n                _reactRouter.Link,\n                { to: \"/item/\" + i, style: { color: 'black' } },\n                post.title\n              )\n            ),\n            _react2.default.createElement(\n              _col2.default,\n              { span: '6' },\n              _react2.default.createElement(\n                'span',\n                null,\n                post.time.minute\n              )\n            )\n          );\n        })\n      );\n    }\n  }]);\n\n  return Posts;\n}(_react.Component);\n\nexports.default = Posts;\n\n\nPosts.propTypes = {\n  posts: _react.PropTypes.array.isRequired\n};\n\n/* REACT HOT LOADER */ }).call(this); } finally { if (module.hot) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\makeExportsHot.js\"); if (makeExportsHot(module, require(\"react\"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error(\"Cannot apply hot update to \" + \"Posts.js\" + \": \" + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }"
     },
     {
       "id": 421,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Publish.js",
       "name": "./common/components/Publish.js",
-      "index": 477,
-      "index2": 480,
+      "index": 478,
+      "index2": 481,
       "size": 6652,
       "cacheable": true,
       "built": false,
@@ -25105,11 +25096,11 @@
       "id": 422,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Reg.js",
       "name": "./common/components/Reg.js",
-      "index": 486,
-      "index2": 483,
+      "index": 488,
+      "index2": 485,
       "size": 5775,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -25142,8 +25133,8 @@
       "id": 423,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Space.js",
       "name": "./common/components/Space.js",
-      "index": 484,
-      "index2": 481,
+      "index": 485,
+      "index2": 482,
       "size": 5998,
       "cacheable": true,
       "built": false,
@@ -25217,7 +25208,7 @@
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\routes.js",
       "name": "./common/routes.js",
       "index": 312,
-      "index2": 484,
+      "index2": 486,
       "size": 3240,
       "cacheable": true,
       "built": false,
@@ -27085,8 +27076,8 @@
       "id": 474,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\style-loader\\0.13.1\\style-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\button\\style\\index.css",
       "name": "./~/.npminstall/antd/2.7.0/antd/lib/button/style/index.css",
-      "index": 479,
-      "index2": 475,
+      "index": 480,
+      "index2": 476,
       "size": 989,
       "cacheable": true,
       "built": false,
@@ -27116,43 +27107,6 @@
       "usedExports": true,
       "providedExports": null,
       "depth": 5,
-      "source": "// style-loader: Adds some css to the DOM by adding a <style> tag\n\n// load the styles\nvar content = require(\"!!./../../../../../../css-loader/0.26.1/css-loader/index.js!./index.css\");\nif(typeof content === 'string') content = [[module.id, content, '']];\n// add the styles to the DOM\nvar update = require(\"!./../../../../../../style-loader/0.13.1/style-loader/addStyles.js\")(content, {});\nif(content.locals) module.exports = content.locals;\n// Hot Module Replacement\nif(module.hot) {\n\t// When the styles change, update the <style> tags\n\tif(!content.locals) {\n\t\tmodule.hot.accept(\"!!./../../../../../../css-loader/0.26.1/css-loader/index.js!./index.css\", function() {\n\t\t\tvar newContent = require(\"!!./../../../../../../css-loader/0.26.1/css-loader/index.js!./index.css\");\n\t\t\tif(typeof newContent === 'string') newContent = [[module.id, newContent, '']];\n\t\t\tupdate(newContent);\n\t\t});\n\t}\n\t// When the module is disposed, remove the <style> tags\n\tmodule.hot.dispose(function() { update(); });\n}"
-    },
-    {
-      "id": 475,
-      "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\style-loader\\0.13.1\\style-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\card\\style\\index.css",
-      "name": "./~/.npminstall/antd/2.7.0/antd/lib/card/style/index.css",
-      "index": 470,
-      "index2": 464,
-      "size": 989,
-      "cacheable": true,
-      "built": false,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        0
-      ],
-      "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\card\\style\\css.js",
-      "issuerId": 227,
-      "issuerName": "./~/.npminstall/antd/2.7.0/antd/lib/card/style/css.js",
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "reasons": [
-        {
-          "moduleId": 227,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\card\\style\\css.js",
-          "module": "./~/.npminstall/antd/2.7.0/antd/lib/card/style/css.js",
-          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/card/style/css.js",
-          "type": "cjs require",
-          "userRequest": "./index.css",
-          "loc": "5:0-22"
-        }
-      ],
-      "usedExports": true,
-      "providedExports": null,
-      "depth": 6,
       "source": "// style-loader: Adds some css to the DOM by adding a <style> tag\n\n// load the styles\nvar content = require(\"!!./../../../../../../css-loader/0.26.1/css-loader/index.js!./index.css\");\nif(typeof content === 'string') content = [[module.id, content, '']];\n// add the styles to the DOM\nvar update = require(\"!./../../../../../../style-loader/0.13.1/style-loader/addStyles.js\")(content, {});\nif(content.locals) module.exports = content.locals;\n// Hot Module Replacement\nif(module.hot) {\n\t// When the styles change, update the <style> tags\n\tif(!content.locals) {\n\t\tmodule.hot.accept(\"!!./../../../../../../css-loader/0.26.1/css-loader/index.js!./index.css\", function() {\n\t\t\tvar newContent = require(\"!!./../../../../../../css-loader/0.26.1/css-loader/index.js!./index.css\");\n\t\t\tif(typeof newContent === 'string') newContent = [[module.id, newContent, '']];\n\t\t\tupdate(newContent);\n\t\t});\n\t}\n\t// When the module is disposed, remove the <style> tags\n\tmodule.hot.dispose(function() { update(); });\n}"
     },
     {
@@ -27233,8 +27187,8 @@
       "id": 478,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\style-loader\\0.13.1\\style-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\spin\\style\\index.css",
       "name": "./~/.npminstall/antd/2.7.0/antd/lib/spin/style/index.css",
-      "index": 454,
-      "index2": 449,
+      "index": 460,
+      "index2": 455,
       "size": 989,
       "cacheable": true,
       "built": false,
@@ -27270,8 +27224,8 @@
       "id": 479,
       "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\style-loader\\0.13.1\\style-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\sass-loader\\4.1.1\\sass-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\assets\\styles\\app.scss",
       "name": "./assets/styles/app.scss",
-      "index": 475,
-      "index2": 472,
+      "index": 476,
+      "index2": 473,
       "size": 1254,
       "cacheable": true,
       "built": false,
@@ -27295,7 +27249,7 @@
           "moduleName": "./common/components/App.js",
           "type": "cjs require",
           "userRequest": "../../assets/styles/app.scss",
-          "loc": "54:0-39"
+          "loc": "65:0-39"
         }
       ],
       "usedExports": true,
@@ -27532,7 +27486,7 @@
       "identifier": "multi webpack-hot-middleware/client?path=http://localhost:3001/__webpack_hmr ./client/index.js",
       "name": "multi webpack-hot-middleware/client?path=http://localhost:3001/__webpack_hmr ./client/index.js",
       "index": 0,
-      "index2": 486,
+      "index2": 488,
       "size": 40,
       "cacheable": true,
       "built": false,
@@ -27552,6 +27506,246 @@
       "usedExports": true,
       "providedExports": null,
       "depth": 0
+    },
+    {
+      "id": 487,
+      "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\style\\index.css",
+      "name": "./~/.npminstall/css-loader/0.26.1/css-loader!./~/.npminstall/antd/2.7.0/antd/lib/layout/style/index.css",
+      "index": 454,
+      "index2": 448,
+      "size": 1856,
+      "cacheable": true,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\style-loader\\0.13.1\\style-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\style\\index.css",
+      "issuerId": 492,
+      "issuerName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/style/index.css",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 492,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\style-loader\\0.13.1\\style-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\style\\index.css",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/style/index.css",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/style/index.css",
+          "type": "cjs require",
+          "userRequest": "!!./../../../../../../css-loader/0.26.1/css-loader/index.js!./index.css",
+          "loc": "4:14-96"
+        },
+        {
+          "moduleId": 492,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\style-loader\\0.13.1\\style-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\style\\index.css",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/style/index.css",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/style/index.css",
+          "type": "module.hot.accept",
+          "userRequest": "!!./../../../../../../css-loader/0.26.1/css-loader/index.js!./index.css",
+          "loc": "13:2-17:4"
+        },
+        {
+          "moduleId": 492,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\style-loader\\0.13.1\\style-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\style\\index.css",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/style/index.css",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/style/index.css",
+          "type": "cjs require",
+          "userRequest": "!!./../../../../../../css-loader/0.26.1/css-loader/index.js!./index.css",
+          "loc": "14:20-102"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 6,
+      "source": "exports = module.exports = require(\"./../../../../../../css-loader/0.26.1/css-loader/lib/css-base.js\")();\n// imports\n\n\n// module\nexports.push([module.id, \".ant-layout {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-orient: vertical;\\n  -webkit-box-direction: normal;\\n      -ms-flex-direction: column;\\n          flex-direction: column;\\n  -webkit-box-flex: 1;\\n      -ms-flex: auto;\\n          flex: auto;\\n  overflow: auto;\\n  background: #ececec;\\n}\\n.ant-layout.ant-layout-has-sider {\\n  -webkit-box-orient: horizontal;\\n  -webkit-box-direction: normal;\\n      -ms-flex-direction: row;\\n          flex-direction: row;\\n}\\n.ant-layout-header,\\n.ant-layout-footer {\\n  -webkit-box-flex: 0;\\n      -ms-flex: 0 0 auto;\\n          flex: 0 0 auto;\\n}\\n.ant-layout-header {\\n  background: rgba(0, 0, 0, 0.75);\\n  padding: 0 50px;\\n  height: 64px;\\n  line-height: 64px;\\n}\\n.ant-layout-footer {\\n  padding: 24px 50px;\\n  color: rgba(0, 0, 0, 0.65);\\n  font-size: 12px;\\n}\\n.ant-layout-content {\\n  -webkit-box-flex: 1;\\n      -ms-flex: auto;\\n          flex: auto;\\n}\\n.ant-layout-sider {\\n  -webkit-box-flex: 0;\\n      -ms-flex: 0 0 200px;\\n          flex: 0 0 200px;\\n  -webkit-transition: all .3s ease;\\n  transition: all .3s ease;\\n  position: relative;\\n  background: rgba(0, 0, 0, 0.75);\\n}\\n.ant-layout-sider-has-trigger {\\n  padding-bottom: 48px;\\n}\\n.ant-layout-sider-right {\\n  -webkit-box-ordinal-group: 2;\\n      -ms-flex-order: 1;\\n          order: 1;\\n}\\n.ant-layout-sider-collapsed {\\n  -webkit-box-flex: 0;\\n      -ms-flex: 0 0 64px;\\n          flex: 0 0 64px;\\n}\\n.ant-layout-sider-trigger {\\n  position: absolute;\\n  text-align: center;\\n  width: 100%;\\n  bottom: 0;\\n  cursor: pointer;\\n  height: 48px;\\n  line-height: 48px;\\n  background: rgba(75, 75, 75, 0.8);\\n  color: #fff;\\n}\\n\", \"\"]);\n\n// exports\n"
+    },
+    {
+      "id": 488,
+      "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\Sider.js",
+      "name": "./~/.npminstall/antd/2.7.0/antd/lib/layout/Sider.js",
+      "index": 457,
+      "index2": 452,
+      "size": 5658,
+      "cacheable": true,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\index.js",
+      "issuerId": 489,
+      "issuerName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 489,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\index.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/index.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/index.js",
+          "type": "cjs require",
+          "userRequest": "./Sider",
+          "loc": "11:13-31"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 5,
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nexports[\"default\"] = undefined;\n\nvar _extends2 = require('babel-runtime/helpers/extends');\n\nvar _extends3 = _interopRequireDefault(_extends2);\n\nvar _defineProperty2 = require('babel-runtime/helpers/defineProperty');\n\nvar _defineProperty3 = _interopRequireDefault(_defineProperty2);\n\nvar _classCallCheck2 = require('babel-runtime/helpers/classCallCheck');\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _possibleConstructorReturn2 = require('babel-runtime/helpers/possibleConstructorReturn');\n\nvar _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);\n\nvar _inherits2 = require('babel-runtime/helpers/inherits');\n\nvar _inherits3 = _interopRequireDefault(_inherits2);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _classnames = require('classnames');\n\nvar _classnames2 = _interopRequireDefault(_classnames);\n\nvar _omit = require('omit.js');\n\nvar _omit2 = _interopRequireDefault(_omit);\n\nvar _icon = require('../icon');\n\nvar _icon2 = _interopRequireDefault(_icon);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\nvar __assign = undefined && undefined.__assign || Object.assign || function (t) {\n    for (var s, i = 1, n = arguments.length; i < n; i++) {\n        s = arguments[i];\n        for (var p in s) {\n            if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];\n        }\n    }\n    return t;\n};\nvar __rest = undefined && undefined.__rest || function (s, e) {\n    var t = {};\n    for (var p in s) {\n        if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];\n    }if (s != null && typeof Object.getOwnPropertySymbols === \"function\") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {\n        if (e.indexOf(p[i]) < 0) t[p[i]] = s[p[i]];\n    }return t;\n};\n\nvar Sider = function (_React$Component) {\n    (0, _inherits3[\"default\"])(Sider, _React$Component);\n\n    function Sider(props) {\n        (0, _classCallCheck3[\"default\"])(this, Sider);\n\n        var _this = (0, _possibleConstructorReturn3[\"default\"])(this, _React$Component.call(this, props));\n\n        _this.setCollapsed = function (collapsed) {\n            if (!('collapsed' in _this.props)) {\n                _this.setState({\n                    collapsed: collapsed\n                });\n            }\n            var onCollapse = _this.props.onCollapse;\n\n            if (onCollapse) {\n                onCollapse(collapsed);\n            }\n        };\n        _this.toggle = function () {\n            var collapsed = !_this.state.collapsed;\n            _this.setCollapsed(collapsed);\n        };\n        var collapsed = void 0;\n        if ('collapsed' in props) {\n            collapsed = props.collapsed;\n        } else {\n            collapsed = props.defaultCollapsed;\n        }\n        _this.state = {\n            collapsed: collapsed\n        };\n        return _this;\n    }\n\n    Sider.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {\n        if ('collapsed' in nextProps) {\n            this.setState({\n                collapsed: nextProps.collapsed\n            });\n        }\n    };\n\n    Sider.prototype.render = function render() {\n        var _classNames;\n\n        var _a = this.props,\n            prefixCls = _a.prefixCls,\n            className = _a.className,\n            collapsible = _a.collapsible,\n            reverseArrow = _a.reverseArrow,\n            trigger = _a.trigger,\n            style = _a.style,\n            width = _a.width,\n            collapsedWidth = _a.collapsedWidth,\n            others = __rest(_a, [\"prefixCls\", \"className\", \"collapsible\", \"reverseArrow\", \"trigger\", \"style\", \"width\", \"collapsedWidth\"]);\n        var divProps = (0, _omit2[\"default\"])(others, ['collapsed', 'defaultCollapsed', 'onCollapse', 'name']);\n        var siderCls = (0, _classnames2[\"default\"])(className, prefixCls, (_classNames = {}, (0, _defineProperty3[\"default\"])(_classNames, prefixCls + '-collapsed', !!this.state.collapsed), (0, _defineProperty3[\"default\"])(_classNames, prefixCls + '-has-trigger', !!trigger), _classNames));\n        var divStyle = __assign({}, style, { flex: '0 0 ' + (this.state.collapsed ? collapsedWidth : width) + 'px' });\n        var iconObj = {\n            'expanded': reverseArrow ? _react2[\"default\"].createElement(_icon2[\"default\"], { type: 'right' }) : _react2[\"default\"].createElement(_icon2[\"default\"], { type: 'left' }),\n            'collapsed': reverseArrow ? _react2[\"default\"].createElement(_icon2[\"default\"], { type: 'left' }) : _react2[\"default\"].createElement(_icon2[\"default\"], { type: 'right' })\n        };\n        var status = this.state.collapsed ? 'collapsed' : 'expanded';\n        var defaultTrigger = iconObj[status];\n        var triggerDom = trigger !== null ? _react2[\"default\"].createElement(\n            'div',\n            { className: prefixCls + '-trigger', onClick: this.toggle },\n            trigger || defaultTrigger\n        ) : null;\n        return _react2[\"default\"].createElement(\n            'div',\n            (0, _extends3[\"default\"])({ className: siderCls }, divProps, { style: divStyle }),\n            this.props.children,\n            collapsible && triggerDom\n        );\n    };\n\n    return Sider;\n}(_react2[\"default\"].Component);\n\nexports[\"default\"] = Sider;\n\nSider.defaultProps = {\n    prefixCls: 'ant-layout-sider',\n    collapsible: false,\n    defaultCollapsed: false,\n    reverseArrow: false,\n    width: 200,\n    collapsedWidth: 64,\n    style: {},\n    name: 'Sider'\n};\nmodule.exports = exports['default'];"
+    },
+    {
+      "id": 489,
+      "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\index.js",
+      "name": "./~/.npminstall/antd/2.7.0/antd/lib/layout/index.js",
+      "index": 455,
+      "index2": 453,
+      "size": 472,
+      "cacheable": true,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\App.js",
+      "issuerId": 417,
+      "issuerName": "./common/components/App.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 417,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\App.js",
+          "module": "./common/components/App.js",
+          "moduleName": "./common/components/App.js",
+          "type": "cjs require",
+          "userRequest": "antd/lib/layout",
+          "loc": "23:14-40"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 4,
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _layout = require('./layout');\n\nvar _layout2 = _interopRequireDefault(_layout);\n\nvar _Sider = require('./Sider');\n\nvar _Sider2 = _interopRequireDefault(_Sider);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\n_layout2[\"default\"].Sider = _Sider2[\"default\"];\nexports[\"default\"] = _layout2[\"default\"];\nmodule.exports = exports['default'];"
+    },
+    {
+      "id": 490,
+      "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\layout.js",
+      "name": "./~/.npminstall/antd/2.7.0/antd/lib/layout/layout.js",
+      "index": 456,
+      "index2": 451,
+      "size": 3968,
+      "cacheable": true,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\index.js",
+      "issuerId": 489,
+      "issuerName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 489,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\index.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/index.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/index.js",
+          "type": "cjs require",
+          "userRequest": "./layout",
+          "loc": "7:14-33"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 5,
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _defineProperty2 = require('babel-runtime/helpers/defineProperty');\n\nvar _defineProperty3 = _interopRequireDefault(_defineProperty2);\n\nvar _extends2 = require('babel-runtime/helpers/extends');\n\nvar _extends3 = _interopRequireDefault(_extends2);\n\nvar _classCallCheck2 = require('babel-runtime/helpers/classCallCheck');\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _possibleConstructorReturn2 = require('babel-runtime/helpers/possibleConstructorReturn');\n\nvar _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);\n\nvar _inherits2 = require('babel-runtime/helpers/inherits');\n\nvar _inherits3 = _interopRequireDefault(_inherits2);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _classnames = require('classnames');\n\nvar _classnames2 = _interopRequireDefault(_classnames);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\nvar __rest = undefined && undefined.__rest || function (s, e) {\n    var t = {};\n    for (var p in s) {\n        if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];\n    }if (s != null && typeof Object.getOwnPropertySymbols === \"function\") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {\n        if (e.indexOf(p[i]) < 0) t[p[i]] = s[p[i]];\n    }return t;\n};\n\nfunction generator(props) {\n    return function (Basic) {\n        return function (_React$Component) {\n            (0, _inherits3[\"default\"])(Adapter, _React$Component);\n\n            function Adapter() {\n                (0, _classCallCheck3[\"default\"])(this, Adapter);\n                return (0, _possibleConstructorReturn3[\"default\"])(this, _React$Component.apply(this, arguments));\n            }\n\n            Adapter.prototype.render = function render() {\n                var prefixCls = props.prefixCls;\n\n                return _react2[\"default\"].createElement(Basic, (0, _extends3[\"default\"])({ prefixCls: prefixCls, name: props.name }, this.props));\n            };\n\n            return Adapter;\n        }(_react2[\"default\"].Component);\n    };\n}\n\nvar Basic = function (_React$Component2) {\n    (0, _inherits3[\"default\"])(Basic, _React$Component2);\n\n    function Basic() {\n        (0, _classCallCheck3[\"default\"])(this, Basic);\n        return (0, _possibleConstructorReturn3[\"default\"])(this, _React$Component2.apply(this, arguments));\n    }\n\n    Basic.prototype.render = function render() {\n        var _a = this.props,\n            prefixCls = _a.prefixCls,\n            className = _a.className,\n            children = _a.children,\n            name = _a.name,\n            others = __rest(_a, [\"prefixCls\", \"className\", \"children\", \"name\"]);\n        var hasSider = void 0;\n        if (name === 'Layout') {\n            _react2[\"default\"].Children.forEach(children, function (ele) {\n                if (ele && ele.props && ele.props.name === 'Sider') {\n                    hasSider = true;\n                }\n            });\n        }\n        var divCls = (0, _classnames2[\"default\"])(className, prefixCls, (0, _defineProperty3[\"default\"])({}, prefixCls + '-has-sider', hasSider));\n        return _react2[\"default\"].createElement(\n            'div',\n            (0, _extends3[\"default\"])({ className: divCls }, others),\n            children\n        );\n    };\n\n    return Basic;\n}(_react2[\"default\"].Component);\n\nvar Layout = generator({\n    prefixCls: 'ant-layout',\n    name: 'Layout'\n})(Basic);\nvar Header = generator({\n    prefixCls: 'ant-layout-header',\n    name: 'Header'\n})(Basic);\nvar Footer = generator({\n    prefixCls: 'ant-layout-footer',\n    name: 'Footer'\n})(Basic);\nvar Content = generator({\n    prefixCls: 'ant-layout-content',\n    name: 'Content'\n})(Basic);\nLayout.Header = Header;\nLayout.Footer = Footer;\nLayout.Content = Content;\nexports[\"default\"] = Layout;\nmodule.exports = exports['default'];"
+    },
+    {
+      "id": 491,
+      "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\style\\css.js",
+      "name": "./~/.npminstall/antd/2.7.0/antd/lib/layout/style/css.js",
+      "index": 452,
+      "index2": 450,
+      "size": 73,
+      "cacheable": true,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\App.js",
+      "issuerId": 417,
+      "issuerName": "./common/components/App.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 417,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\App.js",
+          "module": "./common/components/App.js",
+          "moduleName": "./common/components/App.js",
+          "type": "cjs require",
+          "userRequest": "antd/lib/layout/style/css",
+          "loc": "21:12-48"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 4,
+      "source": "'use strict';\n\nrequire('../../style/index.css');\n\nrequire('./index.css');"
+    },
+    {
+      "id": 492,
+      "identifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\style-loader\\0.13.1\\style-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\css-loader\\0.26.1\\css-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\style\\index.css",
+      "name": "./~/.npminstall/antd/2.7.0/antd/lib/layout/style/index.css",
+      "index": 453,
+      "index2": 449,
+      "size": 989,
+      "cacheable": true,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\style\\css.js",
+      "issuerId": 491,
+      "issuerName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/style/css.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 491,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\layout\\style\\css.js",
+          "module": "./~/.npminstall/antd/2.7.0/antd/lib/layout/style/css.js",
+          "moduleName": "./~/.npminstall/antd/2.7.0/antd/lib/layout/style/css.js",
+          "type": "cjs require",
+          "userRequest": "./index.css",
+          "loc": "5:0-22"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 5,
+      "source": "// style-loader: Adds some css to the DOM by adding a <style> tag\n\n// load the styles\nvar content = require(\"!!./../../../../../../css-loader/0.26.1/css-loader/index.js!./index.css\");\nif(typeof content === 'string') content = [[module.id, content, '']];\n// add the styles to the DOM\nvar update = require(\"!./../../../../../../style-loader/0.13.1/style-loader/addStyles.js\")(content, {});\nif(content.locals) module.exports = content.locals;\n// Hot Module Replacement\nif(module.hot) {\n\t// When the styles change, update the <style> tags\n\tif(!content.locals) {\n\t\tmodule.hot.accept(\"!!./../../../../../../css-loader/0.26.1/css-loader/index.js!./index.css\", function() {\n\t\t\tvar newContent = require(\"!!./../../../../../../css-loader/0.26.1/css-loader/index.js!./index.css\");\n\t\t\tif(typeof newContent === 'string') newContent = [[module.id, newContent, '']];\n\t\t\tupdate(newContent);\n\t\t});\n\t}\n\t// When the module is disposed, remove the <style> tags\n\tmodule.hot.dispose(function() { update(); });\n}"
     }
   ],
   "filteredModules": 0,

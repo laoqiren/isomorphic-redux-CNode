@@ -8,23 +8,18 @@ export default class Posts extends Component {
         super(props);
     }
   render() {
-    const {onShow} = this.props
+    const {onShow,posts} = this.props
+    let postsByDate = posts.reverse();
     return (
-      <div style={{ background: '#ECECEC', padding: '30px' }}>
-        <Row>
-        {this.props.posts.map((post, i) =>
-          <Col span={10} key={i}>
-          <Card extra={
-            <span>
-            {post.author}&nbsp;发表于 &nbsp;
-            {post.time.minute}
-            <Icon type="heart-o" style={{color:'red'}}/>
-            </span>
-          }style={{marginLeft: "16px",marginBottom:"16px"}}title={post.title}>
-          <Link onClick={()=>onShow(post.id)} to={'/detail/'+post.id}>{post.content}</Link></Card>
-          </Col>
+      <div style={{ background: 'white', padding: '30px', minHeight:'800px', fontSize:'16px' }}>
+        {postsByDate.map((post, i) =>
+          <Row key={i} style={{borderBottom:'1px solid #EDEDED',height:'50px'}}>
+            <Col span="2">{post.author}:</Col>
+            <Col span="2"><span style={{backgroundColor:'green',color:'white'}}>分享</span></Col>
+            <Col span="14"><Link to={"/item/" + i} style={{color: 'black'}}>{post.title}</Link></Col>
+            <Col span="6"><span>{post.time.minute}</span></Col>
+          </Row>
         )}
-        </Row>
       </div>
     )
   }
