@@ -52,6 +52,9 @@ class App extends React.Component {
                 {
                     user && <h3>用户:{user.name}</h3>
                 }
+                {
+                    !user && <h3><Link to="/logIn">未登录</Link></h3>
+                }
                 <Menu selectedKeys={[this.state.current]} onClick={this.handleNavigator} mode="horizontal">
                     <Menu.Item key="list">
                         <Link to="/">所有文章</Link>
