@@ -7,7 +7,7 @@ const PostSchema = new mongoose.Schema({
     content:String,
     flag: String,
     type: String,
-    discussion: [],
+    discussion: Array,
     time:{}
 });
 PostSchema.methods.savePost = function(post,cb){

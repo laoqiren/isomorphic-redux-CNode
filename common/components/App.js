@@ -49,7 +49,7 @@ class App extends React.Component {
     render() {
         
         const {user,posts} = this.props;
-        let postsHaveNoComment = posts;
+        let postsHaveNoComment = posts.filter((post)=>post.discussion.length === 0);
         return (
             <div id="hey">
                 <Menu selectedKeys={[this.state.current]} theme="dark" onClick={this.handleNavigator} mode="horizontal">

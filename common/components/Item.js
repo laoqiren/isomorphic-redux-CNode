@@ -12,9 +12,10 @@ class Item extends React.Component {
         }
     }
     handleClick(e){
-        const {params} = this.props;
+        const {params,user} = this.props;
         const content = JSON.stringify({
             content: this.state.content,
+            author: user,
             flag: params.id,
             access_token: localStorage.getItem('token')
         })
@@ -59,7 +60,8 @@ class Item extends React.Component {
                                         {
                                         item.discussion.map((discussion,i)=>
                                             <li key={i}>
-                                                {discussion.content}
+                                                <h5>{discussion.author.name}:</h5>
+                                                {discussion.content || '空'}
                                             </li>
                                         )}
                                         </ul>
@@ -68,7 +70,7 @@ class Item extends React.Component {
                                     <h3>添加回复:</h3>
                                     <Input type="textarea" ref="content" autosize={{minRows:10}} onChange={(e)=>this.setState({content: e.target.value})}>
                                     </Input>
-                                    <Button type="primary">回复</Button>
+                                    <Button type="primary" onClick={this.handleClick}>回复</Button>
                                 </div>
                             </Footer>
                         </Layout>
@@ -80,14 +82,15 @@ class Item extends React.Component {
 }
 
 function mapStateToProps(state) {
-  const { postsByAuthor,selectedAuthor } = state
+  const { postsByAuthor,selectedAuthor,user} = state
   const {
     items: posts
   } = postsByAuthor[selectedAuthor] || {
     items: []
   }
   return {
-    posts: posts||[]
+    posts: posts||[],
+    user
   }
 }
 export default connect(mapStateToProps)(Item)
