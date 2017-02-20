@@ -9,14 +9,14 @@ export default class Posts extends Component {
     }
   render() {
     const {onShow,posts} = this.props
-    let postsByDate = posts.reverse();
     return (
       <div style={{ background: 'white', padding: '30px', minHeight:'800px', fontSize:'16px' }}>
-        {postsByDate.map((post, i) =>
-          <Row key={i} style={{borderBottom:'1px solid #EDEDED',height:'50px'}}>
+        {posts.map((post, i) =>
+          <Row  key={i} style={{borderBottom:'1px solid #EDEDED',height:'50px',lineHeight:'50px'}}>
             <Col span="2">{post.author}:</Col>
             <Col span="2"><span style={{backgroundColor:'green',color:'white'}}>{post.type}</span></Col>
-            <Col span="14"><Link to={"/item/" + post.flag} style={{color: 'black'}}>{post.title}</Link></Col>
+            <Col span="12"><Link className="link" to={"/item/" + post.flag} >{post.title}</Link></Col>
+            <Col span="2">{post.discussion.length}条评论</Col>
             <Col span="6"><span>{post.time.minute}</span></Col>
           </Row>
         )}

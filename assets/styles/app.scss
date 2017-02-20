@@ -3,6 +3,21 @@ html,body {
     width: 100%;
     font-size: 14px;
 }
-.postItem:hover{
-    background-color: red;
+.ant-row:hover{
+    background-color: #EDEDED;
+}
+
+.link:link {
+    color: black;
+}
+.link:visited {
+    color: grey;
+}
+
+.link:hover {
+    color: blue;
+    text-decoration: underline
+}
+.link:active {
+    color: red;
 }

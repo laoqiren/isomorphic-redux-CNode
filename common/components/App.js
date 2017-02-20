@@ -109,7 +109,7 @@ class App extends React.Component {
                                                 {
                                                     postsHaveNoComment.map((post,i)=>
                                                         <li key={i}>
-                                                        <Link to={"/item/" + post.flag}                                                   style={{color: 'black'}}>{post.title}
+                                                        <Link className="link" to={"/item/" + post.flag} >{post.title}
                                                         </Link>
                                                         </li>
                                                     )
