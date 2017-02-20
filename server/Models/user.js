@@ -3,11 +3,13 @@ import db from './db'
 mongoose.Promise = global.Promise
 const UserSchema = new mongoose.Schema({
     name: String,
-    passwd:String
+    passwd:String,
+    score: Number
 });
 UserSchema.methods.saveUser = function(user,cb){
     this.name = user.name;
     this.passwd = user.passwd;
+    this.score = 0;
     this.save(cb);
 };
 UserSchema.methods.getUser = function(query,cb){

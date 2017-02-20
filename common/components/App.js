@@ -49,6 +49,7 @@ class App extends React.Component {
     render() {
         
         const {user,posts} = this.props;
+        console.log(user)
         let postsHaveNoComment = posts.filter((post)=>post.discussion.length === 0);
         return (
             <div id="hey">
@@ -97,7 +98,7 @@ class App extends React.Component {
                                             <img src="https://avatars.githubusercontent.com/u/16136702?v=3&s=120" style={{height:'80px'}}></img>
                                             <span style={{fontSize:'18px',marginLeft:'10px'}}>{user.name}</span>
                                             <br/>
-                                            <span style={{color:'red'}}>积分:</span> 266
+                                            <span style={{color:'red'}}>积分:</span> {user.score}
                                             <br/>
                                             <span>"这家伙很懒，什么都没留下"</span>
                                         </div>

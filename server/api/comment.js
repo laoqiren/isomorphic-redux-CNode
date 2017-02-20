@@ -1,6 +1,8 @@
 const jwt = require("jwt-simple");
 import Post from '../Models/post';
+
 const postEntity = new Post();
+
 export default function(req,res,next){
     const comment = {
         content: req.body.content,
@@ -25,6 +27,7 @@ export default function(req,res,next){
                 console.log('服务器错误')
                 return res.status(500).end('服务器错误')
             }
+            
             return res.status(200).end('评论成功')
         })
     })
