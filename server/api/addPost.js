@@ -8,8 +8,7 @@ export default function(req,res,next){
         title: req.body.title,
         content: req.body.content,
         type: req.body.type,
-        author: name,
-        discuss: []
+        author: name
     }
     postEntity.savePost(post,err=>{
         if(err){

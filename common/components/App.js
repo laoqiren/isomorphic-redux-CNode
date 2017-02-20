@@ -105,6 +105,9 @@ class App extends React.Component {
                                     <div style={{backgroundColor:'white',height:'180px',marginBottom:'10px',overflow:'hidden'}}>
                                         <h4 style={{backgroundColor:'#F0FFF0'}}>无人回复的话题</h4>
                                         <div style={{padding:'8px'}}>
+                                            {
+                                                postsHaveNoComment.length === 0 && <span>暂无</span>
+                                            }
                                             <ul>
                                                 {
                                                     postsHaveNoComment.map((post,i)=>

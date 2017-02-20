@@ -6,6 +6,7 @@ import addPost from './addPost';
 import log from './log';
 import reg from './reg';
 import comment from './comment';
+import vote from './vote';
 import auth from '../middleware/auth'
 const router = Express.Router();
 
@@ -23,5 +24,8 @@ router.post('/user',user);
 
 router.post('/comment',auth);
 router.post('/comment',comment)
+
+router.post('/vote',auth);
+router.post('/vote',vote);
 
 export default router;

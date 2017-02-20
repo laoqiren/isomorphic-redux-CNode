@@ -8,9 +8,43 @@ class Item extends React.Component {
     constructor(props){
         super(props)
         this.handleClick = this.handleClick.bind(this)
+        this.handleVote = this.handleVote.bind(this)
         this.state = {
-            content: ''
+            content: '',
+            liked: false
         }
+    }
+    componentDidMount(){
+        const {user,posts,params} = this.props;
+        let item = posts.filter((post)=>post.flag === params.id)[0]
+        for(let i=0; i<item.votes.length; i++){
+            if(item.votes[i] === user.name){
+                this.setState({liked:true});
+                return;
+            }
+        }
+    }
+    handleVote(){
+        const {params,user,dispatch} = this.props;
+        this.setState({
+            liked: true
+        })
+        const content = JSON.stringify({
+            flag: params.id,
+            access_token: localStorage.getItem('token')
+        })
+        fetch('http://localhost:3000/api/vote',{
+            method: 'POST',
+            headers:{
+                "Content-Type": "application/json",
+                "Content-Length": content.length.toString()
+            },
+            body: content
+        }).then(res=>{
+            if(res.ok){
+                dispatch(invalidatePosts(this.props.selectedAuthor))
+            }
+        })
     }
     handleClick(e){
         const {params,user,dispatch} = this.props;
@@ -59,6 +93,15 @@ class Item extends React.Component {
                             <p>{item.content}</p>
                             </Content>
                             <Footer style={{padding:'0'}}>
+                                <Row>
+                                    <Col span="20"></Col>
+                                    <Col span="2">  
+                                        {
+                                            this.state.liked ? <Icon type="like" style={{color: 'red',fontSize:'20px'}}/>:<Icon type="like-o" onClick={this.handleVote} style={{color: 'black',fontSize:'20px'}}/>
+                                        }
+                                    </Col>
+                                    <Col span="2">已获得{item.votes.length}个赞</Col>
+                                </Row>
                                 <div style={{borderBottom:'1px solid #EDEDED'}}>
                                     <h3>{item.discussion.length}条回复:</h3>
                                     

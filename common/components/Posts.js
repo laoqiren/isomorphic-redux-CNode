@@ -12,7 +12,7 @@ export default class Posts extends Component {
     return (
       <div style={{ background: 'white', padding: '30px', minHeight:'800px', fontSize:'16px' }}>
         {posts.map((post, i) =>
-          <Row  key={i} style={{borderBottom:'1px solid #EDEDED',height:'50px',lineHeight:'50px'}}>
+          <Row  key={i} style={{borderBottom:'1px solid #EDEDED',height:'50px',lineHeight:'50px',overflow:'hidden'}}>
             <Col span="2">{post.author}:</Col>
             <Col span="2"><span style={{backgroundColor:'green',color:'white'}}>{post.type}</span></Col>
             <Col span="12"><Link className="link" to={"/item/" + post.flag} >{post.title}</Link></Col>
