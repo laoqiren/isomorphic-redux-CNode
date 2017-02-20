@@ -2,6 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import fetch from 'isomorphic-fetch'
 import {Button, Icon,Input, Layout,Row, Col} from 'antd'
+import {invalidatePosts} from '../actions/actions'
 const { Header, Footer, Sider, Content } = Layout;
 class Item extends React.Component {
     constructor(props){
@@ -12,11 +13,15 @@ class Item extends React.Component {
         }
     }
     handleClick(e){
-        const {params,user} = this.props;
+        const {params,user,dispatch} = this.props;
+        const date = new Date();
+        const minute = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate() + " " + 
+        date.getHours() + ":" + (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes())
         const content = JSON.stringify({
             content: this.state.content,
             author: user,
             flag: params.id,
+            time: minute,
             access_token: localStorage.getItem('token')
         })
         fetch('http://localhost:3000/api/comment',{
@@ -29,6 +34,7 @@ class Item extends React.Component {
         }).then(res=>{
             if(res.ok){
                 this.state.content = '';
+                dispatch(invalidatePosts(this.props.selectedAuthor))
             }
         })
     }
@@ -59,9 +65,9 @@ class Item extends React.Component {
                                         <ul>
                                         {
                                         item.discussion.map((discussion,i)=>
-                                            <li key={i}>
-                                                <h5>{discussion.author.name}:</h5>
-                                                {discussion.content || '空'}
+                                            <li key={i} style={{borderBottom:'1px solid #EDEDED',marginBottom:'5px'}}>
+                                                <h4>{discussion.author.name} <span style={{color:'blue'}}>{i+1}楼 > {discussion.time} </span></h4>
+                                                <p style={{fontSize:'14px'}}>{discussion.content || '空'}</p>
                                             </li>
                                         )}
                                         </ul>
@@ -90,7 +96,8 @@ function mapStateToProps(state) {
   }
   return {
     posts: posts||[],
-    user
+    user,
+    selectedAuthor
   }
 }
 export default connect(mapStateToProps)(Item)

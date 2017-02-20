@@ -4,7 +4,8 @@ const postEntity = new Post();
 export default function(req,res,next){
     const comment = {
         content: req.body.content,
-        author: req.body.author
+        author: req.body.author,
+        time: req.body.time
     }
     postEntity.get({
         'flag':req.body.flag
