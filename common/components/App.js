@@ -15,7 +15,8 @@ class App extends React.Component {
        super(props);
        this.handleNavigator = this.handleNavigator.bind(this)
        this.state = {
-           current: 'list'
+           current: 'list',
+           sortUsers: []
        }
     }
     handleNavigator(e){
@@ -45,9 +46,21 @@ class App extends React.Component {
         }).then(json=>{
             dispatch(fetchUser(json))
         })
+        fetch('http://localhost:3000/api/sortUsers',{
+            method: 'GET'
+        }).then(res=>{
+            if(res.ok){
+                return res.json();
+            } else {
+                console.log('获取排名失败')
+            }
+        }).then(json=>{
+            this.setState({
+                sortUsers: json
+            })
+        })
     }
     render() {
-        
         const {user,posts} = this.props;
         console.log(user)
         let postsHaveNoComment = posts.filter((post)=>post.discussion.length === 0);
@@ -112,7 +125,7 @@ class App extends React.Component {
                                             <ul>
                                                 {
                                                     postsHaveNoComment.map((post,i)=>
-                                                        <li key={i}>
+                                                        <li key={i} >
                                                         <Link className="link" to={"/item/" + post.flag} >{post.title}
                                                         </Link>
                                                         </li>
@@ -123,6 +136,13 @@ class App extends React.Component {
                                     </div>
                                     <div style={{backgroundColor:'white',height:'180px',marginBottom:'10px'}}>
                                         <h4 style={{backgroundColor:'#F0FFF0'}}>积分榜</h4>
+                                        <div style={{padding:'8px'}}>
+                                        <ul>
+                                            {
+                                                this.state.sortUsers.map((user,i)=><li key={i}>{user.name}: {user.score}</li>)
+                                            }
+                                        </ul>
+                                        </div>
                                     </div>
                                 </Sider>
                             </Layout>

@@ -2,15 +2,20 @@ import React from 'react';
 import {connect} from 'react-redux';
 import fetch from 'isomorphic-fetch'
 import {logIn} from '../actions/actions'
+import { Input, Button,Icon } from 'antd';
 class Reg extends React.Component{
     constructor(props){
         super(props);
+        this.state = {
+            name: '',
+            passwd: ''
+        }
         this.handleClick = this.handleClick.bind(this)
     }
     handleClick(){
         const {dispatch} = this.props;
-        const name = this.refs.name.value,
-            passwd = this.refs.passwd.value;
+        const name = this.state.name,
+            passwd = this.state.passwd;
         const content = JSON.stringify({
                 name,
                 passwd
@@ -35,14 +40,32 @@ class Reg extends React.Component{
         })
     }
     render(){
+        const { name,passwd } = this.state;
+        const suffix = name ? <Icon type="close-circle" onClick={()=>{
+            this.setState({ name: '' });
+        }} /> : null;
         return (
             <div>
                 <h3>注册</h3>
-                    账号:
-                    <input type="text" ref="name"/>
-                    密码:
-                    <input type="password" ref="passwd"/>
-                    <button onClick={this.handleClick}>发表</button>
+                    <Input
+                        placeholder="Enter your userName"
+                        prefix={<Icon type="user" />}
+                        suffix={suffix}
+                        value={name}
+                        onChange={(e)=>{
+                            this.setState({name:e.target.value})
+                        }}
+                    />
+                    <Input
+                        type="password"
+                        placeholder="Enter your passwd"
+                        prefix={<Icon type="user" />}
+                        value={passwd}
+                        onChange={(e)=>{
+                            this.setState({passwd:e.target.value})
+                        }}
+                    />
+                    <Button type="primary" onClick={this.handleClick}>注册</Button>
             </div>
         )
     }

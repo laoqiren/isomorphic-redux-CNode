@@ -14,7 +14,7 @@ UserSchema.methods.saveUser = function(user,cb){
 };
 UserSchema.methods.getUser = function(query,cb){
     if(query === null){
-        return this.model('user').findOne(cb);
+        return this.model('user').find(cb);
     }
     this.model('user').findOne(query,cb);
 };

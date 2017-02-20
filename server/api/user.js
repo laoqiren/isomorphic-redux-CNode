@@ -22,7 +22,10 @@ export default function(req,res,next){
         name
     },(err,user)=>{
         if(user){
-            return res.status(200).json(user)
+            return res.status(200).json({
+                name: user.name,
+                score: user.score
+            })
         } else {
             return res.status(404).end()
         }

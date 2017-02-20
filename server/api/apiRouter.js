@@ -7,7 +7,8 @@ import log from './log';
 import reg from './reg';
 import comment from './comment';
 import vote from './vote';
-import auth from '../middleware/auth'
+import auth from '../middleware/auth';
+import sortUsers from './sortUsers'
 const router = Express.Router();
 
 router.get('/post',getList);
@@ -28,4 +29,5 @@ router.post('/comment',comment)
 router.post('/vote',auth);
 router.post('/vote',vote);
 
+router.get('/sortUsers',sortUsers)
 export default router;

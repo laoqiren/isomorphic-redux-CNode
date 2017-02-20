@@ -58,6 +58,7 @@ class LogIn extends React.Component{
                         }}
                     />
                     <Input
+                        type="password"
                         placeholder="Enter your passwd"
                         prefix={<Icon type="user" />}
                         value={passwd}
