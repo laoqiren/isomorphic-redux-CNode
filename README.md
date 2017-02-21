@@ -34,6 +34,7 @@
 ![首页](https://github.com/laoqiren/isomorphic-redux-forum/blob/master/assets/images/show2.png)
 2. 
 ![首页](https://github.com/laoqiren/isomorphic-redux-forum/blob/master/assets/images/show1.png)
+
 ## 开发环境
 
 #### 安装依赖
