@@ -10,7 +10,7 @@ export default class Posts extends Component {
   render() {
     const {onShow,posts} = this.props
     return (
-      <div style={{ background: 'white', padding: '30px', minHeight:'800px', fontSize:'16px' }}>
+      <div style={{ background: 'white', padding: '30px', minHeight:'600px', fontSize:'16px' }}>
         {posts.map((post, i) =>
           <Row  key={i} style={{borderBottom:'1px solid #EDEDED',height:'50px',lineHeight:'50px',overflow:'hidden'}}>
             <Col span="2">{post.author}:</Col>

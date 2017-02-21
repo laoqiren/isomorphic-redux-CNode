@@ -1,33 +1,40 @@
 # isomorphic-redux-forum
 
-**基于redux,react-router,react服务端渲染,express,mongoose的项目，webpack构建,实现前后端代码共用的同构SPA**
+## About
 
-**此项目打通react到node的技术栈,开发过程中总结了许多经验，会在我的[技术博客](http://luoxia.me/code)进行总结,欢迎讨论,项目即将上线，部分功能完善中**
+基于React->Node->Mongo技术栈的类CNode社区同构单页Web应用
 
-### 用到的技术栈
-. React
+## 用到的技术栈
+<ul>
+<li>React 构建Web组件</li>
 
-. React-router
+<li>React-router 客户端路由及ssr路由</li>
 
-. redux
+<li>redux 管理应用state</li>
 
-. react服务端渲染
+<li>react服务端渲染 实现同构</li>
 
-. node/express
+<li>node/express 提供服务</li>
 
-. webpack
+<li>webpack 构建</li>
 
-. webpack-isomorphic-tools
+<li>webpack-isomorphic-tools 处理ssr静态资源</li>
 
-. JWT
+<li>JWTs 前后端分离下的token验证</li>
 
-. Ant Design
+<li>Ant Design 构建UI</li>
 
-. redux-devtools
+<li>redux-devtools 开发者工具</li>
 
-. mongodb/mongoose
+<li>. mongodb/mongoose 提供数据库管理</li>
+</ul>
 
-### 开发环境
+## 项目成果图
+1. 
+![首页](https://github.com/laoqiren/isomorphic-redux-forum/blob/master/assets/images/show1.png)
+2. 
+![首页](https://github.com/laoqiren/isomorphic-redux-forum/blob/master/assets/images/show2.png)
+## 开发环境
 
 #### 安装依赖
 
@@ -46,9 +53,12 @@ npm run run-server
 ```
 #### 访问服务:3000端口
 
-### TODO
-. 完善功能
+## TODO
 
-. 优化UI
-
-. 添加测试用例
+<input type="checkbox" checked disabled/>评论,点赞<br/>
+<input type="checkbox" checked disabled/>用户积分<br/>
+<input type="checkbox" checked disabled/>修复bugs<br/>
+<input type="checkbox" />修改文章<br/>
+<input type="checkbox" />修改个人资料<br/>
+<input type="checkbox" />进一步优化UI<br/>
+<input type="checkbox" />单元测试<br/>

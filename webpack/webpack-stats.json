@@ -2,18 +2,18 @@
   "errors": [],
   "warnings": [],
   "version": "2.2.1",
-  "hash": "bd30129a6190ba6ca5d4",
-  "time": 941,
+  "hash": "fef72c00df60f898b3be",
+  "time": 394,
   "publicPath": "http://localhost:3001/public/",
   "assetsByChunkName": {
     "main": [
-      "main.bd30129a6190ba6ca5d4.js",
-      "0.6529346a12a7555d0899.hot-update.js"
+      "main.fef72c00df60f898b3be.js",
+      "0.bd32e4de69eb5cd881c9.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "main.bd30129a6190ba6ca5d4.js",
+      "name": "main.fef72c00df60f898b3be.js",
       "size": 1740483,
       "chunks": [
         0
@@ -25,8 +25,8 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "0.6529346a12a7555d0899.hot-update.js",
-      "size": 18139,
+      "name": "0.bd32e4de69eb5cd881c9.hot-update.js",
+      "size": 5879,
       "chunks": [
         0
       ],
@@ -36,7 +36,7 @@
       "emitted": true
     },
     {
-      "name": "6529346a12a7555d0899.hot-update.json",
+      "name": "bd32e4de69eb5cd881c9.hot-update.json",
       "size": 43,
       "chunks": [],
       "chunkNames": [],
@@ -56,8 +56,8 @@
         0
       ],
       "assets": [
-        "main.bd30129a6190ba6ca5d4.js",
-        "0.6529346a12a7555d0899.hot-update.js"
+        "main.fef72c00df60f898b3be.js",
+        "0.bd32e4de69eb5cd881c9.hot-update.js"
       ],
       "isOverSizeLimit": true
     }
@@ -74,10 +74,10 @@
         "main"
       ],
       "files": [
-        "main.bd30129a6190ba6ca5d4.js",
-        "0.6529346a12a7555d0899.hot-update.js"
+        "main.fef72c00df60f898b3be.js",
+        "0.bd32e4de69eb5cd881c9.hot-update.js"
       ],
-      "hash": "5da32b29f4c8829465a2",
+      "hash": "cf79fb248413d0451202",
       "parents": [],
       "origins": [
         {
@@ -1248,7 +1248,7 @@
           "moduleName": "./common/actions/actions.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "123:411-427"
         },
         {
           "moduleId": 34,
@@ -1257,7 +1257,7 @@
           "moduleName": "./common/actions/actions.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "123:411-427"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 36,
@@ -1320,15 +1320,6 @@
           "moduleName": "./common/components/Side.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "11:13-29"
-        },
-        {
-          "moduleId": 138,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Side.js",
-          "module": "./common/components/Side.js",
-          "moduleName": "./common/components/Side.js",
-          "type": "cjs require",
-          "userRequest": "react",
           "loc": "169:411-427"
         },
         {
@@ -1339,6 +1330,15 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "1:461-477"
+        },
+        {
+          "moduleId": 138,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Side.js",
+          "module": "./common/components/Side.js",
+          "moduleName": "./common/components/Side.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "11:13-29"
         },
         {
           "moduleId": 141,
@@ -1419,6 +1419,15 @@
           "moduleName": "./common/components/List.js",
           "type": "cjs require",
           "userRequest": "react",
+          "loc": "23:13-29"
+        },
+        {
+          "moduleId": 206,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\List.js",
+          "module": "./common/components/List.js",
+          "moduleName": "./common/components/List.js",
+          "type": "cjs require",
+          "userRequest": "react",
           "loc": "1:461-477"
         },
         {
@@ -1431,13 +1440,13 @@
           "loc": "209:411-427"
         },
         {
-          "moduleId": 206,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\List.js",
-          "module": "./common/components/List.js",
-          "moduleName": "./common/components/List.js",
+          "moduleId": 207,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\reducers\\index.js",
+          "module": "./common/reducers/index.js",
+          "moduleName": "./common/reducers/index.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "23:13-29"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 207,
@@ -1447,15 +1456,6 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "110:411-427"
-        },
-        {
-          "moduleId": 207,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\reducers\\index.js",
-          "module": "./common/reducers/index.js",
-          "moduleName": "./common/reducers/index.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "1:461-477"
         },
         {
           "moduleId": 209,
@@ -1500,7 +1500,7 @@
           "moduleName": "./client/index.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "5:13-29"
         },
         {
           "moduleId": 230,
@@ -1518,7 +1518,7 @@
           "moduleName": "./client/index.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "5:13-29"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 239,
@@ -1761,7 +1761,7 @@
           "moduleName": "./common/components/App.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "23:13-29"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 450,
@@ -1770,7 +1770,7 @@
           "moduleName": "./common/components/App.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "23:13-29"
         },
         {
           "moduleId": 451,
@@ -1806,6 +1806,15 @@
           "moduleName": "./common/components/LogIn.js",
           "type": "cjs require",
           "userRequest": "react",
+          "loc": "1:461-477"
+        },
+        {
+          "moduleId": 452,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\LogIn.js",
+          "module": "./common/components/LogIn.js",
+          "moduleName": "./common/components/LogIn.js",
+          "type": "cjs require",
+          "userRequest": "react",
           "loc": "154:411-427"
         },
         {
@@ -1818,13 +1827,13 @@
           "loc": "29:13-29"
         },
         {
-          "moduleId": 452,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\LogIn.js",
-          "module": "./common/components/LogIn.js",
-          "moduleName": "./common/components/LogIn.js",
+          "moduleId": 453,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Picker.js",
+          "module": "./common/components/Picker.js",
+          "moduleName": "./common/components/Picker.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "11:13-29"
         },
         {
           "moduleId": 453,
@@ -1843,15 +1852,6 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "1:461-477"
-        },
-        {
-          "moduleId": 453,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Picker.js",
-          "module": "./common/components/Picker.js",
-          "moduleName": "./common/components/Picker.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "11:13-29"
         },
         {
           "moduleId": 454,
@@ -1887,15 +1887,6 @@
           "moduleName": "./common/components/Publish.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "181:411-427"
-        },
-        {
-          "moduleId": 455,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Publish.js",
-          "module": "./common/components/Publish.js",
-          "moduleName": "./common/components/Publish.js",
-          "type": "cjs require",
-          "userRequest": "react",
           "loc": "1:461-477"
         },
         {
@@ -1906,6 +1897,15 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "35:13-29"
+        },
+        {
+          "moduleId": 455,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Publish.js",
+          "module": "./common/components/Publish.js",
+          "moduleName": "./common/components/Publish.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "181:411-427"
         },
         {
           "moduleId": 456,
@@ -1923,7 +1923,7 @@
           "moduleName": "./common/components/Reg.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "29:13-29"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 456,
@@ -1932,7 +1932,7 @@
           "moduleName": "./common/components/Reg.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "29:13-29"
         },
         {
           "moduleId": 457,
@@ -1950,7 +1950,7 @@
           "moduleName": "./common/components/Space.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "115:411-427"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 457,
@@ -1959,7 +1959,7 @@
           "moduleName": "./common/components/Space.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "115:411-427"
         },
         {
           "moduleId": 458,
@@ -3200,9 +3200,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-dom\\15.4.2\\react-dom\\lib\\ReactBrowserEventEmitter.js",
-      "issuerId": 82,
-      "issuerName": "./~/.npminstall/react-dom/15.4.2/react-dom/lib/ReactBrowserEventEmitter.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react\\15.4.2\\react\\lib\\React.js",
+      "issuerId": 59,
+      "issuerName": "./~/.npminstall/react/15.4.2/react/lib/React.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -4457,9 +4457,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-router\\2.8.1\\react-router\\lib\\PropTypes.js",
-      "issuerId": 141,
-      "issuerName": "./~/.npminstall/react-router/2.8.1/react-router/lib/PropTypes.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-router\\2.8.1\\react-router\\lib\\Router.js",
+      "issuerId": 476,
+      "issuerName": "./~/.npminstall/react-router/2.8.1/react-router/lib/Router.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -6441,9 +6441,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-dom\\15.4.2\\react-dom\\lib\\validateDOMNesting.js",
-      "issuerId": 137,
-      "issuerName": "./~/.npminstall/react-dom/15.4.2/react-dom/lib/validateDOMNesting.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react\\15.4.2\\react\\lib\\ReactPropTypes.js",
+      "issuerId": 495,
+      "issuerName": "./~/.npminstall/react/15.4.2/react/lib/ReactPropTypes.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -6804,9 +6804,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\history\\2.1.2\\history\\lib\\useQueries.js",
-      "issuerId": 77,
-      "issuerName": "./~/.npminstall/history/2.1.2/history/lib/useQueries.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\history\\2.1.2\\history\\lib\\createHashHistory.js",
+      "issuerId": 175,
+      "issuerName": "./~/.npminstall/history/2.1.2/history/lib/createHashHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -7249,9 +7249,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\menu\\style\\css.js",
-      "issuerId": 94,
-      "issuerName": "./~/.npminstall/antd/2.7.0/antd/lib/menu/style/css.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\antd\\2.7.0\\antd\\lib\\button\\style\\css.js",
+      "issuerId": 51,
+      "issuerName": "./~/.npminstall/antd/2.7.0/antd/lib/button/style/css.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -7862,9 +7862,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\LogIn.js",
-      "issuerId": 452,
-      "issuerName": "./common/components/LogIn.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Item.js",
+      "issuerId": 205,
+      "issuerName": "./common/components/Item.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -8044,9 +8044,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\core-js\\2.4.1\\core-js\\library\\modules\\es6.symbol.js",
-      "issuerId": 292,
-      "issuerName": "./~/.npminstall/core-js/2.4.1/core-js/library/modules/es6.symbol.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\core-js\\2.4.1\\core-js\\library\\modules\\es6.object.define-property.js",
+      "issuerId": 288,
+      "issuerName": "./~/.npminstall/core-js/2.4.1/core-js/library/modules/es6.object.define-property.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -8226,9 +8226,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\core-js\\2.4.1\\core-js\\library\\modules\\es6.symbol.js",
-      "issuerId": 292,
-      "issuerName": "./~/.npminstall/core-js/2.4.1/core-js/library/modules/es6.symbol.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\core-js\\2.4.1\\core-js\\library\\modules\\es6.object.define-property.js",
+      "issuerId": 288,
+      "issuerName": "./~/.npminstall/core-js/2.4.1/core-js/library/modules/es6.object.define-property.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -8408,9 +8408,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\history\\2.1.2\\history\\lib\\useQueries.js",
-      "issuerId": 77,
-      "issuerName": "./~/.npminstall/history/2.1.2/history/lib/useQueries.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\history\\2.1.2\\history\\lib\\createHashHistory.js",
+      "issuerId": 175,
+      "issuerName": "./~/.npminstall/history/2.1.2/history/lib/createHashHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -8681,9 +8681,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-router\\2.8.1\\react-router\\lib\\PropTypes.js",
-      "issuerId": 141,
-      "issuerName": "./~/.npminstall/react-router/2.8.1/react-router/lib/PropTypes.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-router\\2.8.1\\react-router\\lib\\Router.js",
+      "issuerId": 476,
+      "issuerName": "./~/.npminstall/react-router/2.8.1/react-router/lib/Router.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -9045,9 +9045,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Publish.js",
-      "issuerId": 455,
-      "issuerName": "./common/components/Publish.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Item.js",
+      "issuerId": 205,
+      "issuerName": "./common/components/Item.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -9127,9 +9127,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Publish.js",
-      "issuerId": 455,
-      "issuerName": "./common/components/Publish.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Item.js",
+      "issuerId": 205,
+      "issuerName": "./common/components/Item.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -9865,9 +9865,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Publish.js",
-      "issuerId": 455,
-      "issuerName": "./common/components/Publish.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Item.js",
+      "issuerId": 205,
+      "issuerName": "./common/components/Item.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -9938,9 +9938,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Publish.js",
-      "issuerId": 455,
-      "issuerName": "./common/components/Publish.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Item.js",
+      "issuerId": 205,
+      "issuerName": "./common/components/Item.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10522,9 +10522,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-dom\\15.4.2\\react-dom\\lib\\BeforeInputEventPlugin.js",
-      "issuerId": 373,
-      "issuerName": "./~/.npminstall/react-dom/15.4.2/react-dom/lib/BeforeInputEventPlugin.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-dom\\15.4.2\\react-dom\\lib\\EnterLeaveEventPlugin.js",
+      "issuerId": 378,
+      "issuerName": "./~/.npminstall/react-dom/15.4.2/react-dom/lib/EnterLeaveEventPlugin.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -11829,9 +11829,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\configStore.js",
-      "issuerId": 458,
-      "issuerName": "./common/configStore.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\reducers\\index.js",
+      "issuerId": 207,
+      "issuerName": "./common/reducers/index.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -11899,9 +11899,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\LogIn.js",
-      "issuerId": 452,
-      "issuerName": "./common/components/LogIn.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Item.js",
+      "issuerId": 205,
+      "issuerName": "./common/components/Item.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -12394,9 +12394,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\core-js\\2.4.1\\core-js\\library\\modules\\es6.symbol.js",
-      "issuerId": 292,
-      "issuerName": "./~/.npminstall/core-js/2.4.1/core-js/library/modules/es6.symbol.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\core-js\\2.4.1\\core-js\\library\\modules\\es6.object.create.js",
+      "issuerId": 287,
+      "issuerName": "./~/.npminstall/core-js/2.4.1/core-js/library/modules/es6.object.create.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -13938,9 +13938,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-dom\\15.4.2\\react-dom\\lib\\ReactDOMInput.js",
-      "issuerId": 390,
-      "issuerName": "./~/.npminstall/react-dom/15.4.2/react-dom/lib/ReactDOMInput.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-dom\\15.4.2\\react-dom\\lib\\ReactDOMSelect.js",
+      "issuerId": 189,
+      "issuerName": "./~/.npminstall/react-dom/15.4.2/react-dom/lib/ReactDOMSelect.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -14877,9 +14877,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react\\15.4.2\\react\\lib\\ReactComponent.js",
-      "issuerId": 143,
-      "issuerName": "./~/.npminstall/react/15.4.2/react/lib/ReactComponent.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react\\15.4.2\\react\\lib\\ReactPureComponent.js",
+      "issuerId": 496,
+      "issuerName": "./~/.npminstall/react/15.4.2/react/lib/ReactPureComponent.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -15143,9 +15143,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Posts.js",
-      "issuerId": 454,
-      "issuerName": "./common/components/Posts.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Item.js",
+      "issuerId": 205,
+      "issuerName": "./common/components/Item.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -15189,9 +15189,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Posts.js",
-      "issuerId": 454,
-      "issuerName": "./common/components/Posts.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Item.js",
+      "issuerId": 205,
+      "issuerName": "./common/components/Item.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -15373,9 +15373,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Posts.js",
-      "issuerId": 454,
-      "issuerName": "./common/components/Posts.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Item.js",
+      "issuerId": 205,
+      "issuerName": "./common/components/Item.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -15419,9 +15419,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Posts.js",
-      "issuerId": 454,
-      "issuerName": "./common/components/Posts.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Item.js",
+      "issuerId": 205,
+      "issuerName": "./common/components/Item.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -15649,9 +15649,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\core-js\\2.4.1\\core-js\\library\\modules\\_object-gopd.js",
-      "issuerId": 163,
-      "issuerName": "./~/.npminstall/core-js/2.4.1/core-js/library/modules/_object-gopd.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\core-js\\2.4.1\\core-js\\library\\modules\\_object-dp.js",
+      "issuerId": 41,
+      "issuerName": "./~/.npminstall/core-js/2.4.1/core-js/library/modules/_object-dp.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -16109,9 +16109,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-dom\\15.4.2\\react-dom\\lib\\SimpleEventPlugin.js",
-      "issuerId": 419,
-      "issuerName": "./~/.npminstall/react-dom/15.4.2/react-dom/lib/SimpleEventPlugin.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-dom\\15.4.2\\react-dom\\lib\\ReactEventListener.js",
+      "issuerId": 404,
+      "issuerName": "./~/.npminstall/react-dom/15.4.2/react-dom/lib/ReactEventListener.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -17716,7 +17716,7 @@
       "index2": 477,
       "size": 18341,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -18010,9 +18010,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-redux\\5.0.2\\react-redux\\es\\components\\Provider.js",
-      "issuerId": 461,
-      "issuerName": "./~/.npminstall/react-redux/5.0.2/react-redux/es/components/Provider.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-redux\\5.0.2\\react-redux\\es\\components\\connectAdvanced.js",
+      "issuerId": 209,
+      "issuerName": "./~/.npminstall/react-redux/5.0.2/react-redux/es/components/connectAdvanced.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -18060,9 +18060,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-redux\\5.0.2\\react-redux\\es\\components\\Provider.js",
-      "issuerId": 461,
-      "issuerName": "./~/.npminstall/react-redux/5.0.2/react-redux/es/components/Provider.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-redux\\5.0.2\\react-redux\\es\\components\\connectAdvanced.js",
+      "issuerId": 209,
+      "issuerName": "./~/.npminstall/react-redux/5.0.2/react-redux/es/components/connectAdvanced.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -18390,9 +18390,9 @@
         0
       ],
       "assets": [],
-      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-router\\2.8.1\\react-router\\lib\\getComponents.js",
-      "issuerId": 482,
-      "issuerName": "./~/.npminstall/react-router/2.8.1/react-router/lib/getComponents.js",
+      "issuer": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-router\\2.8.1\\react-router\\lib\\matchRoutes.js",
+      "issuerId": 487,
+      "issuerName": "./~/.npminstall/react-router/2.8.1/react-router/lib/matchRoutes.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -27223,7 +27223,7 @@
       "index2": 478,
       "size": 6018,
       "cacheable": true,
-      "built": false,
+      "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -27250,7 +27250,7 @@
       "usedExports": true,
       "providedExports": null,
       "depth": 4,
-      "source": "/* REACT HOT LOADER */ if (module.hot) { (function () { var ReactHotAPI = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-api\\\\0.4.7\\\\react-hot-api\\\\modules\\\\index.js\"), RootInstanceProvider = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\RootInstanceProvider.js\"), ReactMount = require(\"react-dom/lib/ReactMount\"), React = require(\"react\"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {\n\n'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _css = require('antd/lib/row/style/css');\n\nvar _row = require('antd/lib/row');\n\nvar _row2 = _interopRequireDefault(_row);\n\nvar _css2 = require('antd/lib/col/style/css');\n\nvar _col = require('antd/lib/col');\n\nvar _col2 = _interopRequireDefault(_col);\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Item = require('./Item');\n\nvar _Item2 = _interopRequireDefault(_Item);\n\nvar _reactRouter = require('react-router');\n\nvar _isomorphicFetch = require('isomorphic-fetch');\n\nvar _isomorphicFetch2 = _interopRequireDefault(_isomorphicFetch);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Posts = function (_Component) {\n  _inherits(Posts, _Component);\n\n  function Posts(props) {\n    _classCallCheck(this, Posts);\n\n    return _possibleConstructorReturn(this, (Posts.__proto__ || Object.getPrototypeOf(Posts)).call(this, props));\n  }\n\n  _createClass(Posts, [{\n    key: 'render',\n    value: function render() {\n      var _props = this.props,\n          onShow = _props.onShow,\n          posts = _props.posts;\n\n      return _react2.default.createElement(\n        'div',\n        { style: { background: 'white', padding: '30px', minHeight: '800px', fontSize: '16px' } },\n        posts.map(function (post, i) {\n          return _react2.default.createElement(\n            _row2.default,\n            { key: i, style: { borderBottom: '1px solid #EDEDED', height: '50px', lineHeight: '50px', overflow: 'hidden' } },\n            _react2.default.createElement(\n              _col2.default,\n              { span: '2' },\n              post.author,\n              ':'\n            ),\n            _react2.default.createElement(\n              _col2.default,\n              { span: '2' },\n              _react2.default.createElement(\n                'span',\n                { style: { backgroundColor: 'green', color: 'white' } },\n                post.type\n              )\n            ),\n            _react2.default.createElement(\n              _col2.default,\n              { span: '12' },\n              _react2.default.createElement(\n                _reactRouter.Link,\n                { className: 'link', to: \"/item/\" + post.flag },\n                post.title\n              )\n            ),\n            _react2.default.createElement(\n              _col2.default,\n              { span: '2' },\n              _react2.default.createElement(\n                'span',\n                { style: { color: 'red' } },\n                post.discussion.length\n              ),\n              '\\u6761\\u8BC4\\u8BBA'\n            ),\n            _react2.default.createElement(\n              _col2.default,\n              { span: '6' },\n              _react2.default.createElement(\n                'span',\n                null,\n                post.time.minute\n              )\n            )\n          );\n        })\n      );\n    }\n  }]);\n\n  return Posts;\n}(_react.Component);\n\nexports.default = Posts;\n\n\nPosts.propTypes = {\n  posts: _react.PropTypes.array.isRequired\n};\n\n/* REACT HOT LOADER */ }).call(this); } finally { if (module.hot) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\makeExportsHot.js\"); if (makeExportsHot(module, require(\"react\"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error(\"Cannot apply hot update to \" + \"Posts.js\" + \": \" + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }"
+      "source": "/* REACT HOT LOADER */ if (module.hot) { (function () { var ReactHotAPI = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-api\\\\0.4.7\\\\react-hot-api\\\\modules\\\\index.js\"), RootInstanceProvider = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\RootInstanceProvider.js\"), ReactMount = require(\"react-dom/lib/ReactMount\"), React = require(\"react\"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {\n\n'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _css = require('antd/lib/row/style/css');\n\nvar _row = require('antd/lib/row');\n\nvar _row2 = _interopRequireDefault(_row);\n\nvar _css2 = require('antd/lib/col/style/css');\n\nvar _col = require('antd/lib/col');\n\nvar _col2 = _interopRequireDefault(_col);\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Item = require('./Item');\n\nvar _Item2 = _interopRequireDefault(_Item);\n\nvar _reactRouter = require('react-router');\n\nvar _isomorphicFetch = require('isomorphic-fetch');\n\nvar _isomorphicFetch2 = _interopRequireDefault(_isomorphicFetch);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Posts = function (_Component) {\n  _inherits(Posts, _Component);\n\n  function Posts(props) {\n    _classCallCheck(this, Posts);\n\n    return _possibleConstructorReturn(this, (Posts.__proto__ || Object.getPrototypeOf(Posts)).call(this, props));\n  }\n\n  _createClass(Posts, [{\n    key: 'render',\n    value: function render() {\n      var _props = this.props,\n          onShow = _props.onShow,\n          posts = _props.posts;\n\n      return _react2.default.createElement(\n        'div',\n        { style: { background: 'white', padding: '30px', minHeight: '600px', fontSize: '16px' } },\n        posts.map(function (post, i) {\n          return _react2.default.createElement(\n            _row2.default,\n            { key: i, style: { borderBottom: '1px solid #EDEDED', height: '50px', lineHeight: '50px', overflow: 'hidden' } },\n            _react2.default.createElement(\n              _col2.default,\n              { span: '2' },\n              post.author,\n              ':'\n            ),\n            _react2.default.createElement(\n              _col2.default,\n              { span: '2' },\n              _react2.default.createElement(\n                'span',\n                { style: { backgroundColor: 'green', color: 'white' } },\n                post.type\n              )\n            ),\n            _react2.default.createElement(\n              _col2.default,\n              { span: '12' },\n              _react2.default.createElement(\n                _reactRouter.Link,\n                { className: 'link', to: \"/item/\" + post.flag },\n                post.title\n              )\n            ),\n            _react2.default.createElement(\n              _col2.default,\n              { span: '2' },\n              _react2.default.createElement(\n                'span',\n                { style: { color: 'red' } },\n                post.discussion.length\n              ),\n              '\\u6761\\u8BC4\\u8BBA'\n            ),\n            _react2.default.createElement(\n              _col2.default,\n              { span: '6' },\n              _react2.default.createElement(\n                'span',\n                null,\n                post.time.minute\n              )\n            )\n          );\n        })\n      );\n    }\n  }]);\n\n  return Posts;\n}(_react.Component);\n\nexports.default = Posts;\n\n\nPosts.propTypes = {\n  posts: _react.PropTypes.array.isRequired\n};\n\n/* REACT HOT LOADER */ }).call(this); } finally { if (module.hot) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\makeExportsHot.js\"); if (makeExportsHot(module, require(\"react\"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error(\"Cannot apply hot update to \" + \"Posts.js\" + \": \" + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }"
     },
     {
       "id": 455,
