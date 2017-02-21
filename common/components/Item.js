@@ -152,7 +152,7 @@ class Item extends React.Component {
                         </Layout>
                     </Content>
                     <Sider width="300" style={{backgroundColor:'#EDEDED',height:'180px'}}>
-                        <Side user={this.state.authorInfo} postsHaveNoComment={postsHaveNoComment}/>
+                        <Side user={this.state.authorInfo} isOther={true}postsHaveNoComment={postsHaveNoComment}/>
                     </Sider>
                 </Layout>
             </div>

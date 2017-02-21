@@ -2,19 +2,19 @@
   "errors": [],
   "warnings": [],
   "version": "2.2.1",
-  "hash": "fef72c00df60f898b3be",
-  "time": 394,
+  "hash": "0b5d18da8aae73d3f36a",
+  "time": 854,
   "publicPath": "http://localhost:3001/public/",
   "assetsByChunkName": {
     "main": [
-      "main.fef72c00df60f898b3be.js",
-      "0.bd32e4de69eb5cd881c9.hot-update.js"
+      "main.0b5d18da8aae73d3f36a.js",
+      "0.7db28b8140d6967eab24.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "main.fef72c00df60f898b3be.js",
-      "size": 1740483,
+      "name": "main.0b5d18da8aae73d3f36a.js",
+      "size": 1740889,
       "chunks": [
         0
       ],
@@ -25,8 +25,8 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "0.bd32e4de69eb5cd881c9.hot-update.js",
-      "size": 5879,
+      "name": "0.7db28b8140d6967eab24.hot-update.js",
+      "size": 9203,
       "chunks": [
         0
       ],
@@ -36,7 +36,7 @@
       "emitted": true
     },
     {
-      "name": "bd32e4de69eb5cd881c9.hot-update.json",
+      "name": "7db28b8140d6967eab24.hot-update.json",
       "size": 43,
       "chunks": [],
       "chunkNames": [],
@@ -56,8 +56,8 @@
         0
       ],
       "assets": [
-        "main.fef72c00df60f898b3be.js",
-        "0.bd32e4de69eb5cd881c9.hot-update.js"
+        "main.0b5d18da8aae73d3f36a.js",
+        "0.7db28b8140d6967eab24.hot-update.js"
       ],
       "isOverSizeLimit": true
     }
@@ -69,15 +69,15 @@
       "initial": true,
       "entry": true,
       "extraAsync": false,
-      "size": 1659913,
+      "size": 1660319,
       "names": [
         "main"
       ],
       "files": [
-        "main.fef72c00df60f898b3be.js",
-        "0.bd32e4de69eb5cd881c9.hot-update.js"
+        "main.0b5d18da8aae73d3f36a.js",
+        "0.7db28b8140d6967eab24.hot-update.js"
       ],
-      "hash": "cf79fb248413d0451202",
+      "hash": "476c2c504568c3b88561",
       "parents": [],
       "origins": [
         {
@@ -1320,7 +1320,7 @@
           "moduleName": "./common/components/Side.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "169:411-427"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 138,
@@ -1329,7 +1329,7 @@
           "moduleName": "./common/components/Side.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "178:411-427"
         },
         {
           "moduleId": 138,
@@ -1392,15 +1392,6 @@
           "moduleName": "./common/components/Item.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "47:13-29"
-        },
-        {
-          "moduleId": 205,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Item.js",
-          "module": "./common/components/Item.js",
-          "moduleName": "./common/components/Item.js",
-          "type": "cjs require",
-          "userRequest": "react",
           "loc": "1:461-477"
         },
         {
@@ -1411,6 +1402,15 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "383:411-427"
+        },
+        {
+          "moduleId": 205,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Item.js",
+          "module": "./common/components/Item.js",
+          "moduleName": "./common/components/Item.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "47:13-29"
         },
         {
           "moduleId": 206,
@@ -1500,7 +1500,7 @@
           "moduleName": "./client/index.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "5:13-29"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 230,
@@ -1518,7 +1518,7 @@
           "moduleName": "./client/index.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "5:13-29"
         },
         {
           "moduleId": 239,
@@ -1779,6 +1779,15 @@
           "moduleName": "./common/components/Header.js",
           "type": "cjs require",
           "userRequest": "react",
+          "loc": "23:13-29"
+        },
+        {
+          "moduleId": 451,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Header.js",
+          "module": "./common/components/Header.js",
+          "moduleName": "./common/components/Header.js",
+          "type": "cjs require",
+          "userRequest": "react",
           "loc": "1:461-477"
         },
         {
@@ -1789,24 +1798,6 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "137:411-427"
-        },
-        {
-          "moduleId": 451,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Header.js",
-          "module": "./common/components/Header.js",
-          "moduleName": "./common/components/Header.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "23:13-29"
-        },
-        {
-          "moduleId": 452,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\LogIn.js",
-          "module": "./common/components/LogIn.js",
-          "moduleName": "./common/components/LogIn.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "1:461-477"
         },
         {
           "moduleId": 452,
@@ -1827,6 +1818,15 @@
           "loc": "29:13-29"
         },
         {
+          "moduleId": 452,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\LogIn.js",
+          "module": "./common/components/LogIn.js",
+          "moduleName": "./common/components/LogIn.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "1:461-477"
+        },
+        {
           "moduleId": 453,
           "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Picker.js",
           "module": "./common/components/Picker.js",
@@ -1842,7 +1842,7 @@
           "moduleName": "./common/components/Picker.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "79:411-427"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 453,
@@ -1851,7 +1851,7 @@
           "moduleName": "./common/components/Picker.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "79:411-427"
         },
         {
           "moduleId": 454,
@@ -1869,7 +1869,7 @@
           "moduleName": "./common/components/Posts.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "127:411-427"
         },
         {
           "moduleId": 454,
@@ -1878,7 +1878,7 @@
           "moduleName": "./common/components/Posts.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "127:411-427"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 455,
@@ -1914,6 +1914,15 @@
           "moduleName": "./common/components/Reg.js",
           "type": "cjs require",
           "userRequest": "react",
+          "loc": "29:13-29"
+        },
+        {
+          "moduleId": 456,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Reg.js",
+          "module": "./common/components/Reg.js",
+          "moduleName": "./common/components/Reg.js",
+          "type": "cjs require",
+          "userRequest": "react",
           "loc": "154:411-427"
         },
         {
@@ -1926,13 +1935,13 @@
           "loc": "1:461-477"
         },
         {
-          "moduleId": 456,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Reg.js",
-          "module": "./common/components/Reg.js",
-          "moduleName": "./common/components/Reg.js",
+          "moduleId": 457,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Space.js",
+          "module": "./common/components/Space.js",
+          "moduleName": "./common/components/Space.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "29:13-29"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 457,
@@ -1950,16 +1959,16 @@
           "moduleName": "./common/components/Space.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "115:411-427"
         },
         {
-          "moduleId": 457,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\components\\Space.js",
-          "module": "./common/components/Space.js",
-          "moduleName": "./common/components/Space.js",
+          "moduleId": 458,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\configStore.js",
+          "module": "./common/configStore.js",
+          "moduleName": "./common/configStore.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "115:411-427"
+          "loc": "1:461-477"
         },
         {
           "moduleId": 458,
@@ -1971,13 +1980,13 @@
           "loc": "28:411-427"
         },
         {
-          "moduleId": 458,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\configStore.js",
-          "module": "./common/configStore.js",
-          "moduleName": "./common/configStore.js",
+          "moduleId": 459,
+          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\routes.js",
+          "module": "./common/routes.js",
+          "moduleName": "./common/routes.js",
           "type": "cjs require",
           "userRequest": "react",
-          "loc": "1:461-477"
+          "loc": "9:13-29"
         },
         {
           "moduleId": 459,
@@ -1996,15 +2005,6 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "1:461-477"
-        },
-        {
-          "moduleId": 459,
-          "moduleIdentifier": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\babel-loader\\6.2.10\\babel-loader\\lib\\index.js!C:\\Users\\Administrator\\Desktop\\workspace\\redux\\common\\routes.js",
-          "module": "./common/routes.js",
-          "moduleName": "./common/routes.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "9:13-29"
         },
         {
           "moduleId": 461,
@@ -5349,7 +5349,7 @@
           "moduleName": "./common/components/Side.js",
           "type": "cjs require",
           "userRequest": "C:\\Users\\Administrator\\Desktop\\workspace\\redux\\node_modules\\.npminstall\\react-hot-loader\\1.3.1\\react-hot-loader\\makeExportsHot.js",
-          "loc": "169:231-382"
+          "loc": "178:231-382"
         },
         {
           "moduleId": 205,
@@ -14534,9 +14534,9 @@
       "name": "./common/components/Side.js",
       "index": 483,
       "index2": 476,
-      "size": 8938,
+      "size": 9329,
       "cacheable": true,
-      "built": false,
+      "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14581,7 +14581,7 @@
       "usedExports": true,
       "providedExports": null,
       "depth": 4,
-      "source": "/* REACT HOT LOADER */ if (module.hot) { (function () { var ReactHotAPI = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-api\\\\0.4.7\\\\react-hot-api\\\\modules\\\\index.js\"), RootInstanceProvider = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\RootInstanceProvider.js\"), ReactMount = require(\"react-dom/lib/ReactMount\"), React = require(\"react\"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {\n\n'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouter = require('react-router');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Side = function (_React$Component) {\n    _inherits(Side, _React$Component);\n\n    function Side(props) {\n        _classCallCheck(this, Side);\n\n        var _this = _possibleConstructorReturn(this, (Side.__proto__ || Object.getPrototypeOf(Side)).call(this, props));\n\n        _this.state = {\n            sortUsers: []\n        };\n        return _this;\n    }\n\n    _createClass(Side, [{\n        key: 'componentDidMount',\n        value: function componentDidMount() {\n            var _this2 = this;\n\n            fetch('http://localhost:3000/api/sortUsers', {\n                method: 'GET'\n            }).then(function (res) {\n                if (res.ok) {\n                    return res.json();\n                } else {\n                    console.log('获取排名失败');\n                }\n            }).then(function (json) {\n                _this2.setState({\n                    sortUsers: json\n                });\n            });\n        }\n    }, {\n        key: 'render',\n        value: function render() {\n            var _props = this.props,\n                user = _props.user,\n                postsHaveNoComment = _props.postsHaveNoComment;\n\n            return _react2.default.createElement(\n                'div',\n                null,\n                _react2.default.createElement(\n                    'div',\n                    { style: { backgroundColor: 'white', marginBottom: '10px' } },\n                    _react2.default.createElement(\n                        'h4',\n                        { style: { backgroundColor: '#F0FFF0' } },\n                        '\\u4E2A\\u4EBA\\u4FE1\\u606F'\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { style: { padding: '8px' } },\n                        _react2.default.createElement('img', { src: 'https://avatars.githubusercontent.com/u/16136702?v=3&s=120', style: { height: '80px' } }),\n                        _react2.default.createElement(\n                            'span',\n                            { style: { fontSize: '18px', marginLeft: '10px' } },\n                            user.name\n                        ),\n                        _react2.default.createElement('br', null),\n                        _react2.default.createElement(\n                            'span',\n                            { style: { color: 'red' } },\n                            '\\u79EF\\u5206:'\n                        ),\n                        ' ',\n                        user.score,\n                        _react2.default.createElement('br', null),\n                        _react2.default.createElement(\n                            'span',\n                            null,\n                            '\"\\u8FD9\\u5BB6\\u4F19\\u5F88\\u61D2\\uFF0C\\u4EC0\\u4E48\\u90FD\\u6CA1\\u7559\\u4E0B\"'\n                        )\n                    )\n                ),\n                _react2.default.createElement(\n                    'div',\n                    { style: { backgroundColor: 'white', height: '180px', marginBottom: '10px', overflow: 'hidden' } },\n                    _react2.default.createElement(\n                        'h4',\n                        { style: { backgroundColor: '#F0FFF0' } },\n                        '\\u65E0\\u4EBA\\u56DE\\u590D\\u7684\\u8BDD\\u9898'\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { style: { padding: '8px' } },\n                        postsHaveNoComment.length === 0 && _react2.default.createElement(\n                            'span',\n                            null,\n                            '\\u6682\\u65E0'\n                        ),\n                        _react2.default.createElement(\n                            'ul',\n                            null,\n                            postsHaveNoComment.map(function (post, i) {\n                                return _react2.default.createElement(\n                                    'li',\n                                    { key: i },\n                                    _react2.default.createElement(\n                                        _reactRouter.Link,\n                                        { className: 'link', to: \"/item/\" + post.flag },\n                                        post.title\n                                    )\n                                );\n                            })\n                        )\n                    )\n                ),\n                _react2.default.createElement(\n                    'div',\n                    { style: { backgroundColor: 'white', height: '180px', marginBottom: '10px' } },\n                    _react2.default.createElement(\n                        'h4',\n                        { style: { backgroundColor: '#F0FFF0' } },\n                        '\\u79EF\\u5206\\u699C'\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { style: { padding: '8px' } },\n                        _react2.default.createElement(\n                            'ul',\n                            null,\n                            this.state.sortUsers.map(function (user, i) {\n                                return _react2.default.createElement(\n                                    'li',\n                                    { key: i },\n                                    user.name,\n                                    ': ',\n                                    user.score\n                                );\n                            })\n                        )\n                    )\n                )\n            );\n        }\n    }]);\n\n    return Side;\n}(_react2.default.Component);\n\nexports.default = Side;\n\n/* REACT HOT LOADER */ }).call(this); } finally { if (module.hot) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\makeExportsHot.js\"); if (makeExportsHot(module, require(\"react\"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error(\"Cannot apply hot update to \" + \"Side.js\" + \": \" + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }"
+      "source": "/* REACT HOT LOADER */ if (module.hot) { (function () { var ReactHotAPI = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-api\\\\0.4.7\\\\react-hot-api\\\\modules\\\\index.js\"), RootInstanceProvider = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\RootInstanceProvider.js\"), ReactMount = require(\"react-dom/lib/ReactMount\"), React = require(\"react\"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {\n\n'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouter = require('react-router');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Side = function (_React$Component) {\n    _inherits(Side, _React$Component);\n\n    function Side(props) {\n        _classCallCheck(this, Side);\n\n        var _this = _possibleConstructorReturn(this, (Side.__proto__ || Object.getPrototypeOf(Side)).call(this, props));\n\n        _this.state = {\n            sortUsers: []\n        };\n        return _this;\n    }\n\n    _createClass(Side, [{\n        key: 'componentDidMount',\n        value: function componentDidMount() {\n            var _this2 = this;\n\n            fetch('http://localhost:3000/api/sortUsers', {\n                method: 'GET'\n            }).then(function (res) {\n                if (res.ok) {\n                    return res.json();\n                } else {\n                    console.log('获取排名失败');\n                }\n            }).then(function (json) {\n                _this2.setState({\n                    sortUsers: json\n                });\n            });\n        }\n    }, {\n        key: 'render',\n        value: function render() {\n            var _props = this.props,\n                user = _props.user,\n                postsHaveNoComment = _props.postsHaveNoComment,\n                isOther = _props.isOther;\n\n            return _react2.default.createElement(\n                'div',\n                null,\n                _react2.default.createElement(\n                    'div',\n                    { style: { backgroundColor: 'white', marginBottom: '10px' } },\n                    _react2.default.createElement(\n                        'h4',\n                        { style: { backgroundColor: '#F0FFF0' } },\n                        isOther ? _react2.default.createElement(\n                            'span',\n                            null,\n                            '\\u4F5C\\u8005\\u4FE1\\u606F'\n                        ) : _react2.default.createElement(\n                            'span',\n                            null,\n                            '\\u7528\\u6237\\u4FE1\\u606F'\n                        )\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { style: { padding: '8px' } },\n                        _react2.default.createElement('img', { src: 'https://avatars.githubusercontent.com/u/16136702?v=3&s=120', style: { height: '80px' } }),\n                        _react2.default.createElement(\n                            'span',\n                            { style: { fontSize: '18px', marginLeft: '10px' } },\n                            user.name\n                        ),\n                        _react2.default.createElement('br', null),\n                        _react2.default.createElement(\n                            'span',\n                            { style: { color: 'red' } },\n                            '\\u79EF\\u5206:'\n                        ),\n                        ' ',\n                        user.score,\n                        _react2.default.createElement('br', null),\n                        _react2.default.createElement(\n                            'span',\n                            null,\n                            '\"\\u8FD9\\u5BB6\\u4F19\\u5F88\\u61D2\\uFF0C\\u4EC0\\u4E48\\u90FD\\u6CA1\\u7559\\u4E0B\"'\n                        )\n                    )\n                ),\n                _react2.default.createElement(\n                    'div',\n                    { style: { backgroundColor: 'white', height: '180px', marginBottom: '10px', overflow: 'hidden' } },\n                    _react2.default.createElement(\n                        'h4',\n                        { style: { backgroundColor: '#F0FFF0' } },\n                        '\\u65E0\\u4EBA\\u56DE\\u590D\\u7684\\u8BDD\\u9898'\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { style: { padding: '8px' } },\n                        postsHaveNoComment.length === 0 && _react2.default.createElement(\n                            'span',\n                            null,\n                            '\\u6682\\u65E0'\n                        ),\n                        _react2.default.createElement(\n                            'ul',\n                            null,\n                            postsHaveNoComment.map(function (post, i) {\n                                return _react2.default.createElement(\n                                    'li',\n                                    { key: i },\n                                    _react2.default.createElement(\n                                        _reactRouter.Link,\n                                        { className: 'link', to: \"/item/\" + post.flag },\n                                        post.title\n                                    )\n                                );\n                            })\n                        )\n                    )\n                ),\n                _react2.default.createElement(\n                    'div',\n                    { style: { backgroundColor: 'white', height: '180px', marginBottom: '10px' } },\n                    _react2.default.createElement(\n                        'h4',\n                        { style: { backgroundColor: '#F0FFF0' } },\n                        '\\u79EF\\u5206\\u699C'\n                    ),\n                    _react2.default.createElement(\n                        'div',\n                        { style: { padding: '8px' } },\n                        _react2.default.createElement(\n                            'ul',\n                            null,\n                            this.state.sortUsers.map(function (user, i) {\n                                return _react2.default.createElement(\n                                    'li',\n                                    { key: i },\n                                    user.name,\n                                    ': ',\n                                    user.score\n                                );\n                            })\n                        )\n                    )\n                )\n            );\n        }\n    }]);\n\n    return Side;\n}(_react2.default.Component);\n\nexports.default = Side;\n\n/* REACT HOT LOADER */ }).call(this); } finally { if (module.hot) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\makeExportsHot.js\"); if (makeExportsHot(module, require(\"react\"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error(\"Cannot apply hot update to \" + \"Side.js\" + \": \" + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }"
     },
     {
       "id": 139,
@@ -17714,7 +17714,7 @@
       "name": "./common/components/Item.js",
       "index": 467,
       "index2": 477,
-      "size": 18341,
+      "size": 18356,
       "cacheable": true,
       "built": false,
       "optional": false,
@@ -17752,7 +17752,7 @@
       "usedExports": true,
       "providedExports": null,
       "depth": 3,
-      "source": "/* REACT HOT LOADER */ if (module.hot) { (function () { var ReactHotAPI = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-api\\\\0.4.7\\\\react-hot-api\\\\modules\\\\index.js\"), RootInstanceProvider = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\RootInstanceProvider.js\"), ReactMount = require(\"react-dom/lib/ReactMount\"), React = require(\"react\"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {\n\n'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _css = require('antd/lib/button/style/css');\n\nvar _button = require('antd/lib/button');\n\nvar _button2 = _interopRequireDefault(_button);\n\nvar _css2 = require('antd/lib/input/style/css');\n\nvar _input = require('antd/lib/input');\n\nvar _input2 = _interopRequireDefault(_input);\n\nvar _css3 = require('antd/lib/row/style/css');\n\nvar _row = require('antd/lib/row');\n\nvar _row2 = _interopRequireDefault(_row);\n\nvar _css4 = require('antd/lib/icon/style/css');\n\nvar _icon = require('antd/lib/icon');\n\nvar _icon2 = _interopRequireDefault(_icon);\n\nvar _css5 = require('antd/lib/col/style/css');\n\nvar _col = require('antd/lib/col');\n\nvar _col2 = _interopRequireDefault(_col);\n\nvar _css6 = require('antd/lib/layout/style/css');\n\nvar _layout = require('antd/lib/layout');\n\nvar _layout2 = _interopRequireDefault(_layout);\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRedux = require('react-redux');\n\nvar _isomorphicFetch = require('isomorphic-fetch');\n\nvar _isomorphicFetch2 = _interopRequireDefault(_isomorphicFetch);\n\nvar _actions = require('../actions/actions');\n\nvar _Side = require('./Side');\n\nvar _Side2 = _interopRequireDefault(_Side);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Header = _layout2.default.Header,\n    Footer = _layout2.default.Footer,\n    Sider = _layout2.default.Sider,\n    Content = _layout2.default.Content;\n\nvar Item = function (_React$Component) {\n    _inherits(Item, _React$Component);\n\n    function Item(props) {\n        _classCallCheck(this, Item);\n\n        var _this = _possibleConstructorReturn(this, (Item.__proto__ || Object.getPrototypeOf(Item)).call(this, props));\n\n        _this.handleClick = _this.handleClick.bind(_this);\n        _this.handleVote = _this.handleVote.bind(_this);\n        _this.state = {\n            content: '',\n            liked: false,\n            authorInfo: {}\n        };\n        return _this;\n    }\n\n    _createClass(Item, [{\n        key: 'componentDidMount',\n        value: function componentDidMount() {\n            var _this2 = this;\n\n            var _props = this.props,\n                user = _props.user,\n                posts = _props.posts,\n                params = _props.params;\n\n            var item = posts.filter(function (post) {\n                return post.flag === params.id;\n            })[0];\n            for (var i = 0; i < item.votes.length; i++) {\n                if (item.votes[i] === user.name) {\n                    this.setState({ liked: true });\n                    return;\n                }\n            }\n            var content = JSON.stringify({\n                access_token: localStorage.getItem('token'),\n                author: item.author\n            });\n            (0, _isomorphicFetch2.default)('http://localhost:3000/api/getUserInfo', {\n                method: 'POST',\n                headers: {\n                    \"Content-Type\": \"application/json\",\n                    \"Content-Length\": content.length.toString()\n                },\n                body: content\n            }).then(function (res) {\n                if (res.ok) {\n\n                    return res.json();\n                }\n            }).then(function (json) {\n                _this2.setState({\n                    authorInfo: json\n                });\n                console.log(_this2.state);\n            });\n        }\n    }, {\n        key: 'handleVote',\n        value: function handleVote() {\n            var _this3 = this;\n\n            var _props2 = this.props,\n                params = _props2.params,\n                user = _props2.user,\n                dispatch = _props2.dispatch;\n\n            this.setState({\n                liked: true\n            });\n            var content = JSON.stringify({\n                flag: params.id,\n                access_token: localStorage.getItem('token')\n            });\n            (0, _isomorphicFetch2.default)('http://localhost:3000/api/vote', {\n                method: 'POST',\n                headers: {\n                    \"Content-Type\": \"application/json\",\n                    \"Content-Length\": content.length.toString()\n                },\n                body: content\n            }).then(function (res) {\n                if (res.ok) {\n                    dispatch((0, _actions.invalidatePosts)(_this3.props.selectedAuthor));\n                }\n            });\n        }\n    }, {\n        key: 'handleClick',\n        value: function handleClick(e) {\n            var _this4 = this;\n\n            var _props3 = this.props,\n                params = _props3.params,\n                user = _props3.user,\n                dispatch = _props3.dispatch;\n\n            var date = new Date();\n            var minute = date.getFullYear() + \"-\" + (date.getMonth() + 1) + \"-\" + date.getDate() + \" \" + date.getHours() + \":\" + (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes());\n            var content = JSON.stringify({\n                content: this.state.content,\n                author: user,\n                flag: params.id,\n                time: minute,\n                access_token: localStorage.getItem('token')\n            });\n            (0, _isomorphicFetch2.default)('http://localhost:3000/api/comment', {\n                method: 'POST',\n                headers: {\n                    \"Content-Type\": \"application/json\",\n                    \"Content-Length\": content.length.toString()\n                },\n                body: content\n            }).then(function (res) {\n                if (res.ok) {\n                    _this4.state.content = '';\n                    dispatch((0, _actions.invalidatePosts)(_this4.props.selectedAuthor));\n                }\n            });\n        }\n    }, {\n        key: 'render',\n        value: function render() {\n            var _this5 = this;\n\n            var _props4 = this.props,\n                posts = _props4.posts,\n                params = _props4.params,\n                user = _props4.user;\n\n            var item = posts.filter(function (post) {\n                return post.flag === params.id;\n            })[0];\n            console.log(item);\n            var postsHaveNoComment = posts.filter(function (post) {\n                return post.discussion.length === 0;\n            });\n            return _react2.default.createElement(\n                'div',\n                null,\n                _react2.default.createElement(\n                    _layout2.default,\n                    null,\n                    _react2.default.createElement(\n                        Content,\n                        { style: { marginRight: '20px' } },\n                        _react2.default.createElement(\n                            _layout2.default,\n                            { style: { backgroundColor: 'white', padding: '15px' } },\n                            _react2.default.createElement(\n                                Header,\n                                { style: { backgroundColor: 'white', minHeight: '120px', padding: '0px', borderBottom: '1px solid #EDEDED' } },\n                                _react2.default.createElement(\n                                    'span',\n                                    null,\n                                    _react2.default.createElement(\n                                        'span',\n                                        { style: { backgroundColor: 'green', color: 'white', fontSize: '18px', textAlign: 'center' } },\n                                        item.type\n                                    ),\n                                    _react2.default.createElement(\n                                        'span',\n                                        { style: { fontSize: '20px', fontWeight: 'bold', marginLeft: '20px' } },\n                                        item.title\n                                    )\n                                ),\n                                _react2.default.createElement('br', null),\n                                _react2.default.createElement(\n                                    'span',\n                                    null,\n                                    _react2.default.createElement(\n                                        'span',\n                                        { style: { fontSize: 'bold', color: 'red' } },\n                                        '\\u53D1\\u5E03\\u4E8E:'\n                                    ),\n                                    item.time.minute,\n                                    ' ',\n                                    _react2.default.createElement(\n                                        'span',\n                                        { style: { fontSize: 'bold', color: 'red' } },\n                                        '\\u4F5C\\u8005:'\n                                    ),\n                                    item.author\n                                )\n                            ),\n                            _react2.default.createElement(\n                                Content,\n                                { style: { minHeight: '200px', marginTop: '20px', fontSize: '16px', overflow: 'auto', borderBottom: '1px solid #EDEDED', backgroundColor: 'white' } },\n                                _react2.default.createElement(\n                                    'p',\n                                    null,\n                                    item.content\n                                )\n                            ),\n                            _react2.default.createElement(\n                                Footer,\n                                { style: { padding: '0' } },\n                                _react2.default.createElement(\n                                    _row2.default,\n                                    null,\n                                    _react2.default.createElement(_col2.default, { span: '20' }),\n                                    _react2.default.createElement(\n                                        _col2.default,\n                                        { span: '2' },\n                                        this.state.liked ? _react2.default.createElement(_icon2.default, { type: 'like', style: { color: 'red', fontSize: '20px' } }) : _react2.default.createElement(_icon2.default, { type: 'like-o', onClick: this.handleVote, style: { color: 'black', fontSize: '20px' } })\n                                    ),\n                                    _react2.default.createElement(\n                                        _col2.default,\n                                        { span: '2' },\n                                        '\\u5DF2\\u83B7\\u5F97',\n                                        item.votes.length,\n                                        '\\u4E2A\\u8D5E'\n                                    )\n                                ),\n                                _react2.default.createElement(\n                                    'div',\n                                    { style: { borderBottom: '1px solid #EDEDED' } },\n                                    _react2.default.createElement(\n                                        'h3',\n                                        null,\n                                        item.discussion.length,\n                                        '\\u6761\\u56DE\\u590D:'\n                                    ),\n                                    _react2.default.createElement(\n                                        'ul',\n                                        null,\n                                        item.discussion.map(function (discussion, i) {\n                                            return _react2.default.createElement(\n                                                'li',\n                                                { key: i, style: { borderBottom: '1px solid #EDEDED', marginBottom: '5px' } },\n                                                _react2.default.createElement(\n                                                    'h4',\n                                                    null,\n                                                    discussion.author.name,\n                                                    ' ',\n                                                    _react2.default.createElement(\n                                                        'span',\n                                                        { style: { color: 'blue' } },\n                                                        i + 1,\n                                                        '\\u697C > ',\n                                                        discussion.time,\n                                                        ' '\n                                                    )\n                                                ),\n                                                _react2.default.createElement(\n                                                    'p',\n                                                    { style: { fontSize: '14px' } },\n                                                    discussion.content || '空'\n                                                )\n                                            );\n                                        })\n                                    )\n                                ),\n                                _react2.default.createElement(\n                                    'div',\n                                    { style: { marginTop: '10px' } },\n                                    _react2.default.createElement(\n                                        'h3',\n                                        null,\n                                        '\\u6DFB\\u52A0\\u56DE\\u590D:'\n                                    ),\n                                    _react2.default.createElement(_input2.default, { type: 'textarea', ref: 'content', autosize: { minRows: 10 }, onChange: function onChange(e) {\n                                            return _this5.setState({ content: e.target.value });\n                                        } }),\n                                    _react2.default.createElement(\n                                        _button2.default,\n                                        { type: 'primary', onClick: this.handleClick },\n                                        '\\u56DE\\u590D'\n                                    )\n                                )\n                            )\n                        )\n                    ),\n                    _react2.default.createElement(\n                        Sider,\n                        { width: '300', style: { backgroundColor: '#EDEDED', height: '180px' } },\n                        _react2.default.createElement(_Side2.default, { user: this.state.authorInfo, postsHaveNoComment: postsHaveNoComment })\n                    )\n                )\n            );\n        }\n    }]);\n\n    return Item;\n}(_react2.default.Component);\n\nfunction mapStateToProps(state) {\n    var postsByAuthor = state.postsByAuthor,\n        selectedAuthor = state.selectedAuthor,\n        user = state.user;\n\n    var _ref = postsByAuthor[selectedAuthor] || {\n        items: []\n    },\n        posts = _ref.items;\n\n    return {\n        posts: posts || [],\n        user: user,\n        selectedAuthor: selectedAuthor\n    };\n}\nexports.default = (0, _reactRedux.connect)(mapStateToProps)(Item);\n\n/* REACT HOT LOADER */ }).call(this); } finally { if (module.hot) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\makeExportsHot.js\"); if (makeExportsHot(module, require(\"react\"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error(\"Cannot apply hot update to \" + \"Item.js\" + \": \" + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }"
+      "source": "/* REACT HOT LOADER */ if (module.hot) { (function () { var ReactHotAPI = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-api\\\\0.4.7\\\\react-hot-api\\\\modules\\\\index.js\"), RootInstanceProvider = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\RootInstanceProvider.js\"), ReactMount = require(\"react-dom/lib/ReactMount\"), React = require(\"react\"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {\n\n'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _css = require('antd/lib/button/style/css');\n\nvar _button = require('antd/lib/button');\n\nvar _button2 = _interopRequireDefault(_button);\n\nvar _css2 = require('antd/lib/input/style/css');\n\nvar _input = require('antd/lib/input');\n\nvar _input2 = _interopRequireDefault(_input);\n\nvar _css3 = require('antd/lib/row/style/css');\n\nvar _row = require('antd/lib/row');\n\nvar _row2 = _interopRequireDefault(_row);\n\nvar _css4 = require('antd/lib/icon/style/css');\n\nvar _icon = require('antd/lib/icon');\n\nvar _icon2 = _interopRequireDefault(_icon);\n\nvar _css5 = require('antd/lib/col/style/css');\n\nvar _col = require('antd/lib/col');\n\nvar _col2 = _interopRequireDefault(_col);\n\nvar _css6 = require('antd/lib/layout/style/css');\n\nvar _layout = require('antd/lib/layout');\n\nvar _layout2 = _interopRequireDefault(_layout);\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRedux = require('react-redux');\n\nvar _isomorphicFetch = require('isomorphic-fetch');\n\nvar _isomorphicFetch2 = _interopRequireDefault(_isomorphicFetch);\n\nvar _actions = require('../actions/actions');\n\nvar _Side = require('./Side');\n\nvar _Side2 = _interopRequireDefault(_Side);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Header = _layout2.default.Header,\n    Footer = _layout2.default.Footer,\n    Sider = _layout2.default.Sider,\n    Content = _layout2.default.Content;\n\nvar Item = function (_React$Component) {\n    _inherits(Item, _React$Component);\n\n    function Item(props) {\n        _classCallCheck(this, Item);\n\n        var _this = _possibleConstructorReturn(this, (Item.__proto__ || Object.getPrototypeOf(Item)).call(this, props));\n\n        _this.handleClick = _this.handleClick.bind(_this);\n        _this.handleVote = _this.handleVote.bind(_this);\n        _this.state = {\n            content: '',\n            liked: false,\n            authorInfo: {}\n        };\n        return _this;\n    }\n\n    _createClass(Item, [{\n        key: 'componentDidMount',\n        value: function componentDidMount() {\n            var _this2 = this;\n\n            var _props = this.props,\n                user = _props.user,\n                posts = _props.posts,\n                params = _props.params;\n\n            var item = posts.filter(function (post) {\n                return post.flag === params.id;\n            })[0];\n            for (var i = 0; i < item.votes.length; i++) {\n                if (item.votes[i] === user.name) {\n                    this.setState({ liked: true });\n                    return;\n                }\n            }\n            var content = JSON.stringify({\n                access_token: localStorage.getItem('token'),\n                author: item.author\n            });\n            (0, _isomorphicFetch2.default)('http://localhost:3000/api/getUserInfo', {\n                method: 'POST',\n                headers: {\n                    \"Content-Type\": \"application/json\",\n                    \"Content-Length\": content.length.toString()\n                },\n                body: content\n            }).then(function (res) {\n                if (res.ok) {\n\n                    return res.json();\n                }\n            }).then(function (json) {\n                _this2.setState({\n                    authorInfo: json\n                });\n                console.log(_this2.state);\n            });\n        }\n    }, {\n        key: 'handleVote',\n        value: function handleVote() {\n            var _this3 = this;\n\n            var _props2 = this.props,\n                params = _props2.params,\n                user = _props2.user,\n                dispatch = _props2.dispatch;\n\n            this.setState({\n                liked: true\n            });\n            var content = JSON.stringify({\n                flag: params.id,\n                access_token: localStorage.getItem('token')\n            });\n            (0, _isomorphicFetch2.default)('http://localhost:3000/api/vote', {\n                method: 'POST',\n                headers: {\n                    \"Content-Type\": \"application/json\",\n                    \"Content-Length\": content.length.toString()\n                },\n                body: content\n            }).then(function (res) {\n                if (res.ok) {\n                    dispatch((0, _actions.invalidatePosts)(_this3.props.selectedAuthor));\n                }\n            });\n        }\n    }, {\n        key: 'handleClick',\n        value: function handleClick(e) {\n            var _this4 = this;\n\n            var _props3 = this.props,\n                params = _props3.params,\n                user = _props3.user,\n                dispatch = _props3.dispatch;\n\n            var date = new Date();\n            var minute = date.getFullYear() + \"-\" + (date.getMonth() + 1) + \"-\" + date.getDate() + \" \" + date.getHours() + \":\" + (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes());\n            var content = JSON.stringify({\n                content: this.state.content,\n                author: user,\n                flag: params.id,\n                time: minute,\n                access_token: localStorage.getItem('token')\n            });\n            (0, _isomorphicFetch2.default)('http://localhost:3000/api/comment', {\n                method: 'POST',\n                headers: {\n                    \"Content-Type\": \"application/json\",\n                    \"Content-Length\": content.length.toString()\n                },\n                body: content\n            }).then(function (res) {\n                if (res.ok) {\n                    _this4.state.content = '';\n                    dispatch((0, _actions.invalidatePosts)(_this4.props.selectedAuthor));\n                }\n            });\n        }\n    }, {\n        key: 'render',\n        value: function render() {\n            var _this5 = this;\n\n            var _props4 = this.props,\n                posts = _props4.posts,\n                params = _props4.params,\n                user = _props4.user;\n\n            var item = posts.filter(function (post) {\n                return post.flag === params.id;\n            })[0];\n            console.log(item);\n            var postsHaveNoComment = posts.filter(function (post) {\n                return post.discussion.length === 0;\n            });\n            return _react2.default.createElement(\n                'div',\n                null,\n                _react2.default.createElement(\n                    _layout2.default,\n                    null,\n                    _react2.default.createElement(\n                        Content,\n                        { style: { marginRight: '20px' } },\n                        _react2.default.createElement(\n                            _layout2.default,\n                            { style: { backgroundColor: 'white', padding: '15px' } },\n                            _react2.default.createElement(\n                                Header,\n                                { style: { backgroundColor: 'white', minHeight: '120px', padding: '0px', borderBottom: '1px solid #EDEDED' } },\n                                _react2.default.createElement(\n                                    'span',\n                                    null,\n                                    _react2.default.createElement(\n                                        'span',\n                                        { style: { backgroundColor: 'green', color: 'white', fontSize: '18px', textAlign: 'center' } },\n                                        item.type\n                                    ),\n                                    _react2.default.createElement(\n                                        'span',\n                                        { style: { fontSize: '20px', fontWeight: 'bold', marginLeft: '20px' } },\n                                        item.title\n                                    )\n                                ),\n                                _react2.default.createElement('br', null),\n                                _react2.default.createElement(\n                                    'span',\n                                    null,\n                                    _react2.default.createElement(\n                                        'span',\n                                        { style: { fontSize: 'bold', color: 'red' } },\n                                        '\\u53D1\\u5E03\\u4E8E:'\n                                    ),\n                                    item.time.minute,\n                                    ' ',\n                                    _react2.default.createElement(\n                                        'span',\n                                        { style: { fontSize: 'bold', color: 'red' } },\n                                        '\\u4F5C\\u8005:'\n                                    ),\n                                    item.author\n                                )\n                            ),\n                            _react2.default.createElement(\n                                Content,\n                                { style: { minHeight: '200px', marginTop: '20px', fontSize: '16px', overflow: 'auto', borderBottom: '1px solid #EDEDED', backgroundColor: 'white' } },\n                                _react2.default.createElement(\n                                    'p',\n                                    null,\n                                    item.content\n                                )\n                            ),\n                            _react2.default.createElement(\n                                Footer,\n                                { style: { padding: '0' } },\n                                _react2.default.createElement(\n                                    _row2.default,\n                                    null,\n                                    _react2.default.createElement(_col2.default, { span: '20' }),\n                                    _react2.default.createElement(\n                                        _col2.default,\n                                        { span: '2' },\n                                        this.state.liked ? _react2.default.createElement(_icon2.default, { type: 'like', style: { color: 'red', fontSize: '20px' } }) : _react2.default.createElement(_icon2.default, { type: 'like-o', onClick: this.handleVote, style: { color: 'black', fontSize: '20px' } })\n                                    ),\n                                    _react2.default.createElement(\n                                        _col2.default,\n                                        { span: '2' },\n                                        '\\u5DF2\\u83B7\\u5F97',\n                                        item.votes.length,\n                                        '\\u4E2A\\u8D5E'\n                                    )\n                                ),\n                                _react2.default.createElement(\n                                    'div',\n                                    { style: { borderBottom: '1px solid #EDEDED' } },\n                                    _react2.default.createElement(\n                                        'h3',\n                                        null,\n                                        item.discussion.length,\n                                        '\\u6761\\u56DE\\u590D:'\n                                    ),\n                                    _react2.default.createElement(\n                                        'ul',\n                                        null,\n                                        item.discussion.map(function (discussion, i) {\n                                            return _react2.default.createElement(\n                                                'li',\n                                                { key: i, style: { borderBottom: '1px solid #EDEDED', marginBottom: '5px' } },\n                                                _react2.default.createElement(\n                                                    'h4',\n                                                    null,\n                                                    discussion.author.name,\n                                                    ' ',\n                                                    _react2.default.createElement(\n                                                        'span',\n                                                        { style: { color: 'blue' } },\n                                                        i + 1,\n                                                        '\\u697C > ',\n                                                        discussion.time,\n                                                        ' '\n                                                    )\n                                                ),\n                                                _react2.default.createElement(\n                                                    'p',\n                                                    { style: { fontSize: '14px' } },\n                                                    discussion.content || '空'\n                                                )\n                                            );\n                                        })\n                                    )\n                                ),\n                                _react2.default.createElement(\n                                    'div',\n                                    { style: { marginTop: '10px' } },\n                                    _react2.default.createElement(\n                                        'h3',\n                                        null,\n                                        '\\u6DFB\\u52A0\\u56DE\\u590D:'\n                                    ),\n                                    _react2.default.createElement(_input2.default, { type: 'textarea', ref: 'content', autosize: { minRows: 10 }, onChange: function onChange(e) {\n                                            return _this5.setState({ content: e.target.value });\n                                        } }),\n                                    _react2.default.createElement(\n                                        _button2.default,\n                                        { type: 'primary', onClick: this.handleClick },\n                                        '\\u56DE\\u590D'\n                                    )\n                                )\n                            )\n                        )\n                    ),\n                    _react2.default.createElement(\n                        Sider,\n                        { width: '300', style: { backgroundColor: '#EDEDED', height: '180px' } },\n                        _react2.default.createElement(_Side2.default, { user: this.state.authorInfo, isOther: true, postsHaveNoComment: postsHaveNoComment })\n                    )\n                )\n            );\n        }\n    }]);\n\n    return Item;\n}(_react2.default.Component);\n\nfunction mapStateToProps(state) {\n    var postsByAuthor = state.postsByAuthor,\n        selectedAuthor = state.selectedAuthor,\n        user = state.user;\n\n    var _ref = postsByAuthor[selectedAuthor] || {\n        items: []\n    },\n        posts = _ref.items;\n\n    return {\n        posts: posts || [],\n        user: user,\n        selectedAuthor: selectedAuthor\n    };\n}\nexports.default = (0, _reactRedux.connect)(mapStateToProps)(Item);\n\n/* REACT HOT LOADER */ }).call(this); } finally { if (module.hot) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require(\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\workspace\\\\redux\\\\node_modules\\\\.npminstall\\\\react-hot-loader\\\\1.3.1\\\\react-hot-loader\\\\makeExportsHot.js\"); if (makeExportsHot(module, require(\"react\"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error(\"Cannot apply hot update to \" + \"Item.js\" + \": \" + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }"
     },
     {
       "id": 206,
@@ -27223,7 +27223,7 @@
       "index2": 478,
       "size": 6018,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [

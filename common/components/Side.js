@@ -25,11 +25,15 @@ export default class Side extends React.Component {
         })
     }
     render(){
-        const {user,postsHaveNoComment} = this.props;
+        const {user,postsHaveNoComment,isOther} = this.props;
         return (
             <div>
                 <div style={{backgroundColor:'white',marginBottom:'10px'}}>
-                    <h4 style={{backgroundColor:'#F0FFF0'}}>个人信息</h4>
+                    <h4 style={{backgroundColor:'#F0FFF0'}}>
+                        {
+                            isOther ? <span>作者信息</span> : <span>用户信息</span>
+                        }
+                    </h4>
                     <div style={{padding:'8px'}}>
                         <img src="https://avatars.githubusercontent.com/u/16136702?v=3&s=120" style={{height:'80px'}}></img>
                         <span style={{fontSize:'18px',marginLeft:'10px'}}>{user.name}</span>
