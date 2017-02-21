@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import fetch from 'isomorphic-fetch'
 import {Button, Icon,Input, Layout,Row, Col} from 'antd'
 import {invalidatePosts} from '../actions/actions'
+import Side from './Side'
 const { Header, Footer, Sider, Content } = Layout;
 class Item extends React.Component {
     constructor(props){
@@ -11,7 +12,8 @@ class Item extends React.Component {
         this.handleVote = this.handleVote.bind(this)
         this.state = {
             content: '',
-            liked: false
+            liked: false,
+            authorInfo: {}
         }
     }
     componentDidMount(){
@@ -23,6 +25,26 @@ class Item extends React.Component {
                 return;
             }
         }
+        const content = JSON.stringify({
+            access_token: localStorage.getItem('token'),
+            author: item.author
+        })
+        fetch('http://localhost:3000/api/getUserInfo',{
+            method: 'POST',
+            headers:{
+                "Content-Type": "application/json",
+                "Content-Length": content.length.toString()
+            },
+            body: content
+        }).then(res=>{
+            if(res.ok){
+                return res.json()
+            }
+        }).then(json=>{
+            this.setState({
+                authorInfo: json
+            })
+        })
     }
     handleVote(){
         const {params,user,dispatch} = this.props;
@@ -73,13 +95,15 @@ class Item extends React.Component {
         })
     }
     render(){
-        const {posts,params} = this.props;
+        const {posts,params,user} = this.props;
         let item = posts.filter((post)=>post.flag === params.id)[0]
+        console.log(item)
+        let postsHaveNoComment = posts.filter((post)=>post.discussion.length === 0);
         return (
             <div>
                 <Layout>
-                    <Content style={{padding:'20px'}}>
-                        <Layout style={{backgroundColor:'white',padding:'20px 15px'}}>
+                    <Content style={{marginRight:'20px'}}>
+                        <Layout style={{backgroundColor:'white',padding:'15px'}}>
                             <Header style={{backgroundColor:'white',minHeight:'120px',padding:'0px',borderBottom:'1px solid #EDEDED'}}>
                                 <span>
                                     <span style={{backgroundColor:'green',color:'white',fontSize:'18px',textAlign:'center'}}>{item.type}</span>
@@ -89,8 +113,8 @@ class Item extends React.Component {
                                 <span><span style={{fontSize:'bold',color:'red'}}>发布于:</span>{item.time.minute} <span style={{fontSize:'bold',color:'red'}}>作者:</span>{item.author}
                                 </span>
                             </Header>
-                            <Content style={{minHeight:'200px',marginTop:'20px',fontSize:'16px',overflow:'auto',borderBottom:'1px solid #EDEDED'}}>
-                            <p>{item.content}</p>
+                            <Content style={{minHeight:'200px',marginTop:'20px',fontSize:'16px',overflow:'auto',borderBottom:'1px solid #EDEDED',backgroundColor:'white'}}>
+                                <p>{item.content}</p>
                             </Content>
                             <Footer style={{padding:'0'}}>
                                 <Row>
@@ -124,6 +148,9 @@ class Item extends React.Component {
                             </Footer>
                         </Layout>
                     </Content>
+                    <Sider width="300" style={{backgroundColor:'#EDEDED',height:'180px'}}>
+                        <Side user={this.state.authorInfo} postsHaveNoComment={postsHaveNoComment}/>
+                    </Sider>
                 </Layout>
             </div>
         )

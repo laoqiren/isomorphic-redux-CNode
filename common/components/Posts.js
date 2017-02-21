@@ -16,7 +16,7 @@ export default class Posts extends Component {
             <Col span="2">{post.author}:</Col>
             <Col span="2"><span style={{backgroundColor:'green',color:'white'}}>{post.type}</span></Col>
             <Col span="12"><Link className="link" to={"/item/" + post.flag} >{post.title}</Link></Col>
-            <Col span="2">{post.discussion.length}条评论</Col>
+            <Col span="2"><span style={{color:'red'}}>{post.discussion.length}</span>条评论</Col>
             <Col span="6"><span>{post.time.minute}</span></Col>
           </Row>
         )}
