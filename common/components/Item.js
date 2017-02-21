@@ -17,6 +17,7 @@ class Item extends React.Component {
         }
     }
     componentDidMount(){
+        
         const {user,posts,params} = this.props;
         let item = posts.filter((post)=>post.flag === params.id)[0]
         for(let i=0; i<item.votes.length; i++){
@@ -38,12 +39,14 @@ class Item extends React.Component {
             body: content
         }).then(res=>{
             if(res.ok){
+                
                 return res.json()
             }
         }).then(json=>{
             this.setState({
                 authorInfo: json
             })
+            console.log(this.state)
         })
     }
     handleVote(){

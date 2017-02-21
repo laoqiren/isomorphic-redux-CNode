@@ -7,6 +7,6 @@ export default function(req,res,next){
             return res.status(500).end('服务器错误');
         }
         console.log(user)
-        res.status(200).json(user)
+        res.status(200).json({name:user.name,score:user.score})
     })
 }
