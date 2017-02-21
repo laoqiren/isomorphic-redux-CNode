@@ -31,9 +31,9 @@
 
 ## 项目成果图
 1. 
-![首页](https://github.com/laoqiren/isomorphic-redux-forum/blob/master/assets/images/show1.png)
-2. 
 ![首页](https://github.com/laoqiren/isomorphic-redux-forum/blob/master/assets/images/show2.png)
+2. 
+![首页](https://github.com/laoqiren/isomorphic-redux-forum/blob/master/assets/images/show1.png)
 ## 开发环境
 
 #### 安装依赖
@@ -54,11 +54,10 @@ npm run run-server
 #### 访问服务:3000端口
 
 ## TODO
-
-<input type="checkbox" checked disabled/>评论,点赞<br/>
-<input type="checkbox" checked disabled/>用户积分<br/>
-<input type="checkbox" checked disabled/>修复bugs<br/>
-<input type="checkbox" />修改文章<br/>
-<input type="checkbox" />修改个人资料<br/>
-<input type="checkbox" />进一步优化UI<br/>
-<input type="checkbox" />单元测试<br/>
+<ul>
+    <li>修复bugs</li>
+    <li>修改文章</li>
+    <li>修改个人资料</li>
+    <li>进一步优化UI</li>
+    <li>单元测试</li>
+</ul>
