@@ -26,33 +26,48 @@
 
 <li>redux-devtools 开发者工具</li>
 
-<li>. mongodb/mongoose 提供数据库管理</li>
+<li>mongodb/mongoose 提供数据库管理</li>
 </ul>
 
 ## 项目线上Demo
 
 即将上线
 
+## 运行Demo
 
+### 安装依赖
+```
+npm install
+```
+### 编译
+```
+npm run build
+```
+### 运行Node server
+```
+npm run start
+```
+
+### 访问3000端口
 
 ## 开发环境
 
-#### 安装依赖
+### 安装依赖
 
 ```
 npm install
 ```
 
-#### 启动webpack server
+### 启动webpack server
 ```
 npm run run-dev-server
 ```
 
-#### 启动express服务器
+### 启动express服务器
 ```
 npm run run-server
 ```
-#### 访问服务:3000端口
+### 访问服务:3000端口(包含了HMR)
 
 ## TODO
 <ul>
