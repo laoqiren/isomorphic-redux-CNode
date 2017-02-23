@@ -14,6 +14,8 @@ import path from 'path';
 
 function renderFullPage(html,initState){
     const main = JSON.parse(fs.readFileSync(path.join(__dirname,'../webpack/webpack-assets.json'))).javascript.main;
+    let injectScriptPath = main;
+    //console.log(injectScriptPath)
     return `
         <!DOCTYPE html>
         <html lang="en">
@@ -26,7 +28,7 @@ function renderFullPage(html,initState){
             <script>
                 window.__INITIAL_STATE__ = ${JSON.stringify(initState)}
             </script>
-            <script src=${main}></script>
+            <script src=${injectScriptPath}></script>
         </body>
         </html>
     `

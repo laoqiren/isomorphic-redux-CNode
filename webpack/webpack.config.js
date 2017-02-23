@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 const Webpack_isomorphic_tools_plugin = require('webpack-isomorphic-tools/plugin');
 const path = require('path');
-
+const publicPath = process.env.NODE_ENV === 'production'?'/dist/':'http://localhost:3001/public/';
 const webpack_isomorphic_tools_plugin = 
   new Webpack_isomorphic_tools_plugin(require('./webpack-isomorphic-tools-configuration'))
   .development()
@@ -11,7 +11,7 @@ const webpack_isomorphic_tools_plugin =
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
     template: `${__dirname}/../client/index.html`,
     filename: 'index.html',
-    inject: false
+    inject: true
 });
 
 module.exports = {
@@ -21,8 +21,8 @@ module.exports = {
         './client/index.js'
     ],
     output:{
-        path: `${__dirname}/../dist`,
-        publicPath: 'http://localhost:3001/public/',
+        path: `${__dirname}/../assets/dist`,
+        publicPath: publicPath,
         filename: '[name].[hash].js'
     },
     module: {
@@ -40,6 +40,12 @@ module.exports = {
                 test:/\.scss$/,
                 loaders: ['style-loader','css-loader','sass-loader']
             },
+            /*
+            {
+                test:/\.less$/,
+                loaders: ['style-loader','css-loader','less-loader']
+            }*/
+            
             {
                 test: webpack_isomorphic_tools_plugin.regular_expression('images'),
                 loader: 'url-loader?limit=10240', // any image below or equal to 10K will be converted to inline base64 instead

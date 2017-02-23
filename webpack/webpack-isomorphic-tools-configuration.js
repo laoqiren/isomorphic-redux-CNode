@@ -1,9 +1,7 @@
-
-import WebpackIsomorphicToolsPlugin from 'webpack-isomorphic-tools/plugin';
+const WebpackIsomorphicToolsPlugin = require('webpack-isomorphic-tools/plugin');
 
 module.exports = 
 {
-  debug: true,
   webpack_assets_file_path: 'webpack/webpack-assets.json',
   webpack_stats_file_path: 'webpack/webpack-stats.json',
   assets:
