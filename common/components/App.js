@@ -6,6 +6,7 @@ import List from './List'
 import MyHeader from './Header'
 import Side from './Side'
 import fetch from 'isomorphic-fetch'
+import {logOut} from '../actions/actions'
 import {Button,Menu, Icon,Input, Layout} from 'antd'
 const { Header, Footer, Sider, Content } = Layout;
 const SubMenu = Menu.SubMenu;
@@ -15,6 +16,12 @@ require('../../assets/styles/app.scss')
 class App extends React.Component {
     constructor(props){
        super(props);
+       this.handleLogout = this.handleLogout.bind(this)
+    }
+    handleLogout(){
+        const {dispatch} = this.props;
+        localStorage.removeItem('token');
+        dispatch(logOut());
     }
     componentDidMount(){
         const {dispatch} = this.props;
@@ -44,8 +51,8 @@ class App extends React.Component {
         return (
             <div id="hey">
                 <Layout>
-                    <MyHeader user={user}/>
-                    <Content style={{backgroundColor: '#EDEDED', padding:"15px 25px"}}>
+                    <MyHeader logOut={this.handleLogout} user={user}/>
+                    <Content style={{backgroundColor: '#EDEDED', padding:"15px 65px"}}>
                         {this.props.children}
                     </Content>
                     <Footer style={{ textAlign: 'center' }}>

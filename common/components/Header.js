@@ -16,7 +16,7 @@ export default class Header extends React.Component {
         })
     }
     render(){
-        const {user} = this.props;
+        const {user,logOut} = this.props;
         return (
             <div>
                 <Menu selectedKeys={[this.state.current]} theme="dark" onClick={this.handleNavigator} mode="horizontal">
@@ -44,9 +44,15 @@ export default class Header extends React.Component {
                         user.name && <Menu.Item>用户:{user.name}</Menu.Item>
                     }
                     {
-                        !user.name && <Menu.Item><Link to="/logIn">未登录</Link></Menu.Item>
+                        !user.name && <Menu.Item><Link to="/Space">未登录</Link></Menu.Item>
                     }
-                    
+                    {
+                        user.name && (
+                            <Menu.Item key="logout">
+                                <span onClick={()=>logOut()}>退出</span>
+                            </Menu.Item>
+                        )
+                    }
                 </Menu>
             </div>
         )
