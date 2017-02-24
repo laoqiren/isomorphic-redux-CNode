@@ -47,7 +47,7 @@ export default class Header extends React.Component {
                         user.name && <Menu.Item>用户:{user.name}</Menu.Item>
                     }
                     {
-                        !user.name && <Menu.Item><Link to="/Space">未登录</Link></Menu.Item>
+                        !user.name && <Menu.Item><Link to="/Space">登录/注册</Link></Menu.Item>
                     }
                     {
                         user.name && (

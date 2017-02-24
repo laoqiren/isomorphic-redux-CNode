@@ -69,7 +69,10 @@ class Space extends React.Component {
                                 
                                 <div style={{backgroundColor:'white',marginTop:'20px'}}>
                                     <h3 style={{backgroundColor:'#F0F8FF',padding:'0 10px',marginBottom:'8px'}}><span>我发表的文章</span></h3>
-                                    <Posts posts={this.state.myposts} />
+                                    {
+                                        this.state.myposts.length ? <Posts posts={this.state.myposts} /> : <span>还没有发表任何文章，去发表一篇让大家开心开心吧</span>
+                                    }
+                                    
                                 </div>
                             </div>
                         }

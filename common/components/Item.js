@@ -14,13 +14,17 @@ class Item extends React.Component {
         this.state = {
             content: '',
             liked: false,
-            authorInfo: {}
+            authorInfo: {},
+            votesNum: 0
         }
     }
     componentDidMount(){
         
         const {user,posts,params} = this.props;
         let item = posts.filter((post)=>post.flag === params.id)[0]
+        this.setState({
+            votesNum: item.votes.length
+        })
         for(let i=0; i<item.votes.length; i++){
             if(item.votes[i] === user.name){
                 this.setState({liked:true});
@@ -68,6 +72,9 @@ class Item extends React.Component {
         }).then(res=>{
             if(res.ok){
                 dispatch(invalidatePosts(this.props.selectedAuthor))
+                this.setState({
+                    votesNum: this.state.votesNum + 1
+                })
             }
         })
     }
@@ -92,9 +99,7 @@ class Item extends React.Component {
             body: content
         }).then(res=>{
             if(res.ok){
-                this.state.content = '';
                 dispatch(invalidatePosts(this.props.selectedAuthor))
-                browserHistory.push(`/item/${params.id}`)
             }
         })
     }
@@ -127,7 +132,7 @@ class Item extends React.Component {
                                             this.state.liked ? <Icon type="like" style={{color: 'red',fontSize:'20px'}}/>:<Icon type="like-o" onClick={this.handleVote} style={{color: 'black',fontSize:'20px'}}/>
                                         }
                                     </Col>
-                                    <Col span="2">已获得{item.votes.length}个赞</Col>
+                                    <Col span="2">已获得{this.state.votesNum}个赞</Col>
                                 </Row>
                                 <div style={{borderBottom:'1px solid #EDEDED'}}>
                                     <h3>{item.discussion.length}条回复:</h3>
