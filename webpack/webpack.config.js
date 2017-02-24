@@ -14,12 +14,18 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
     inject: true
 });
 
-module.exports = {
-    context: path.join(__dirname,'..'),
-    entry:[
+let entryArray;
+if(process.env.NODE_ENV === 'development'){
+        entryArray = [
         'webpack-hot-middleware/client?path=http://localhost:3001/__webpack_hmr',
         './client/index.js'
-    ],
+    ]
+} else {
+        entryArray = ['./client/index.js']
+}
+module.exports = {
+    context: path.join(__dirname,'..'),
+    entry:entryArray,
     output:{
         path: `${__dirname}/../assets/dist`,
         publicPath: publicPath,
