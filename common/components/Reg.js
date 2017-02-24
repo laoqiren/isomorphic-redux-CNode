@@ -1,6 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import fetch from 'isomorphic-fetch'
+import {browserHistory} from 'react-router';
 import {logIn} from '../actions/actions'
 import { Input, Button,Icon } from 'antd';
 class Reg extends React.Component{
@@ -37,6 +38,7 @@ class Reg extends React.Component{
             dispatch(logIn({
                 name
             }))
+            browserHistory.push('/')
         })
     }
     render(){

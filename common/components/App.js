@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import { Router, Route, Link } from 'react-router'
-import {fetchUser} from '../actions/actions'
+import {fetchUser,selectAuthor} from '../actions/actions'
 import List from './List'
 import MyHeader from './Header'
 import Side from './Side'
@@ -25,6 +25,7 @@ class App extends React.Component {
     }
     componentDidMount(){
         const {dispatch} = this.props;
+        
         const token = localStorage.getItem('token');
         const content = JSON.stringify({
                 access_token: token

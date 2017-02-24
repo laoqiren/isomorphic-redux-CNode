@@ -1,6 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import fetch from 'isomorphic-fetch'
+import {browserHistory} from 'react-router';
 import {Input,Button,Menu,Dropdown} from 'antd'
 import {invalidatePosts} from '../actions/actions'
 class Publish extends React.Component {
@@ -11,7 +12,8 @@ class Publish extends React.Component {
         this.state = {
             title: '',
             content: '',
-            type:'分享'
+            type:'分享',
+            isFailed: false
         }
     }
     handleSelect(e){
@@ -43,6 +45,11 @@ class Publish extends React.Component {
                 this.state.title = '';
                 this.state.content = '';
                 dispatch(invalidatePosts(this.props.selectedAuthor))
+                browserHistory.push('/')
+            } else {
+                this.setState({
+                    isFailed: true
+                })
             }
         })
     }
@@ -65,6 +72,9 @@ class Publish extends React.Component {
                     内容:<Input type="textarea" ref="content" autosize={{minRows:10}} onChange={(e)=>this.setState({content: e.target.value})}>
                     </Input>
                     <Button type="primary" onClick={this.handleClick}>发表</Button>
+                    {
+                        this.state.isFailed && <span>发表失败</span>
+                    }
             </div>
         )
     }

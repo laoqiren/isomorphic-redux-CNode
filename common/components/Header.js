@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router, Route, Link } from 'react-router'
+import { Router, Route, Link ,browserHistory} from 'react-router'
 import {Button,Menu, Icon,Input, Layout} from 'antd'
 const Search = Input.Search;
 export default class Header extends React.Component {
@@ -9,6 +9,9 @@ export default class Header extends React.Component {
            current: 'list'
        }
         this.handleNavigator = this.handleNavigator.bind(this)
+    }
+    handleSearch(author){
+        browserHistory.push(`/list/${author}`)
     }
     handleNavigator(e){
         this.setState({
@@ -24,7 +27,7 @@ export default class Header extends React.Component {
                         <Search
                             placeholder="搜索用户"
                             style={{ width: 200 }}
-                            onSearch={value => console.log(value)}
+                            onSearch={value => this.handleSearch(value)}
                         />
                     </Menu.Item>
                     <Menu.Item key="list">

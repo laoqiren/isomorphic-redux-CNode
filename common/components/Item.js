@@ -1,6 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import fetch from 'isomorphic-fetch'
+import {browserHistory} from 'react-router';
 import {Button, Icon,Input, Layout,Row, Col} from 'antd'
 import {invalidatePosts} from '../actions/actions'
 import Side from './Side'
@@ -46,7 +47,6 @@ class Item extends React.Component {
             this.setState({
                 authorInfo: json
             })
-            console.log(this.state)
         })
     }
     handleVote(){
@@ -94,13 +94,13 @@ class Item extends React.Component {
             if(res.ok){
                 this.state.content = '';
                 dispatch(invalidatePosts(this.props.selectedAuthor))
+                browserHistory.push(`/item/${params.id}`)
             }
         })
     }
     render(){
         const {posts,params,user} = this.props;
         let item = posts.filter((post)=>post.flag === params.id)[0]
-        console.log(item)
         let postsHaveNoComment = posts.filter((post)=>post.discussion.length === 0);
         return (
             <div>

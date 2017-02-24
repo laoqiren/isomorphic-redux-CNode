@@ -1,5 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
+import {browserHistory} from 'react-router';
 import fetch from 'isomorphic-fetch'
 import {logIn} from '../actions/actions'
 import { Input, Button,Icon } from 'antd';
@@ -38,6 +39,7 @@ class LogIn extends React.Component{
             }
         }).then(token=>{
                 localStorage.setItem('token',token)
+                browserHistory.push('/')
         })
     }
     render(){

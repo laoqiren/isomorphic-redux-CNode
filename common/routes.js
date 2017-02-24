@@ -10,6 +10,7 @@ import Reg from '../common/components/Reg';
 const routes = (
     <Route path="/" component={App}>
             <IndexRoute component={List}/>
+            <Route path="/list/:author" component={List}/>
             <Route path="/item/:id" component={Item}/>
             <Route path="/space" component={Space}/>
             <Route path="/publish" component={Publish}/>
