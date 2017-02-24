@@ -1,5 +1,6 @@
 import Post from '../Models/post';
 import User from '../Models/user';
+import addScore from './addScore';
 const userEntity = new User();
 const postEntity = new Post();
 
@@ -23,26 +24,12 @@ export default function(req,res,next){
                 console.log('服务器错误')
                 return res.status(500).end('服务器错误')
             }
-            userEntity.getUser({
-                name: post.author
-            },(err,userresult)=>{
+            addScore(post.author,10,(err)=>{
                 if(err){
-                    res.status(500).end('服务器错误');
+                    return res.status(500).end('加分失败');
                 }
-                User.update({
-                    _id: userresult._id
-                },{
-                    $inc: {
-                        score: 10
-                    }
-                },err=>{
-                    if(err){
-                        console.log('服务器错误')
-                        return res.status(500).end('服务器错误')
-                    }
-                })
+                 return res.status(200).end('点赞成功')
             })
-            return res.status(200).end('点赞成功')
         })
     })
 }

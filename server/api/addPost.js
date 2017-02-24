@@ -1,4 +1,5 @@
 const jwt = require("jwt-simple");
+import addScore from './addScore';
 import Post from '../Models/post';
 
 export default function(req,res,next){
@@ -15,9 +16,12 @@ export default function(req,res,next){
             return res.status(500).end('服务器错误')
         } else {
             console.log('发表文章成功')
-            return res.status(200).end('发表文章成功')
+            addScore(name,30,err=>{
+                if(err){
+                    res.status(500).end('加分失败')
+                }
+                return res.status(200).end('发表文章成功')
+            })   
         }
     })
-    
-    
 }
