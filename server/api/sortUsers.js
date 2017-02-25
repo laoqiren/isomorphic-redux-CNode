@@ -8,6 +8,12 @@ export default function(req,res,next){
         let result = users.sort((a,b)=>{
             return a.score < b.score
         })
-        return res.status(200).json(result.slice(0,10))
+        let toSend = result.slice(0,10).map((user,i)=>{
+            return {
+                name: user.name,
+                score: user.score
+            }
+        })
+        return res.status(200).json(toSend)
     })
 }
