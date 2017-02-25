@@ -32,7 +32,6 @@ class Space extends React.Component {
             this.setState({
                 myposts: json
             })
-            console.log("我在拉取哈哈哈哈")
         })
     }
     render(){

@@ -3,8 +3,8 @@ import path from 'path';
 import qs from 'qs';
 import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
-import apiRouter from './api/apiRouter'
-
+import apiRouter from './api/apiRouter';
+import logger from 'morgan'
 
 import handleRender from './render';
 
@@ -13,6 +13,10 @@ const app = new express();
 const port = 3000;
 
 app.set('jwtTokenSecret',"LuoXia");
+
+if(process.env.NODE_ENV === 'development'){
+    app.use(logger('dev'));
+}
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());

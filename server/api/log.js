@@ -15,7 +15,6 @@ export default function(req,res,next){
         if(err){
             return res.status(500).end('服务器错误');
         }
-        console.log(`用户:${user}`)
         if(!user){
             return res.status(404).end('该账号没有注册');
         } else if(passwd!==user.passwd){

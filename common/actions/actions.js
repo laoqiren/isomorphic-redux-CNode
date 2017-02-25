@@ -57,7 +57,6 @@ export function invalidatePosts(author){
 
 function shouldFetchPosts(state,author){
     if(!state.postsByAuthor[author]){
-        console.log('hey, I am heare')
         return true;
     } else {
         const posts = state.postsByAuthor[author];
@@ -93,7 +92,6 @@ function fetchPosts(author){
 export function fetchPostsIfNeeded(author){
     return (dispatch,getState) => {
         if(shouldFetchPosts(getState(),author)){
-            console.log('我在拉取啊啊啊啊')
             return dispatch(fetchPosts(author))
         }
     }

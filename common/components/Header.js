@@ -22,7 +22,10 @@ export default class Header extends React.Component {
         const {user,logOut} = this.props;
         return (
             <div>
-                <Menu selectedKeys={[this.state.current]} theme="dark" onClick={this.handleNavigator} mode="horizontal">
+                <Menu selectedKeys={[this.state.current]} theme="dark" onClick={this.handleNavigator} mode="horizontal" style={{padding:'0 30px'}}>
+                    <Menu.Item key="logo"  style={{width:'12%'}}>
+                        <img src="https://o4j806krb.qnssl.com/public/images/cnodejs_light.svg"/>
+                    </Menu.Item>
                     <Menu.Item key="search">
                         <Search
                             placeholder="搜索用户"

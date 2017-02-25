@@ -15,7 +15,6 @@ export default function(req,res,next){
         if(err){
             return res.status(500).end('服务器错误')
         } else {
-            console.log('发表文章成功')
             addScore(name,30,err=>{
                 if(err){
                     res.status(500).end('加分失败')
