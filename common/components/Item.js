@@ -109,11 +109,12 @@ class Item extends React.Component {
     render(){
         const {posts,params,user} = this.props;
         let item = posts.filter((post)=>post.flag === params.id)[0]
+        console.log(this.state.authorInfo)
         let postsHaveNoComment = posts.filter((post)=>post.discussion.length === 0);
         return (
             <div>
                 <Layout>
-                    <Content style={{marginRight:'20px'}}>
+                    <Content style={{marginRight:'20px',minHeight:'600px'}}>
                         <Layout style={{backgroundColor:'white',padding:'15px'}}>
                             <Header style={{backgroundColor:'white',minHeight:'120px',padding:'0px',borderBottom:'1px solid #EDEDED'}}>
                                 <span>

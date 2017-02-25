@@ -32,6 +32,5 @@ router.post('/vote',vote);
 
 router.get('/sortUsers',sortUsers);
 
-router.post('/getUserInfo',auth);
 router.post('/getUserInfo',getUserInfo)
 export default router;

@@ -36,12 +36,14 @@ export default class Side extends React.Component {
                     </h4>
                     <div style={{padding:'8px'}}>
                         {
-                            user.name ? <div><img src="https://avatars.githubusercontent.com/u/16136702?v=3&s=120" style={{height:'80px'}}></img>
-                        <span style={{fontSize:'18px',marginLeft:'10px'}}>{user.name}</span>
-                        <br/>
-                        <span style={{color:'red'}}>积分:</span> {user.score}
-                        <br/>
-                        <span>"这家伙很懒，什么都没留下"</span></div>:<Button type="primary"><Link to="/logIn">登录</Link></Button>
+                            (user.name || isOther) &&  <div><img src="https://avatars.githubusercontent.com/u/16136702?v=3&s=120" style={{height:'80px'}}></img>                        <span style={{fontSize:'18px',marginLeft:'10px'}}>{user.name}</span>                
+                            <br/> 
+                            <span style={{color:'red'}}>积分:</span> {user.score}
+                            <br/>
+                            <span>"这家伙很懒，什么都没留下"</span></div>
+                        }
+                        {
+                          (!isOther && !user.name) && <Button type="primary"><Link to="/logIn">登录</Link></Button>
                         }
                         
                     </div>

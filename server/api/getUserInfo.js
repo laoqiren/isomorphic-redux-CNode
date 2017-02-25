@@ -5,6 +5,9 @@ export default function(req,res,next){
         if(err){
             return res.status(500).end('服务器错误');
         }
-        res.status(200).json({name:user.name,score:user.score})
+        if(user){
+           return res.status(200).json({name:user.name,score:user.score})
+        }
+        return res.status(404).end();
     })
 }
