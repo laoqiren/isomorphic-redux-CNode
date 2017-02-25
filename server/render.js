@@ -21,7 +21,9 @@ function renderFullPage(html,initState){
         <html lang="en">
         <head>
             <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
             <title>react-ssr</title>
+            <script></script>
         </head>
         <body>
             <div id="container"><div>${html}</div></div>

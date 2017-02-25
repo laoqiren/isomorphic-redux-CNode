@@ -29,7 +29,7 @@
       }
     },
     "build": {
-      "command": "webpack --config webpack/webpack.config.js",
+      "command": "webpack --config webpack/webpack.prod.js",
       "env": {
         "NODE_ENV": "production"
       }

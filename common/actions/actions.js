@@ -39,7 +39,7 @@ export function selectAuthor(author){
 }
 export function fetchItem(id){
     return dispatch=>{
-        return fetch(`http://localhost:3000/api/detail/?id=${id}`)
+        return fetch(`/api/detail/?id=${id}`)
         .then(res=>{
             return res.json()
         })
