@@ -55,28 +55,31 @@ class Item extends React.Component {
     }
     handleVote(){
         const {params,user,dispatch} = this.props;
-        this.setState({
-            liked: true
-        })
-        const content = JSON.stringify({
-            flag: params.id,
-            access_token: localStorage.getItem('token')
-        })
-        fetch('http://localhost:3000/api/vote',{
-            method: 'POST',
-            headers:{
-                "Content-Type": "application/json",
-                "Content-Length": content.length.toString()
-            },
-            body: content
-        }).then(res=>{
-            if(res.ok){
-                dispatch(invalidatePosts(this.props.selectedAuthor))
-                this.setState({
-                    votesNum: this.state.votesNum + 1
-                })
-            }
-        })
+        if(user.name){
+            this.setState({
+                liked: true
+            })
+            const content = JSON.stringify({
+                flag: params.id,
+                access_token: localStorage.getItem('token')
+            })
+            fetch('http://localhost:3000/api/vote',{
+                method: 'POST',
+                headers:{
+                    "Content-Type": "application/json",
+                    "Content-Length": content.length.toString()
+                },
+                body: content
+            }).then(res=>{
+                if(res.ok){
+                    dispatch(invalidatePosts(this.props.selectedAuthor))
+                    this.setState({
+                        votesNum: this.state.votesNum + 1
+                    })
+                }
+            })
+        }
+        
     }
     handleClick(e){
         const {params,user,dispatch} = this.props;
@@ -147,12 +150,14 @@ class Item extends React.Component {
                                         )}
                                         </ul>
                                 </div>
-                                <div style={{marginTop:'10px'}}>
+                                {
+                                user.name && <div style={{marginTop:'10px'}}>
                                     <h3>添加回复:</h3>
                                     <Input type="textarea" ref="content" autosize={{minRows:10}} onChange={(e)=>this.setState({content: e.target.value})}>
                                     </Input>
                                     <Button type="primary" onClick={this.handleClick}>回复</Button>
                                 </div>
+                                }
                             </Footer>
                         </Layout>
                     </Content>
