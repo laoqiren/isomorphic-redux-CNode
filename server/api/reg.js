@@ -2,13 +2,13 @@ const crypto = require('crypto');
 const jwt = require("jwt-simple");
 const moment = require('moment');
 import User from '../Models/user';
-const userEntity = new User();
 
 export default function(req,res,next){
     let name = req.body.name,
         passwd = req.body.passwd,
         md5 = crypto.createHash('md5');
     passwd = md5.update(passwd).digest('hex');
+    const userEntity = new User();
     userEntity.getUser({
         name
     },(err,user)=>{

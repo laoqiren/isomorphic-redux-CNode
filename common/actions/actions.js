@@ -4,14 +4,43 @@ export const RECEIVE_POSTS = 'RECEIVE_POSTS'
 export const INVALIDATE_POSTS = 'INVALIDATE_POSTS'
 export const SELECT_AUTHOR = 'SELECT_AUTHOR'
 export const FETCH_ITEM = 'FETCH_ITEM'
-export const FETCH_USER = 'FETCH_USER'
+export const RECEIVE_USER = 'RECEIVE_USER'
 export const LOG_IN = 'LOG_IN'
 export const LOG_OUT = 'LOG_OUT'
 
-export function fetchUser(user){
+function recieveUser(user){
     return {
-        type: FETCH_USER,
+        type: RECEIVE_USER,
         user
+    }
+}
+export function fetchUser(){
+    const token = localStorage.getItem('token');
+    if(!token){
+        return (dispatch)=>{
+            return dispatch(recieveUser({}))
+        }
+    }
+    return (dispatch)=>{
+        const content = JSON.stringify({
+                access_token: token
+            })
+        return fetch('http://localhost:3000/api/user',{
+            method: 'POST',
+            headers:{
+                "Content-Type": "application/json",
+                "Content-Length": content.length.toString()
+            },
+            body: content
+        }).then(res=>{
+            if(res.ok){
+                return res.json();
+            } else {
+                console.log('获取用户失败')
+            }
+        }).then(json=>{
+            dispatch(recieveUser(json))
+        })
     }
 }
 export function logIn(user){

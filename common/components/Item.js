@@ -51,6 +51,8 @@ class Item extends React.Component {
             this.setState({
                 authorInfo: json
             })
+            console.log('接受到的用户信息')
+            console.log(json)
         })
     }
     handleVote(){
@@ -72,7 +74,7 @@ class Item extends React.Component {
                 body: content
             }).then(res=>{
                 if(res.ok){
-                    dispatch(invalidatePosts(this.props.selectedAuthor))
+                    dispatch(invalidatePosts(this.props.selectedAuthor));
                     this.setState({
                         votesNum: this.state.votesNum + 1
                     })
@@ -103,13 +105,13 @@ class Item extends React.Component {
         }).then(res=>{
             if(res.ok){
                 dispatch(invalidatePosts(this.props.selectedAuthor))
+                browserHistory.push('/')
             }
         })
     }
     render(){
         const {posts,params,user} = this.props;
         let item = posts.filter((post)=>post.flag === params.id)[0]
-        console.log(this.state.authorInfo)
         let postsHaveNoComment = posts.filter((post)=>post.discussion.length === 0);
         return (
             <div>

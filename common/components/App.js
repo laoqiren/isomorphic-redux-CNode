@@ -25,27 +25,7 @@ class App extends React.Component {
     }
     componentDidMount(){
         const {dispatch} = this.props;
-        
-        const token = localStorage.getItem('token');
-        const content = JSON.stringify({
-                access_token: token
-            })
-        fetch('http://localhost:3000/api/user',{
-            method: 'POST',
-            headers:{
-                "Content-Type": "application/json",
-                "Content-Length": content.length.toString()
-            },
-            body: content
-        }).then(res=>{
-            if(res.ok){
-                return res.json();
-            } else {
-                console.log('获取用户失败')
-            }
-        }).then(json=>{
-            dispatch(fetchUser(json))
-        })
+        dispatch(fetchUser())
     }
     render() {
         const {user,posts} = this.props;
@@ -53,7 +33,7 @@ class App extends React.Component {
             <div id="hey">
                 <Layout>
                     <MyHeader logOut={this.handleLogout} user={user}/>
-                    <Content style={{backgroundColor: '#EDEDED', padding:"15px 65px"}}>
+                    <Content style={{backgroundColor: '#EDEDED', padding:"15px 5%"}}>
                         {this.props.children}
                     </Content>
                     <Footer style={{ textAlign: 'center' }}>

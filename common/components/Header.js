@@ -24,7 +24,7 @@ export default class Header extends React.Component {
             <div>
                 <Menu selectedKeys={[this.state.current]} theme="dark" onClick={this.handleNavigator} mode="horizontal" style={{padding:'0 30px'}}>
                     <Menu.Item key="logo"  style={{width:'12%'}}>
-                        <img src="https://o4j806krb.qnssl.com/public/images/cnodejs_light.svg"/>
+                        <Link to="/"><img src="https://o4j806krb.qnssl.com/public/images/cnodejs_light.svg"/></Link>
                     </Menu.Item>
                     <Menu.Item key="search">
                         <Search

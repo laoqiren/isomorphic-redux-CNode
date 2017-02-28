@@ -36,7 +36,8 @@ class Reg extends React.Component{
         }).then(json=>{
             localStorage.setItem('token',json)
             dispatch(logIn({
-                name
+                name,
+                score: 0
             }))
             browserHistory.push('/')
         })

@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import fetch from 'isomorphic-fetch'
 import {browserHistory} from 'react-router';
 import {Input,Button,Menu,Dropdown} from 'antd'
-import {invalidatePosts} from '../actions/actions'
+import {invalidatePosts,fetchUser} from '../actions/actions'
 class Publish extends React.Component {
     constructor(props){
         super(props);
@@ -44,7 +44,8 @@ class Publish extends React.Component {
             if(res.ok){
                 this.state.title = '';
                 this.state.content = '';
-                dispatch(invalidatePosts(this.props.selectedAuthor))
+                dispatch(invalidatePosts(this.props.selectedAuthor));
+                dispatch(fetchUser())
                 browserHistory.push('/')
             } else {
                 this.setState({

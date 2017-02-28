@@ -21,3 +21,8 @@ html,body {
 .link:active {
     color: red;
 }
+@media screen and (max-width: 500px) {
+    .ant-layout-sider {
+        display: none
+    }
+}
