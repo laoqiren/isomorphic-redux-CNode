@@ -25,7 +25,7 @@ export function fetchUser(){
         const content = JSON.stringify({
                 access_token: token
             })
-        return fetch('/api/user',{
+        return fetch('http://localhost:3000/api/user',{
             method: 'POST',
             headers:{
                 "Content-Type": "application/json",
@@ -113,7 +113,7 @@ function receivePosts(author,json){
 function fetchPosts(author){
     return dispatch=>{
         dispatch(requestPosts(author))
-        return fetch(`/api/post?author=${author}`)
+        return fetch(`http://localhost:3000/api/post?author=${author}`)
             .then(response=>response.json())
             .then(json=>dispatch(receivePosts(author,json)))
     }
