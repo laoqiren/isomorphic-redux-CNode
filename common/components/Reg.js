@@ -34,12 +34,16 @@ class Reg extends React.Component{
                 return res.json()
             }
         }).then(json=>{
-            localStorage.setItem('token',json)
-            dispatch(logIn({
-                name,
-                score: 0
-            }))
-            browserHistory.push('/')
+            if(json){
+                localStorage.setItem('token',json)
+                dispatch(logIn({
+                    name,
+                    score: 0
+                }))
+                browserHistory.push('/')
+            } else {
+                console.log("注册失败")
+            }
         })
     }
     render(){

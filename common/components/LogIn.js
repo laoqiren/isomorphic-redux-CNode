@@ -2,7 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {browserHistory} from 'react-router';
 import fetch from 'isomorphic-fetch'
-import {logIn} from '../actions/actions'
+import {logIn,fetchUser} from '../actions/actions'
 import { Input, Button,Icon } from 'antd';
 
 class LogIn extends React.Component{
@@ -32,14 +32,17 @@ class LogIn extends React.Component{
         }).then(res=>{
             if(res.ok){
                 console.log('登录成功')
-                dispatch(logIn({
-                    name
-                }))
                 return res.json()
             }
         }).then(token=>{
-                localStorage.setItem('token',token)
-                browserHistory.push('/')
+                if(token){
+                    dispatch(logIn({name}))
+                    localStorage.setItem('token',token)
+                    dispatch(fetchUser())
+                    browserHistory.push('/')
+                } else {
+                    console.log('登录失败!')
+                }
         })
     }
     render(){

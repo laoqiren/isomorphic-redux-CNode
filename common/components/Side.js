@@ -66,7 +66,7 @@ export default class Side extends React.Component {
                         </ul>
                     </div>
                 </div>
-                <div style={{backgroundColor:'white',height:'180px',marginBottom:'10px'}}>
+                <div style={{backgroundColor:'white',height:'180px',overflow:'hidden',marginBottom:'10px'}}>
                     <h4 style={{backgroundColor:'#F0FFF0'}}>积分榜</h4>
                     <div style={{padding:'8px'}}>
                     <ul>

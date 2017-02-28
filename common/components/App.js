@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import { Router, Route, Link } from 'react-router'
+import { Router, Route, Link,browserHistory } from 'react-router'
 import {fetchUser,selectAuthor} from '../actions/actions'
 import List from './List'
 import MyHeader from './Header'
@@ -22,6 +22,7 @@ class App extends React.Component {
         const {dispatch} = this.props;
         localStorage.removeItem('token');
         dispatch(logOut());
+        browserHistory.push('/');
     }
     componentDidMount(){
         const {dispatch} = this.props;
