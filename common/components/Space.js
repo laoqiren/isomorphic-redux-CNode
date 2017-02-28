@@ -22,7 +22,7 @@ class Space extends React.Component {
     }
     componentDidMount(){
         const {dispatch,user} = this.props;
-        fetch(`http://localhost:3000/api/post?author=${user.name}`,{
+        fetch(`/api/post?author=${user.name}`,{
             method: 'GET'
         }).then(res=>{
             if(res.ok){

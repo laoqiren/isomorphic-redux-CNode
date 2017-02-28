@@ -21,7 +21,7 @@ class Reg extends React.Component{
                 name,
                 passwd
             })
-        fetch('http://localhost:3000/api/reg',{
+        fetch('/api/reg',{
             method: 'POST',
             headers:{
                 "Content-Type": "application/json",

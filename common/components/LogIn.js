@@ -22,7 +22,7 @@ class LogIn extends React.Component{
                 name,
                 passwd
             })
-        fetch('http://localhost:3000/api/log',{
+        fetch('/api/log',{
             method: 'POST',
             headers:{
                 "Content-Type": "application/json",

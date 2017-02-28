@@ -35,7 +35,7 @@ class Item extends React.Component {
             access_token: localStorage.getItem('token'),
             author: item.author
         })
-        fetch('http://localhost:3000/api/getUserInfo',{
+        fetch('/api/getUserInfo',{
             method: 'POST',
             headers:{
                 "Content-Type": "application/json",
@@ -65,7 +65,7 @@ class Item extends React.Component {
                 flag: params.id,
                 access_token: localStorage.getItem('token')
             })
-            fetch('http://localhost:3000/api/vote',{
+            fetch('/api/vote',{
                 method: 'POST',
                 headers:{
                     "Content-Type": "application/json",
@@ -95,7 +95,7 @@ class Item extends React.Component {
             time: minute,
             access_token: localStorage.getItem('token')
         })
-        fetch('http://localhost:3000/api/comment',{
+        fetch('/api/comment',{
             method: 'POST',
             headers:{
                 "Content-Type": "application/json",

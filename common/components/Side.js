@@ -10,7 +10,7 @@ export default class Side extends React.Component {
         }
     }
     componentDidMount(){
-        fetch('http://localhost:3000/api/sortUsers',{
+        fetch('/api/sortUsers',{
             method: 'GET'
         }).then(res=>{
             if(res.ok){
