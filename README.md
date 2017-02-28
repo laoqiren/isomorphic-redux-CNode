@@ -43,11 +43,11 @@ npm install
 ```
 npm run build
 ```
-### 运行Node server
+### 运行Node server(注意mongo数据库连接根据自己的配置来)
 ```
 npm run start
 ```
-
+**注意mongo数据库连接根据自己的配置来(server/Models/db.js)**
 ### 访问3000端口
 
 ## 开发环境
