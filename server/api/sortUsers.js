@@ -6,7 +6,7 @@ export default function(req,res,next){
             return res.status(500).end('服务器错误');
         }
         let result = users.sort((a,b)=>{
-            return a.score < b.score
+            return b.score - a.score
         })
         let toSend = result.slice(0,10).map((user,i)=>{
             return {
