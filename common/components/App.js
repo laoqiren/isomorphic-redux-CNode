@@ -38,7 +38,7 @@ class App extends React.Component {
                         {this.props.children}
                     </Content>
                     <Footer style={{ textAlign: 'center' }}>
-                        created by Xia Luo
+                        created by Xia Luo,haha
                     </Footer>
                 </Layout>
             </div>

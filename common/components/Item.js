@@ -11,26 +11,29 @@ class Item extends React.Component {
         super(props)
         this.handleClick = this.handleClick.bind(this)
         this.handleVote = this.handleVote.bind(this)
-        this.state = {
-            content: '',
-            liked: false,
-            authorInfo: {},
-            votesNum: 0
+        const {posts,params,user} = this.props
+        let item = posts.filter((post)=>post.flag === params.id)[0];
+        let isLiked = false;
+        for(let i=0; i<item.votes.length; i++){
+            if(item.votes[i] === user.name){
+                isLiked = true;
+                break;
+            }
         }
+        this.state = {
+            discussions: item.discussion,
+            content: '',
+            liked: isLiked,
+            authorInfo: {},
+            votesNum: item.votes.length
+        }
+        
     }
     componentDidMount(){
         
-        const {user,posts,params} = this.props;
-        let item = posts.filter((post)=>post.flag === params.id)[0]
-        this.setState({
-            votesNum: item.votes.length
-        })
-        for(let i=0; i<item.votes.length; i++){
-            if(item.votes[i] === user.name){
-                this.setState({liked:true});
-                return;
-            }
-        }
+        const {posts,params} = this.props
+        let item = posts.filter((post)=>post.flag === params.id)[0];
+        
         const content = JSON.stringify({
             access_token: localStorage.getItem('token'),
             author: item.author
@@ -56,11 +59,9 @@ class Item extends React.Component {
         })
     }
     handleVote(){
-        const {params,user,dispatch} = this.props;
+        const {posts,params,user,dispatch} = this.props;
+        let item = posts.filter((post)=>post.flag === params.id)[0];
         if(user.name){
-            this.setState({
-                liked: true
-            })
             const content = JSON.stringify({
                 flag: params.id,
                 access_token: localStorage.getItem('token')
@@ -76,6 +77,7 @@ class Item extends React.Component {
                 if(res.ok){
                     dispatch(invalidatePosts(this.props.selectedAuthor));
                     this.setState({
+                        liked: true,
                         votesNum: this.state.votesNum + 1
                     })
                 }
@@ -105,7 +107,13 @@ class Item extends React.Component {
         }).then(res=>{
             if(res.ok){
                 dispatch(invalidatePosts(this.props.selectedAuthor))
-                browserHistory.push('/')
+                this.setState({
+                    discussions: [...this.state.discussions,{
+                        content: this.state.content,
+                        author: user,
+                        time: minute
+                    }]
+                })
             }
         })
     }
@@ -141,11 +149,11 @@ class Item extends React.Component {
                                     <Col span="2">已获得{this.state.votesNum}个赞</Col>
                                 </Row>
                                 <div style={{borderBottom:'1px solid #EDEDED'}}>
-                                    <h3>{item.discussion.length}条回复:</h3>
+                                    <h3>{this.state.discussions.length}条回复:</h3>
                                     
                                         <ul>
                                         {
-                                        item.discussion.map((discussion,i)=>
+                                        this.state.discussions.map((discussion,i)=>
                                             <li key={i} style={{borderBottom:'1px solid #EDEDED',marginBottom:'5px'}}>
                                                 <h4>{discussion.author.name} <span style={{color:'blue'}}>{i+1}楼 > {discussion.time} </span></h4>
                                                 <p style={{fontSize:'14px'}}>{discussion.content || '空'}</p>
