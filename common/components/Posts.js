@@ -41,7 +41,7 @@ export default class Posts extends Component {
             <Col span="6"><span>{post.time.minute}</span></Col>
           </Row>
         )}
-        <Pagination style={{marginTop:'5px'}}showQuickJumper defaultCurrent={1} total={posts.length}  onChange={this.onChange} />
+        <Pagination style={{marginTop:'5px'}}showQuickJumper defaultCurrent={1} total={posts.length} defaultPageSize={15} onChange={this.onChange} />
       </div>
     )
   }
