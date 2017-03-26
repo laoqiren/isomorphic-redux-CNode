@@ -8,9 +8,10 @@ export default class Header extends React.Component {
         this.state = {
            current: 'list'
        }
-        this.handleNavigator = this.handleNavigator.bind(this)
+        this.handleNavigator = this.handleNavigator.bind(this);
     }
     handleSearch(author){
+        this.refs.search.input.refs.input.value=''
         browserHistory.push(`/list/${author}`)
     }
     handleNavigator(e){
@@ -28,7 +29,7 @@ export default class Header extends React.Component {
                     </Menu.Item>
                     <Menu.Item key="search">
                         <Search
-                            
+                            ref='search'
                             placeholder="搜索指定用户的文章"
                             style={{ width: 200 }}
                             onSearch={value => this.handleSearch(value)}
