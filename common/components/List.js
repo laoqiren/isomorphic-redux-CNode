@@ -63,13 +63,13 @@ class List extends React.Component {
                                 </a>
                             }
                             </p>
-                            {isFetching && posts.length === 0 &&
+                            {isFetching && realPosts.length === 0 &&
                             <Spin/>
                             }
-                            {!isFetching && posts.length === 0 &&
+                            {!isFetching && realPosts.length === 0 &&
                             <h2>Empty.</h2>
                             }
-                            {posts.length > 0 &&
+                            {realPosts.length > 0 &&
                             <div style={{ opacity: isFetching ? 0.5 : 1 }}>
                                 <Posts posts={realPosts} onShow={this.handleShow}/>
                             </div>
