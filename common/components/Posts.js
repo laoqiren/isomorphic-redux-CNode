@@ -12,14 +12,20 @@ export default class Posts extends Component {
           currentPosts: posts.slice(0,15)
         };
         this.onChange = this.onChange.bind(this);
-        
     }
   onChange(page,total){
     const {posts} = this.props;
-    console.log(posts.length)
+    //console.log(posts.length)
     this.setState({
       currentPage: page,
       currentPosts: page*15>posts.length?posts.slice((page-1)*15): posts.slice((page-1)*15,page*15)
+    })
+  }
+  componentWillReceiveProps(props){
+    const {posts} = props;
+    this.setState({
+      currentPage: 1,
+      currentPosts: posts.slice(0,15)
     })
   }
   render() {
