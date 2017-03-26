@@ -54,8 +54,32 @@ class Item extends React.Component {
             this.setState({
                 authorInfo: json
             })
-            console.log('接受到的用户信息')
-            console.log(json)
+        })
+    }
+    componentWillReceiveProps(props){
+        const {posts,params} = props
+        let item = posts.filter((post)=>post.flag === params.id)[0];
+        const content = JSON.stringify({
+            access_token: localStorage.getItem('token'),
+            author: item.author
+        })
+        fetch('/api/getUserInfo',{
+            method: 'POST',
+            headers:{
+                "Content-Type": "application/json",
+                "Content-Length": content.length.toString()
+            },
+            body: content
+        }).then(res=>{
+            if(res.ok){
+                
+                return res.json()
+            }
+        }).then(json=>{
+            this.setState({
+                authorInfo: json
+            })
+            
         })
     }
     handleVote(){

@@ -41,8 +41,9 @@ class List extends React.Component {
         dispatch(fetchItem(id));
     }
     render(){
-        const { item,selectedAuthor, posts, isFetching, lastUpdated,user} = this.props;
-        let postsHaveNoComment = posts.filter((post)=>post.discussion.length === 0);
+        const { item,selectedAuthor, params,posts, isFetching, lastUpdated,user} = this.props;
+        let realPosts = params.author===undefined?posts:posts.filter((post)=>post.author===params.author);
+        let postsHaveNoComment = realPosts.filter((post)=>post.discussion.length === 0);
         return (
             <div>
                 <Layout>
@@ -70,7 +71,7 @@ class List extends React.Component {
                             }
                             {posts.length > 0 &&
                             <div style={{ opacity: isFetching ? 0.5 : 1 }}>
-                                <Posts posts={posts} onShow={this.handleShow}/>
+                                <Posts posts={realPosts} onShow={this.handleShow}/>
                             </div>
                             }
                         </div>

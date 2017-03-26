@@ -28,7 +28,8 @@ export default class Header extends React.Component {
                     </Menu.Item>
                     <Menu.Item key="search">
                         <Search
-                            placeholder="搜索用户"
+                            
+                            placeholder="搜索指定用户的文章"
                             style={{ width: 200 }}
                             onSearch={value => this.handleSearch(value)}
                         />

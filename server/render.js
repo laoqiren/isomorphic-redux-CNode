@@ -21,7 +21,7 @@ function renderFullPage(html,initState){
         <html lang="en">
         <head>
             <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
+            
             <title>react-ssr</title>
             <link rel="icon" href="//o4j806krb.qnssl.com/public/images/cnode_icon_32.png" type="image/x-icon">
             <script></script>
