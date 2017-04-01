@@ -1,10 +1,9 @@
 FROM node:slim
-RUN mkdir /app
+RUN npm install -g cnpm --registry=https://registry.npm.taobao.org && cnpm install -g webpack
 WORKDIR /app
-COPY ./package.json /app/
-RUN npm install --production -d --registry=https://registry.npm.taobao.org \
-    && npm install --save babel-plugin-import babel-plugin-transform-react-jsx \
-    babel-preset-es2015 babel-preset-react
-COPY . /app/
-RUN ["node","./server/index.js"]
+COPY ./package.json .
+RUN cnpm install
+COPY . .
+RUN npm run build
+ENTRYPOINT ["node","./server/index.js"]
 

@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
-const db = mongoose.createConnection('localhost:27520/mycnode',{user:'laoqiren',pass:'luoxia.me'});
-db.once('open',function(){
+import config from '../../config';
+const db = mongoose.createConnection(`${config.dbaddr}:${config.dbport}/${config.db}`,{user:config.dbuser,pass:config.dbpwd});
+db.once('open',()=>{
     console.log('we are connected to the database');
 });
 
