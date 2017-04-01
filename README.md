@@ -39,15 +39,19 @@
 ```
 npm install
 ```
+### 配置文件
+
+修改配置文件config.js,指定自己的数据库地址，端口，数据库，用户名和密码
+
 ### 编译
 ```
 npm run build
 ```
-### 运行Node server(注意mongo数据库连接根据自己的配置来)
+### 运行Node server
 ```
 npm run start
 ```
-**注意mongo数据库连接根据自己的配置来(server/Models/db.js)**
+
 ### 访问3000端口
 
 ## 开发环境
@@ -68,6 +72,11 @@ npm run run-dev-server
 npm run run-server
 ```
 ### 访问服务:3000端口(包含了HMR)
+
+## Docker部署说明
+
+Dockerfile部署Node镜像,
+docker-compose.yml以node+mongodb+nginx来写的，可以根据自己需要进行配置。
 
 ## TODO
 <ul>
