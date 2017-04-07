@@ -15,8 +15,10 @@ services:
         links:
             - node_server:node
     node_server:
-        build: /home/laoqiren/workspace/isomorphic-redux-CNode/ 
+        build: /home/laoqiren/desktop/workspace/isomorphic-redux-CNode/ 
         links:
             - mongodb:mongo
+        ports:
+            - "3000:3000"
         expose:
             - "3000"

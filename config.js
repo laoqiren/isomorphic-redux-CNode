@@ -1,6 +1,6 @@
 export default {
-    dbaddr:'localhost',
-    dbport: 27520,
+    dbaddr:'mongo',
+    dbport: 27017,
     db: 'mycnode',
     dbuser: 'laoqiren',
     dbpwd: 'luoxia.me',
