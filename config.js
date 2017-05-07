@@ -1,5 +1,5 @@
 export default {
-    dbaddr:'mongo',
+    dbaddr:'localhost',
     dbport: 27017,
     db: 'mycnode',
     dbuser: 'laoqiren',

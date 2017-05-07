@@ -5,17 +5,17 @@ services:
         expose:
             - "27017"
         volumes:
-            - "/home/open/mymongo/data:/data/db"
+            - "/home/laoqiren/docker/mongo/data:/data/db"
         command: --auth
     nginx:
-        build: /home/open/mynginx/
+        build: /home/laoqiren/docker/nginx
         ports:
             - "8080:8080"
             - "80:80"
         links:
             - node_server:node
     node_server:
-        build: /home/laoqiren/desktop/workspace/isomorphic-redux-CNode/ 
+        build: /home/laoqiren/desktop/workspace/isomorphic-redux-CNode 
         links:
             - mongodb:mongo
         ports:

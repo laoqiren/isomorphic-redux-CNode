@@ -1,5 +1,10 @@
 # isomorphic-redux-forum
 
+![language](https://img.shields.io/badge/language-JavaScript-yellow.svg)
+![stars](https://img.shields.io/github/stars/laoqiren/isomorphic-redux-CNode.svg?style=social&label=Star)
+![fork](https://img.shields.io/github/forks/laoqiren/isomorphic-redux-CNode.svg?style=social&label=Fork)
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
+
 ## About
 
 基于React->Node->Mongo技术栈的类CNode社区同构单页Web应用,关于此项目开发过程中的经验总结移步[我的技术博客](http://luoxia.me/code)相关文章:[使用React SSR构建Isomorphic应用](http://luoxia.me/code/2017/02/07/%E4%BD%BF%E7%94%A8React%20SSR%E6%9E%84%E5%BB%BAIsomorphic%E5%BA%94%E7%94%A8/)
