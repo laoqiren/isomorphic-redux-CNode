@@ -17,7 +17,7 @@ class List extends React.Component {
     }
     componentDidMount(){
         const {dispatch,selectedAuthor} = this.props;
-        dispatch(fetchPostsIfNeeded(selectedAuthor))
+        //dispatch(fetchPostsIfNeeded(selectedAuthor))
     }
     componentWillReceiveProps(nextProps){
         if(nextProps.selectedAuthor !== this.props.selectedAuthor){
@@ -63,7 +63,7 @@ class List extends React.Component {
                                 </a>
                             }
                             </p>
-                            {isFetching && realPosts.length === 0 &&
+                            {isFetching &&
                             <Spin/>
                             }
                             {!isFetching && realPosts.length === 0 &&

@@ -34,6 +34,7 @@ class App extends React.Component {
             <div id="hey">
                 <Layout>
                     <MyHeader logOut={this.handleLogout} user={user}/>
+                    {/*<img src={require('../../assets/images/test.jpg')} width='200'/>*/}
                     <Content style={{backgroundColor: '#EDEDED', padding:"15px 5%"}}>
                         {this.props.children}
                     </Content>

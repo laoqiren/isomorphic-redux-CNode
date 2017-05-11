@@ -20,7 +20,11 @@ export default function(initState){
 }*/
 
 export default function(initState){
+    /*
     return process.env.NODE_ENV === 'development'?createStore(reducerApp,initState,composeWithDevTools(
         applyMiddleware(thunkMiddleware)
-    )) : createStore(reducerApp,initState,applyMiddleware(thunkMiddleware))
+    )) : createStore(reducerApp,initState,applyMiddleware(thunkMiddleware))*/
+    return createStore(reducerApp,initState,composeWithDevTools(
+        applyMiddleware(thunkMiddleware)
+    ))
 }

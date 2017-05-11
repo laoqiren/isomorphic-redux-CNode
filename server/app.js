@@ -31,6 +31,10 @@ app.all("*",(req,res,next)=>{
   next();
 });
 app.use('/api',apiRouter);
+/*
+app.use('*',(req,res,next)=>{
+    res.status(200).sendFile(path.join(__dirname,'../client/index.html'))
+})*/
 app.use('*',handleRender);
 
 app.listen(port,err=>{
