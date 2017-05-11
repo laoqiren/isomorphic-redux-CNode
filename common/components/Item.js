@@ -6,6 +6,7 @@ import {Button, Icon,Input, Layout,Row, Col} from 'antd'
 import {invalidatePosts} from '../actions/actions'
 import Side from './Side'
 const { Header, Footer, Sider, Content } = Layout;
+import {fetchUser} from '../actions/actions'
 class Item extends React.Component {
     constructor(props){
         super(props)
@@ -20,6 +21,7 @@ class Item extends React.Component {
                 break;
             }
         }
+        
         this.state = {
             discussions: item.discussion,
             content: '',
@@ -27,11 +29,9 @@ class Item extends React.Component {
             authorInfo: {},
             votesNum: item.votes.length
         }
-        
     }
     componentDidMount(){
-        
-        const {posts,params} = this.props
+        const {posts,params,user} = this.props
         let item = posts.filter((post)=>post.flag === params.id)[0];
         
         const content = JSON.stringify({
@@ -57,8 +57,18 @@ class Item extends React.Component {
         })
     }
     componentWillReceiveProps(props){
-        const {posts,params} = props
+        const {posts,params,user} = props
         let item = posts.filter((post)=>post.flag === params.id)[0];
+        let isLiked = false;
+        for(let i=0; i<item.votes.length; i++){
+            if(item.votes[i] === user.name){
+                isLiked = true;
+                break;
+            }
+        }
+        this.setState({
+            liked: isLiked
+        })
         const content = JSON.stringify({
             access_token: localStorage.getItem('token'),
             author: item.author
@@ -84,6 +94,7 @@ class Item extends React.Component {
     }
     handleVote(){
         const {posts,params,user,dispatch} = this.props;
+        
         let item = posts.filter((post)=>post.flag === params.id)[0];
         if(user.name){
             const content = JSON.stringify({
@@ -144,6 +155,7 @@ class Item extends React.Component {
     render(){
         const {posts,params,user} = this.props;
         let item = posts.filter((post)=>post.flag === params.id)[0]
+        
         let postsHaveNoComment = posts.filter((post)=>post.discussion.length === 0);
         return (
             <div>
