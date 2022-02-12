@@ -1,5 +1,5 @@
 FROM node:slim
-RUN npm install -g cnpm --registry=https://registry.npm.taobao.org && cnpm install -g webpack
+RUN npm install -g cnpm --registry=https://registry.npmmirror.com && cnpm install -g webpack
 WORKDIR /app
 COPY ./package.json .
 RUN cnpm install
